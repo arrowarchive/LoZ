@@ -10,6 +10,6 @@ I know that I'm rambling, I'm just sick of making placeholder files with nothing
 
 - Rachel
 
-PS-- Joel, Eric, if you're reading this, you should do a Git Pull and add the text files to this folder if you haven't cloned this already. If you guys have permissions, then you guys can choose a Jeckyl theme. If not, we can discuss it later.
+PS-- Joel, Eric, if you're reading this, you should do a Git Pull and add the text files to this folder if you haven't cloned this already.
 
 ### [Back to Main >>](https://arrowarchive.github.io/LoZ/)
