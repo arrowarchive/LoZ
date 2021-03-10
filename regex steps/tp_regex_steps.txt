@@ -1,0 +1,18 @@
+Twilight Princess Regex Steps
+
+1. Find <, >, &
+   Replace with &lt;, &gt;, and &amp; respectively
+   
+2. Find (Act\s)(\w+)
+   Replace with <act number = "\2">\1\2</act>
+   
+3. Find \[([^<]+?)\]
+   Replace with <stage>\1</stage>
+   
+4. Find ^([[A-Z]+\s+]+)$
+   Replace with <character>\1</character>
+   
+5. Find (Chapter )([IVX]+)( - )([\w+’s\s]+)$
+   <chapter num = "\2" title = "\4">\1\2\3\4</chapter>
+   
+   
