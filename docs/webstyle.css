@@ -13,3 +13,15 @@ ol {list-style-type: lower-alpha;
 padding: 5em;
     
 }
+
+button:active {
+  background-color: #ffd94f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: black;
+}
+
+button:hover {
+background-color: #609c63;
+color: white;
+}
