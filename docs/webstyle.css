@@ -13,12 +13,24 @@ ol {list-style-type: lower-alpha;
 padding: 5em;
     
 }
-
+button {
+    margin-top: 45px;
+    margin-bottom:45px;
+    background-color: #ffd94f;
+    color: black;
+    outline:none;
+    padding: 15px 32px;
+    font-size: 24px;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    }
 button:active {
-  background-color: #ffd94f;
+  background-color: #609c63;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-  color: black;
+  color: white;
 }
 
 button:hover {
