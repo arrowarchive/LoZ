@@ -1,0 +1,15 @@
+start = script
+script = element script {toc, act+}
+toc = element toc {heading, act+}
+heading= element heading {text}
+act = element act {mixed {(number | title | chapter)*}}
+number = attribute number {text}
+title = element title {text}
+
+chapter = element chapter {num, title, sp+, empty}
+num = attribute num {text}
+sp = element sp {mixed {(character | stage | interact | choice)*}}
+character = element character {text}
+stage = element stage {text}
+interact = element interact {text}
+choice = element choice {text}
