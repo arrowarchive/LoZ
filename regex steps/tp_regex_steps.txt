@@ -13,6 +13,30 @@ Twilight Princess Regex Steps
    Replace with <character>\1</character>
    
 5. Find (Chapter )([IVX]+)( - )([\w+’s\s]+)$
-   <chapter num = "\2" title = "\4">\1\2\3\4</chapter>
+   Replace with <chapter num = "\2" title = "\4">\1\2\3\4</chapter>
    
+6. Find (<character>)\n(.+?)\n?(</character>)
+   Replace with \1\2\3
    
+7. Find <character>
+   Replace with </sp>\n<sp>\0
+   <!- Clopening -!>
+   
+8. Find (<act.+?>)(.+?)</act>
+   Replace with </act>\n\1<title>\2</title>
+   
+9. Find (<chapter.+?>)(.+?)</chapter>
+   Replace with </chapter>\n\1<title>\2</title>
+   
+10. Find (</chapter>.+?</title>\s*)(</sp>)
+    Replace with \2\1
+    <!- cleanup -!>
+    
+11. Find \(.+?\)(\s*\(.+?\))+
+    Replace with <choice>\0</choice>
+    <!- scanning for player options -!>
+    
+12. Find </?choice>(</?choice>)
+    Replace \1
+    
+ 
