@@ -2,21 +2,27 @@ Twilight Princess Regex Steps
 
 1. Find <, >, &
    Replace with &lt;, &gt;, and &amp; respectively
+   <!- As per usual -!>
    
 2. Find (Act\s)(\w+)
    Replace with <act number = "\2">\1\2</act>
+   <!- Using capture groups to wrap act in its own element while simultaneously adding an attribute -!>
    
 3. Find \[([^<]+?)\]
    Replace with <stage>\1</stage>
+   <!- Finding all instances of [] and replacing those with stage elements -!>
    
 4. Find ^([[A-Z]+\s+]+)$
    Replace with <character>\1</character>
+   <!- Tagging characters by looking for all capital words that begin a line (and the spaces that separate them) -!>
    
 5. Find (Chapter )([IVX]+)( - )([\w+’s\s]+)$
    Replace with <chapter num = "\2" title = "\4">\1\2\3\4</chapter>
+   <!- Using capture groups to tag chapter, while simultaneously adding number and title attributes -!>
    
 6. Find (<character>)\n(.+?)\n?(</character>)
    Replace with \1\2\3
+   <!- Using capture groups to update the character element, specifically by fixing the newline spacing  -!>
    
 7. Find <character>
    Replace with </sp>\n<sp>\0
@@ -24,13 +30,15 @@ Twilight Princess Regex Steps
    
 8. Find (<act.+?>)(.+?)</act>
    Replace with </act>\n\1<title>\2</title>
+   <!- More clopening -!>
    
 9. Find (<chapter.+?>)(.+?)</chapter>
    Replace with </chapter>\n\1<title>\2</title>
+   <!- When clopening, remember to begin the "replace with" statement with a closing tag -!>
    
 10. Find (</chapter>.+?</title>\s*)(</sp>)
     Replace with \2\1
-    <!- cleanup -!>
+    <!- Kind of clopening/basic cleanup -!>
     
 11. Find \(.+?\)(\s*\(.+?\))+
     Replace with <choice>\0</choice>
@@ -38,5 +46,6 @@ Twilight Princess Regex Steps
     
 12. Find </?choice>(</?choice>)
     Replace \1
+    <!- Removing duplicates of the choice element -!>
     
  
