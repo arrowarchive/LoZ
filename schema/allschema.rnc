@@ -1,0 +1,12 @@
+start = xml
+xml = element xml {act | toc? | pre}
+toc = element toc {heading, act+}
+heading= element heading {text}
+pre = element pre {number | title | interact}
+number = attribute number {xsd:integer}
+title = element title {text}
+act = element act { number | title | chapter | stage | sp | choice | interact}
+choice = element choice {interact}
+interact = element interact {text}
+chapter = element chapter {title, sp, stage}
+sp = element sp 

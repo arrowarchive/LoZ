@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<script>
+<xml>
     <toc>
         <heading>Table of Contents</heading>
 
@@ -3710,4 +3710,4 @@
                 Link... I... See you later... </sp>
         </chapter>
     </act>
-</script>
+</xml>
