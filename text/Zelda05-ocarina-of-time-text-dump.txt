@@ -88,13 +88,13 @@ constantly changes.
 -------------------------------------
 Further References / Acknowledgements
 -------------------------------------
- • For more information on ROM hacking, and emulation in
+ ï¿½ For more information on ROM hacking, and emulation in
 general, here are some good sites to visit:
 
 Zophar's Domain - http://www.zophar.net/
 Romhacking.org - http://www.romhacking.org/
 
- • A special thanks to EvilGiegue (EvilGiegue@hotmail.com),
+ ï¿½ A special thanks to EvilGiegue (EvilGiegue@hotmail.com),
 who helped me figure out how to hack ROMs. Without his
 catalyzing influence, these text dumps probably wouldn't
 be here today. Make sure to check out his text dumps as
@@ -2016,7 +2016,7 @@ to open this door.
 
 Be quiet!
 It's only (t)!
-I, Dampé the gravekeeper, am
+I, Dampï¿½ the gravekeeper, am
 in bed now!
 Go away and play! Maybe you can
 find a ghost in the daytime?
@@ -2024,7 +2024,7 @@ find a ghost in the daytime?
 It's (t) now.
 The Gravedigging Tour is over 
 now!
-I, Dampé the gravekeeper, am
+I, Dampï¿½ the gravekeeper, am
 in bed!
 Go away and play! Maybe you'll
 find a ghost!
@@ -2390,7 +2390,7 @@ can cross the valley of the dead.
 The record time of those
 who raced against me was:
 
---Dampé the Gravekeeper
+--Dampï¿½ the Gravekeeper
 
 Shooting Gallery  
 20 Rupees for one play
@@ -2438,7 +2438,7 @@ We have fresh fish!
 
 Heart-Pounding Gravedigging Tour!
 From 18:00 to 21:00 Hyrule Time
---Dampé the Gravekeeper
+--Dampï¿½ the Gravekeeper
 
 Heart-Pounding Gravedigging Tour!
 Tours are cancelled until a new
@@ -2513,15 +2513,15 @@ No Diving Allowed
 --It won't do you any good!
 
 Switch Targeting
-If you see a © icon above an 
+If you see a ï¿½ icon above an 
 object, you can target it with (Z).
 In other words, if you press (Z) 
-when you see © above an object,
+when you see ï¿½ above an object,
 you can lock on to it.
 If you press (Z) again, the lock
 will either release or it will
 transfer to the next object with
-the © above it.
+the ï¿½ above it.
 When you have many enemies in
 your field of view and you want
 to escape, press (Z) while holding
@@ -3004,7 +3004,7 @@ Business Scrub
 If you get close to it, it will hide 
 in the grass...
 
-Dampé's Ghost
+Dampï¿½'s Ghost
 That's the ghost of the dead
 gravekeeper! If you chase him,
 he might give you his keepsake...
@@ -3455,7 +3455,7 @@ Hee hee hee!
 Oh, you're OK? You didn't leave 
 the forest after all, did you?
 
-Did you know that if you hold ©
+Did you know that if you hold ï¿½
 forward when you jump off a cliff,
 you'll roll when you land. This will
 absorb the shock of your landing.
@@ -4755,17 +4755,17 @@ Little kids can't go on the
 "Heart-Pounding Gravedigging
 Tour" described on the sign.
 Since I can't do that, I'm just 
-imitating Dampé the gravekeeper 
+imitating Dampï¿½ the gravekeeper 
 all day.
 But with my cute face, I'm not
 heart-pounding at all, am I?
 
-Gyaah! It's Dampé the 
+Gyaah! It's Dampï¿½ the 
 gravekeeper!
 ???
 Oh, it's just a mask. I get a 
 different kind of fright from that
-mask than I get from Dampé...
+mask than I get from Dampï¿½...
 Will you give that mask to me?
 
 Yes
@@ -4779,7 +4779,7 @@ You only paid 10 Rupees!
 You've played around long enough!
 
 With this mask, I'll be just like 
-Dampé! 
+Dampï¿½! 
 Here's my money!
 
 You sold the 30-Rupee mask to a
@@ -4791,7 +4791,7 @@ You can get the new mask
 model, too.
 
 I'm gonna dig and dig! 
-Just like Dampé!!
+Just like Dampï¿½!!
 
 In old times, I heard there were 
 many wild rabbits in the land 
@@ -6756,7 +6756,7 @@ Oh...you... If I'm right...
 Link?!
 You're Link, aren't
 you?
-It's me, your fiancée, Ruto!
+It's me, your fiancï¿½e, Ruto!
 Princess of the Zoras!
 I never forgot the vows we
 made to each other seven years 
@@ -7542,7 +7542,7 @@ Whoever reads this, please enter
 my grave. I will let you have my
 stretching, shrinking keepsake.
 I'm waiting for you.
---Dampé
+--Dampï¿½
 
 You decide not to read it...
 
@@ -7702,12 +7702,12 @@ Yeehah!
 Hey kid!
 Don't mess around with the 
 graves!
-I'm Dampé the Gravekeeper!
+I'm Dampï¿½ the Gravekeeper!
 My face may be scary, but I'm not
 a bad guy...
 Let me give you an advertisement
 for my side business...
-Dampé the Gravekeeper's
+Dampï¿½ the Gravekeeper's
 Heart-Pounding Gravedigging Tour!
 What's gonna come out?!
 What's gonna come out?!
@@ -8250,7 +8250,7 @@ I'm still missing some Cuccos!
 Please round up five more!
 
 Don't cause trouble!
-I'll tell Dampé!
+I'll tell Dampï¿½!
 
 Look at this, kid! My beautiful,
 smooth hands are all worn out 
@@ -8265,7 +8265,7 @@ I heard that our boss's house is
 just behind this house. He doesn't
 want any of us to know, though.
 
-Have you seen Mr. Dampé, who
+Have you seen Mr. Dampï¿½, who
 lives in the graveyard up ahead?
 It's (t) right now, so he's
 probably asleep in his hut.
@@ -8289,7 +8289,7 @@ great Impa opened it to
 everyone.
 
 I tell you, I saw him!
-I saw the ghostly figure of Dampé
+I saw the ghostly figure of Dampï¿½
 
 the gravekeeper sinking into
 his grave. It looked like he was
@@ -10938,10 +10938,10 @@ I asked my daddy to get me one,
 too!
 
 That's not very different from
-Mr. Dampé, is it?
+Mr. Dampï¿½, is it?
 
 That doesn't look anything like
-Mr. Dampé, huh?
+Mr. Dampï¿½, huh?
 
 Hey, cool mask...but a little
 scary, don't you think?
