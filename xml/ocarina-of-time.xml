@@ -493,7 +493,8 @@ then no/another name will be stated (barring impersonation in the latter case).
                     across the field. You should visit the ranch at least once! </sp></sp><stage
                 type="info">[013] and [014] are dancing together.</stage>
             <sp><character>[013-014] </character>{1} Ohh... You are...so handsome... Just like the King
-                of Hyrule... <sp><character>Hee hee... <sp><speaker>{2}</character> Ohh... You
+                of Hyrule... Hee hee... </sp>
+            <sp><character>{2}</character> Ohh... You
                             are...more beautiful...than Princess Zelda... Ohh...</sp> [015]
                     </speaker> Ahem! Hrrrm! This beard is my pride and joy! Doesn't it look
                     luxuriant, kid?! [016] : Huff huff! I'm late! I'm late! For a very important
