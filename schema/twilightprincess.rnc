@@ -1,15 +1,19 @@
-start = script
-script = element script {toc, act+}
+start = xml
+xml= element xml {toc, act+}
 toc = element toc {heading, act+}
 heading= element heading {text}
 act = element act {mixed {(number | title | chapter)*}}
 number = attribute number {text}
 title = element title {text}
 
-chapter = element chapter {num, title, sp+, empty}
+chapter = element chapter {num, titleAtt, title, (sp | stage)+}
+titleAtt = attribute title {text}
+# 2021-03-17 ebb: Becuase you have an attribute named title and an element named title, 
+# we just need to introduce a distinct label for each. So I have done that here with 
+# titleAtt as the label defining the attribute named title.
 num = attribute num {text}
 sp = element sp {mixed {(character | stage | interact | choice)*}}
 character = element character {text}
 stage = element stage {text}
 interact = element interact {text}
-choice = element choice {text}
+choice = element choice {interact+}
