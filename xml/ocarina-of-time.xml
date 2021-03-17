@@ -1,4 +1,4 @@
-<?xml-model href="../schema/twilightprincess.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../schema/allschema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
 
     <pre number="00'00"><title>Table of Contents         </title>
@@ -46,7 +46,7 @@
 - Text
 Descriptions of character actions, et cetera.
 
-<interact>(Text)</interact>
+(Text)
 Following the above would be the events prompted by a particular option.
 The number of hyphens corresponds to the choice layer; i.e., the first set
 of options will have one hyphen, the second set will have two, and so on.
@@ -133,8 +133,8 @@ then no/another name will be stated (barring impersonation in the latter case).
             <sp><character>[ Outside ] [001] </character> You're not allowed to leave the forest! The
                 Great Deku Tree said that if a Kokiri leaves the woods, he or she will die!
                     </sp><sp><character>[002] </character> Oh, a fairy finally came to you! Now you have
-                a lot to learn! <sp><character>The best place to go to learn some new skills is in the
-                        Forest Training Center. It's on the hill just above here. [003] </character>
+                a lot to learn! The best place to go to learn some new skills is in the
+                        Forest Training Center. It's on the hill just above here. [003]
                     {A} by the stone, pick it up! {A} by the stone, pick it up! Mean old Mido...he
                     made me pick up the rocks in front of his house. [004] : Hey, let's work on some
                     moves! To jump sideways while {Z} Targeting, press {A} as you move right or
@@ -146,12 +146,12 @@ then no/another name will be stated (barring impersonation in the latter case).
                     you have a fairy now?! That's great, Link! What? You've been called by the Great
                     Deku Tree? What an honor! He may give you a special gift! Tee hee! That's
                     because the Great Deku Tree is our father, the forest guardian, and he gave life
-                    to all of us Kokiri! <sp><character>{2}</character> I wonder if the Great Deku tree
-                        gave life to everything in the forest, I mean in addition to us Kokiri?</sp>
-                    [006] : That meanie, Mido, made me cut the grass at Saria's house. Mido told
+                    to all of us Kokiri! </sp><sp><character>{2}</character> I wonder if the Great Deku tree
+                        gave life to everything in the forest, I mean in addition to us Kokiri?</sp><sp><character>
+                    [006]</character>That meanie, Mido, made me cut the grass at Saria's house. Mido told
                     Saria he would do it so she would like him, but I'm the one doing all the work!
                     You and Saria are close friends, so will you help me cut the grass? I'll let you
-                    keep anything that you find while cutting it. </sp></sp><stage type="info">[007]
+                    keep anything that you find while cutting it. </sp><stage type="info">[007]
                 is sitting on a platform above the shop.</stage>
             <sp><character>[007] </character> Hi, Link! Look this way! Look over here with {Z}, and talk
                 to me with {A}. Yes, yes! That's how you use a fairy! It's so great that you finally
@@ -216,27 +216,27 @@ then no/another name will be stated (barring impersonation in the latter case).
                     upper right of your screen, Navi the fairy wants to talk to you. Use {C Up} to
                     listen to her! -</interact>
                 <interact>(No) Well, if you play around with it, you'll figure it out.</interact>
-            </choice>[011] : If you want to learn about the map and items, just ask me. But don't
-            ask unless you want to hear a long explanation. What do you want to know about?
+            <sp><character>[011]</character> : If you want to learn about the map and items, just ask me. But don't
+            ask unless you want to hear a long explanation. What do you want to know about?</sp>
                 <interact>(About the map)</interact> There is a map displayed at the bottom right of
             the screen. The yellow arrow shows your current position and direction you are facing.
             The red mark shows where you entered the area from. You can turn the map display on and
             off with the {L}. If you want to see the name of a place, press START. You'll get into
             the Subscreens. Select the Map Subscreen. On the Map Subscreen, you can see a map of
-            Hyrule. Did you get all that? <interact>(About items)</interact>
-            <sp><character>There are three kinds of items</character> Equipment items, {C} Button items
+            Hyrule. Did you get all that?</choice> <interact>(About items)</interact>
+            <stage type="info"> There are three kinds of items: Equipment items, {C} Button items
                 and Quest items. Equipment items are things like the sword, shield and clothes that
-                are effective when you equip them. {C} Button items can be set to <sp><character>{C
-                        Left}</character>, {C Down}, and {C Right}, and used by pressing those
+                are effective when you equip them. {C} Button items can be set to {C
+                        Left}, {C Down}, and {C Right}, and used by pressing those
                     buttons. Quest items are things you collect during your adventure. You just
-                    carry them around.</sp> If you want to change equipment or just check on your
+                    carry them around. If you want to change equipment or just check on your
                 inventory, press STAR. You will get into the Subscreens. Switch to one of the four
                 different Subscreens with {Z} or {R} and change or check items as you please. Take a
                 look around! When you decide to equip an Equipment item, press {A}. For {C} Button
-                items, press {C Left}, <sp><character>{C Down}</character> or {C Right}.</sp> That was a
-                pretty long explanation. Did you understand everything? </sp><interact>(Don't
-                ask)</interact> Well, just remember this. If you want to save, press STAR to get
-            into the Subscreens, then press {B}. <stage type="info">House of Twins:</stage>
+                items, press {C Left}, {C Down} or {C Right}. That was a
+                pretty long explanation. Did you understand everything?</stage><interact>(Don't
+                ask) Well, just remember this. If you want to save, press STAR to get
+            into the Subscreens, then press {B}.</interact> <stage type="info">House of Twins:</stage>
             <sp><character>[012] </character> My sister took some Rupees and went shopping at the store
                 that has a red roof. Tee hee! Speaking of Rupees, a green one is worth one, a blue
                 one is worth five and a red one is worth twenty. Hee hee!</sp>
@@ -326,10 +326,10 @@ then no/another name will be stated (barring impersonation in the latter case).
                 courage... I knew that thou wouldst be able to carry out my wishes... Now, I have
                 yet more to tell ye, wouldst thou listen... </sp><choice>
                 <interact>(Yes) &lt;see below&gt; -</interact>
-                <interact>(No) <sp><character>Deku Tree </character> No, Link... Thou must know my time
-                        is short...</sp></interact>
-            </choice>Deku Tree : Now...listen carefully... A wicked man of the desert cast this
-            dreadful curse upon me... <stage type="info">The man from Link's dream is depicted
+                <interact>(No)</interact> 
+                </choice><sp><character>Deku Tree </character> No, Link... Thou must know my time
+                    is short...</sp><sp><character>Deku Tree</character> Now...listen carefully... A wicked man of the desert cast this
+            dreadful curse upon me... </sp><stage type="info">The man from Link's dream is depicted
                 riding his horse through flames.</stage>
             <sp><character>Deku Tree </character> This evil man ceaselessly uses his vile, sorcerous
                 powers in his search for the Sacred Realm that is connected to Hyrule... For it is
@@ -410,8 +410,8 @@ then no/another name will be stated (barring impersonation in the latter case).
             <stage type="info">After a pause, Link departs.</stage>
 
         </chapter>
-
     </act>
+    
     <act number="02'02"><title>Hyrule Field </title>
         <stage type="location">Near: Kokiri Forest </stage>
         <stage type="info">An owl named "Kaepora Gaebora" is perched atop a tree branch.</stage>
