@@ -3,7 +3,7 @@ xml= element xml {pre*, toc*, act+}
 pre = element pre {number, title?, text}
 toc = element toc {heading, act+}
 heading= element heading {text}
-act = element act {mixed {(number | title | chapter)*}}
+act = element act {number,( title | chapter)+}
 number = attribute number {text}
 title = element title {text}
 
