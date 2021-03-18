@@ -18,6 +18,6 @@ sp = element sp {character, mixed {(stage | interact | choice)*}}
 
 character = element character {text}
 stage = element stage {type?, text}
-type = attribute type {"info" | "location" }
-interact = element interact {mixed{stage*}}
+type = attribute type {"info" | "location" | "Success" | "Failure" | "Continue" | "Avoid"}
+interact = element interact {type?, mixed{(stage | sp)*}}
 choice = element choice {mixed{(interact | sp)+}}

@@ -216,7 +216,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                     upper right of your screen, Navi the fairy wants to talk to you. Use {C Up} to
                     listen to her! -</interact>
                 <interact>(No) Well, if you play around with it, you'll figure it out.</interact>
-            <sp><character>[011]</character> : If you want to learn about the map and items, just ask me. But don't
+            <sp><character>[011]</character> If you want to learn about the map and items, just ask me. But don't
             ask unless you want to hear a long explanation. What do you want to know about?</sp>
                 <interact>(About the map)</interact> There is a map displayed at the bottom right of
             the screen. The yellow arrow shows your current position and direction you are facing.
@@ -698,9 +698,9 @@ then no/another name will be stated (barring impersonation in the latter case).
             <sp><character>Zelda </character> ! Who?! Who are you? How did you get past the guards? Oh?
                 What's that? Is that...a fairy?! Then, are you... Are you from the forest?
                 Then...then...you wouldn't happen to have... the Spiritual Stone of the Forest,
-                would you?! That green and shining stone... Do you have it? </sp><sp>
-                <interact>(Yes)</interact> &lt;see below&gt; -
-                <interact>(No)</interact></sp><sp><character>Zelda </character> Well, that's odd... I thought you might
+                would you?! That green and shining stone... Do you have it? </sp>
+               <choice> <interact>(Yes)</interact> &lt;see below&gt; -
+                <interact>(No)</interact></choice><sp><character>Zelda </character> Well, that's odd... I thought you might
                         be the one from my dream... You really don't have it? Tell me the truth...
                         Do you have it?</sp>
             <sp><character>Zelda</character> : Just as I thought! I had a dream...In the dream, dark storm clouds were
@@ -733,10 +733,11 @@ then no/another name will be stated (barring impersonation in the latter case).
             </choice><stage type="info">She repeats herself from "That's right..."</stage>
             <sp><character>Zelda </character> That's great! I forgot to tell you... I was spying through
                 this window just now... The other element from my dream...the dark clouds... I
-                believe they symbolize...that man in there! Will you look through the window at him? </sp><choice>
+                believe they symbolize...that man in there! Will you look through the window at him? </sp>
+            <choice>
                 <interact>(Yes) &lt;no script&gt; -</interact>
-                <interact>(No) <sp><character>Zelda </character> Please! If you don't hurry, he'll be
-                        gone!</sp></interact>
+                <interact>(No) </interact> <sp><character>Zelda </character> Please! If you don't hurry, he'll be
+                        gone!</sp>
             </choice><stage type="info">Behind the window, the man from Link's dream kneels on the
                 ground.</stage>
             <sp><character>Zelda </character> Can you see the man with the evil eyes? That is Ganondorf,
@@ -856,8 +857,8 @@ then no/another name will be stated (barring impersonation in the latter case).
                     not displayed, just like this. Hoo hoo hoo hoot hoot hoot! Do you want
                 to hear what I said again? </sp><choice><interact>"Yes" prompts him to repeat
                     himself from </interact><interact>"If you hold". "No"
-                prompts:</interact></choice>Gaebora : Melodies you have learned will be recorded on
-            the Quest Status Subscreen. You should memorize those melodies. </chapter>
+                prompts: Gaebora : Melodies you have learned will be recorded on
+                the Quest Status Subscreen. You should memorize those melodies. </interact></choice></chapter>
         <chapter><title>Area 03 </title>
             <stage type="info">A Skull Kid is playing a flute atop a tree stump. Link catches the
                 Skull Kid's attention by playing the Fairy Ocarina while on another stump.</stage>
@@ -879,20 +880,20 @@ then no/another name will be stated (barring impersonation in the latter case).
                 provides a "Deku Seeds Bullet Bag".</stage> <stage type="info">Two Skull Kids are
                 standing on tree stumps. When Link readies his Ocarina while standing on a third
                 stump:</stage> <sp><character>SkullKid 2</character> Follow along with our song on your
-                Ocarina. We'll lead you into it. </sp><interact type="Failure">
+                    Ocarina. We'll lead you into it. </sp><choice><interact type="Failure">
                             <sp><character>SkullKid 2</character> Too bad...Heh heh! Do you want to play
-                        some more? </sp><choice><interact>"Yes" repeats the event from the
+                                some more? </sp></interact><interact>"Yes" repeats the event from the
                             beginning. </interact><interact>"No" ends the
-                    event.</interact></choice></interact>
+                    event.</interact></choice>
                 <interact type="Success"> <sp><character>SkullKid 2</character> That was quite a nice
                         session. As a token of our friendship, please take this. </sp><stage
                         type="info">Initially, they provide a Green Rupee. They reward Link with a
                         Blue Rupee for his second successful session, a Piece of Heart for his third
                         success, and a Red Rupee per each success thereafter.</stage> </interact>
-                <interact type="Continue"> <sp><character>SkullKid 2</character> Do you want to play
-                        some more? </sp><choice><interact>"Yes" repeats the event from the
+                <choice><interact type="Continue"> <sp><character>SkullKid 2</character> Do you want to play
+                        some more? </sp></interact><interact>"Yes" repeats the event from the
                             beginning. </interact><interact>"No" ends the
-                    event.</interact></choice></interact>
+                    event.</interact></choice>
             
         </chapter>
         <chapter><title>Area 06 </title>
@@ -928,10 +929,10 @@ then no/another name will be stated (barring impersonation in the latter case).
             <sp><character>Malon </character> It seems like Epona is afraid of you, fairy boy...
                 </sp><stage type="info">When speaking to her again:</stage>
             <sp><character>Malon </character> My mother composed this song. Isn't it nice? Let's sing
-                together. <sp><character> Oh, cute ocarina! Are you going to play this song with that
+                together.</sp> <sp><character> Oh, cute ocarina! Are you going to play this song with that
                         ocarina? OK? This is the Song... &lt;game&gt; </character> You've learned
-                    Epona's Song! </sp></sp><stage type="info">Epona returns.</stage>
-            <sp><character>Malon </character> Oh, Epona! She's grown fond of you, fairy boy!
+                    Epona's Song! </sp><stage type="info">Epona returns.</stage>
+            <sp><character>Malon </character> Oh, Epona! She's grown fond of you, fairy boy!</sp>
                         <sp><character> Talon </character> Mumble...mumble... Huh? I'm awake already!
                     What? Well I'll be! If it ain't the forest kid from the other day! By the way,
                     thanks a lot for waking me up! It took some doing, but I finally got Malon back
@@ -941,8 +942,8 @@ then no/another name will be stated (barring impersonation in the latter case).
                     normal Cuccos. If you can pick out these three special birds from among the
                     normal Cuccos within the time limit, I'll give you something good. If you can't
                     find them, I win. It'll be 10 Rupees... Want to play?
-                    </sp></sp><interact>(Yes)</interact> You don't have enough
-            Rupees! <stage type="info">With sufficient funds:</stage> You have 30 seconds! All
+                    <interact>(Yes)</interact> You don't have enough
+                            Rupees! <stage type="info">With sufficient funds:</stage> You have 30 seconds! All
             righty then, get ready. Here go the Super Cuccos! START LOOKIN'!! Time's up! Too
             baaaaad!! These are some great Cuccos aren't they! They're raking in money for me! Come
             back to me, my babies! Want to try again? A young man like you must have a real fire in
@@ -957,22 +958,22 @@ then no/another name will be stated (barring impersonation in the latter case).
             sample of our very own Lon Lon Milk. You'll be energized the moment you drink it! After
             you drink it, you can bring back the bottle and buy a refill, anytime you want!
                 <interact>(No)</interact>
-            <stage type="info">Nothing more is said.</stage>
+                            <stage type="info">Nothing more is said.</stage></sp>
             <sp><character>Talon </character> Mumble...mumble.. I'm awake! What? Hey, Link! If you're
                 lookin' for Malon, she's right outside. Did you come here to play? Well then, how
                 about playing the Super Cucco-findin' game with me? Or, do you want to buy some Lon
-                Lon Milk? What'll it be? </sp><interact>(Lon Lon Milk - 30 Rupees)</interact> You
+                Lon Milk? What'll it be? <interact>(Lon Lon Milk - 30 Rupees)</interact> You
             don't have enough Rupees! <stage type="info">With sufficient funds:</stage>
-            <sp><character>If an empty bottle is available, he provides Lon Lon Milk. If not</character>
+            If an empty bottle is available, he provides Lon Lon Milk. If not:
                 Here you are! take some super fresh milk... Oh? Too baaaaad!! You don't have an
-                empty bottle, do you? </sp><interact>(Cucco-findin' game - 10 Rupees)</interact>
+                empty bottle, do you? <interact>(Cucco-findin' game - 10 Rupees)</interact>
             <stage type="info">After the "Golly!" paragraph:</stage> Hey pardner, you have an honest
             face! When you grow up, why don't you come to work here, on this ranch? That's a
             standing offer! I'll be waiting for you. <stage type="info">If an empty bottle is
                 available, he provides Lon Lon Milk. If not:</stage> Here you are! take some super
             fresh milk... Oh? Too baaaaad!! You don't have an empty bottle, do you?
                 <interact>(Quit)</interact>
-            <stage type="info">Nothing more is said.</stage>
+                <stage type="info">Nothing more is said.</stage></sp>
             <sp><character>Ingo </character> I can't believe that I, the great Ingo, am working on this
                 dump of a ranch! Because the owner is so lazy, I always have to do to all the work
                 around here! I, the hard-working Ingo, should be in charge, not that lazy bum,
@@ -1010,35 +1011,36 @@ then no/another name will be stated (barring impersonation in the latter case).
                     Sheikah village, but the great Impa opened it to everyone.</sp><stage
                 type="info">[007] is on the roof of Granny's Potion Shop.</stage>
             <sp><character>[007] </character> I can't get down, so all I can do is look at Death
-                Mountain. </sp><stage type="info">When speaking to him while on the roof:</stage>
+                Mountain. <stage type="info">When speaking to him while on the roof:</stage>
             Hey! Good to see you again! I'll give you this as a memento. <stage type="info">He
-                provides a Piece of Heart.</stage>
-            <sp><character>To get a good view, use {C Up} and look around with {Control Stick}. [008]
-                </character> What should I do!? My Cuccos have all flown away! You, little boy,
+                provides a Piece of Heart.</stage></sp>
+            <stage type="info">To get a good view, use {C Up} and look around with {Control Stick}.</stage> 
+                <sp><character>[008]</character> What should I do!? My Cuccos have all flown away! You, little boy,
                 please! Please help me bring them back to this pen! My Cuccos have run away! Please
                 catch six more! I'm still missing some Cuccos! Please round up five more! My Cuccos
                 have run away Please help me bring the other &lt;four/three/two&gt; back to this
                 pen! Please! My Cuccos have run away Please help me bring the last one back to this
                 pen! Please! Thank you for finding my Cuccos. I have allergies, so I get goose bumps
                 when I touch them. For helping me, I will give this to you. It's fine glass, and
-                should be useful. Please take good care of it! </sp><stage type="info">She provides
+                should be useful. Please take good care of it! <stage type="info">She provides
                 an Empty Bottle. On subsequent collections of her Cuccos, she provides a Purple
                 Rupee.</stage>
-            <sp><character>When speaking to her again</character>
-                <sp><character> Please don't tease my Cuccos! Sign 01 </character> Dark! Narrow! Scary!
-                    Well of Three Features [ Buildings ] </sp></sp><stage type="info">Impa's
+           <stage type="info"> When speaking to her again:</stage>
+                Please don't tease my Cuccos!</sp> <stage type="info">Sign 01 :  Dark! Narrow! Scary!
+                    Well of Three Features [ Buildings ]</stage> <stage type="info">Impa's
                 house:</stage>
             <sp><character>[009] </character> Hey! Kid, do you always enter other people's houses
-                without <sp><character>permission? Didn't your parents teach you any manners? Oh well.
+                without permission? Didn't your parents teach you any manners? Oh well.
                         Did you see a lady behind this house? She's going through hard times. Oh
-                        well. If that lady asks you about chickens, you should listen to her. [010]
-                    </character> Hi, boy! Is this the first time you've visited this village? A great
+                        well. If that lady asks you about chickens, you should listen to her.</sp> 
+                        <sp><character>[010]</character> Hi, boy! Is this the first time you've visited this village? A great
                     woman, Impa, opened this village to us poor folk. Well, make yourself at home.
-                    The food isn't ready yet, though. </sp></sp><stage type="info">House of
-                Skulltula:</stage>
-            <sp><character>The residents are large Skulltula with partially-human faces and, in the
-                    case of [011], arms. [011] </character> We all look like this because of the
-                spider's curse. If every Spider <sp><character>of the Curse in the entire world were
+                    The food isn't ready yet, though. </sp>
+            <stage type="info">House of Skulltula:</stage>
+            <stage type="info">The residents are large Skulltula with partially-human faces and, in the
+                    case of [011], arms.</stage>
+            <sp><character>[011] </character> We all look like this because of the
+                spider's curse. If every Spider of the Curse in the entire world were
                         destroyed, the curse would be broken. When you destroy a Spider of the
                         Curse, a token will appear. Collect it as proof of your achievement. The
                         number next to this icon on the Quest Status Subscreen indicates how many
@@ -1047,32 +1049,33 @@ then no/another name will be stated (barring impersonation in the latter case).
                         in that area. Look for them not only out in the open, but also inside the
                         dungeons. Of course, this is just our dream... You don't have to do it if
                         you don't want to... If you break the curse on my family, we will make you
-                        very rich... [012-016] </character> Yeaaarrgh! I'm cursed!! </sp></sp><stage
+                        very rich... [012-016]  Yeaaarrgh! I'm cursed!! </sp><stage
                 type="info">After killing enough spiders to break at least one person's
                 curse:</stage>
             <sp><character>[011] </character> Since you've destroyed &lt;&gt; Spiders of the Curse, the
-                curse is <sp><character>starting to weaken! Did the kids who returned to normal give
+                curse is starting to weaken! Did the kids who returned to normal give
                         you any rewards? You should know that the only way to become very rich is to
                         destroy as many Spiders of the Curse as possible! There are some tricks to
                         finding them all! First of all, you'll have to hunt at night. Secondly, keep
                         in mind that they love soft soil... Pay close attention to your
-                        surroundings! Please, we're counting on you! [012-016] </character> The curse
+                        surroundings! Please, we're counting on you!</sp>
+            <sp><character>[012-016] </character> The curse
                     has been broken! Thank you! Here's a reward for you! Please save my other
                     brothers too! I'm sure they will give you something a lot better! Will you do
-                    it?! </sp></sp><stage type="info">[012], freed by acquiring 10 tokens, provides
+                    it?! </sp><stage type="info">[012], freed by acquiring 10 tokens, provides
                 the Adult's Wallet. [013], freed by acquiring 20 tokens, provides the Stone of
                 Agony. [014], freed by acquiring 30 tokens, provides the Giant's Wallet. [015],
                 freed by acquiring 40 tokens, provides ten Bomchus. [016], freed by acquiring 50
-                tokens, provides a Piece of Heart.</stage>
-            <sp><character>One-hundred tokens are required to free [011]. Upon speaking to
-                    him</character>
+                tokens, provides a Piece of Heart.
+            One-hundred tokens are required to free [011]. Upon speaking to
+            him</stage>
                 <sp><character> [011] </character> Since you've destroyed 100 Spiders of the Curse, the
                     curse on me has been broken. Thank you! Here is a token of my appreciation!
-                    Please take it. </sp></sp><stage type="info">[011] provides a Huge Rupee, and
+                    Please take it. </sp><stage type="info">[011] provides a Huge Rupee, and
                 continues to do so on Link's subsequent visits to the house.</stage>
-            <sp><character>[011] </character> We'll be careful not to get cursed again. <sp><character>
-                        [012-016] </character> I'm so happy everyone is back to normal!
-                </sp></sp><stage type="info">This building appears to be a shop, but nothing is laid
+            <sp><character>[011] </character> We'll be careful not to get cursed again.</sp> 
+            <sp><character>[012-016] </character> I'm so happy everyone is back to normal!
+                </sp><stage type="info">This building appears to be a shop, but nothing is laid
                 out for sale, and no one is behind the counter.</stage>
             <sp><character>Ichiro </character> A job where you can make a lot of money without much
                 effort... The only thing I can think of is thievery... Is that a bad idea?
@@ -1084,19 +1087,20 @@ then no/another name will be stated (barring impersonation in the latter case).
                 tell the boss I told you that! </sp><stage type="info">[019] speaks from behind the
                 house's door.</stage>
             <sp><character>[019] </character> My little boy isn't here right now... I think he went to
-                play in <sp><character>the graveyard... Note 01 </character> Granny's Potion Shop Closed
-                    Gone for Field Study Please come again! --Granny </sp></sp><stage type="info"
-                >Windmill:</stage>
-            <sp><character>"?" appears as the title for this building. [020] </character> Go around! Go
-                around and around and around! What fun! I'm so happy! <sp><character>I'm a music man
+                play in the graveyard... </sp><stage type="info">Note 01:  Granny's Potion Shop Closed
+                    Gone for Field Study Please come again! --Granny </stage>
+            <stage type="info">Windmill:"?" appears as the title for this building.</stage> 
+            <sp><character>[020] </character> Go around! Go
+                around and around and around! What fun! I'm so happy! I'm a music man
                         who loves to go around and around! Go around and around!!! I'm trying to
                         come up with a musical theme inspired by this windmill...going around and
-                        around and around!!! [ Graveyard ] [021] </character> Little kids can't go on
+                        around and around!!!</sp> 
+                  <sp><character>[ Graveyard ] [021] </character> Little kids can't go on
                     the "Heart-Pounding Gravedigging Tour" described on the sign. Since I can't do
                     that, I'm just imitating Dampé the gravekeeper all day. But with my cute face,
-                    I'm not heart-pounding at all, am I? </sp></sp><stage type="info">When trying to
-                move tombstones:</stage> Don't cause trouble! I'll tell Dampé! <stage type="info"
-                >When trying to enter Dampé's hut:</stage>
+                    I'm not heart-pounding at all, am I? <stage type="info">When trying to
+                move tombstones:</stage> Don't cause trouble! I'll tell Dampé!</sp>
+            <stage type="info">When trying to enter Dampé's hut:</stage>
             <sp><character>Dampé </character> Be quiet! It's only &lt;:&gt;! I, Dampé the gravekeeper,
                 am in bed now! Go away and play! Maybe you can find a ghost in the daytime?</sp>
             <stage type="info">Sign 01 : Heart-Pounding Gravedigging Tour! From 18:00 to 21:00
@@ -1112,40 +1116,41 @@ then no/another name will be stated (barring impersonation in the latter case).
             <title> Social Script - Nighttime </title>
 
             <sp><character>[ Outside ] [001] </character> Hey, son, what are you doing wandering around
-                this late at night? <sp><character>Oh, I get it. You're testing your courage, aren't
+                this late at night? Oh, I get it. You're testing your courage, aren't
                         you? You must want to go to...a graveyard! Wait a minute! What am I doing
                         talking to a kid? I've got work to do! Work! Work! Ding dong, ding dong! The
-                        current time is</character> &lt;:&gt;. Head east and you'll find a graveyard.
+                        current time is: &lt;:&gt;. Head east and you'll find a graveyard.
                     Legends say you can calm the souls of the dead with an old song of the Royal
                     Family. Crptr Son : People are disgusting. My own father and mother are
-                    disgusting. You must be disgusting, too! [ Buildings ] </sp></sp>
+                    disgusting. You must be disgusting, too! [ Buildings ] </sp>
             <stage type="info">Impa's house:</stage>
 
-            <sp><character>[008] </character> Please don't tease my Cuccos! <sp><character> [009]
-                    </character> Is visiting other people's houses at this late hour your idea of fun?
+            <sp><character>[008] </character> Please don't tease my Cuccos!</sp> 
+            <sp><character> [009]</character> Is visiting other people's houses at this late hour your idea of fun?
                     You must not have had a good upbringing. Oh well. That lady takes care of
-                    chickens, but she is, in fact, allergic to them. Oh well. </sp></sp>
+                    chickens, but she is, in fact, allergic to them. Oh well. </sp>
             <stage type="info">[010]'s house:</stage>
 
             <sp><character>Crptr Boss</character> Those guys each do the work of half a man, but they
-                still want <sp><character>a full man's portion! They're lazy slackers, I tell you!
-                        Ichiro </character> I heard that our boss's house is just behind this house.
-                    He doesn't want any of us to know, though. </sp></sp>
+                still want a full man's portion! They're lazy slackers, I tell you!</sp>
+                        <sp><character>Ichiro </character> I heard that our boss's house is just behind this house.
+                    He doesn't want any of us to know, though. </sp>
             <stage type="info">[019] speaks from behind the house's door.</stage>
 
             <sp><character>[019] </character> Oh, my boy is asleep right now. Please come back some
-                other time <sp><character>to play with him! [ Graveyard ] Dampé </character> Hey kid!
+                other time to play with him!</sp> 
+            <sp><character>[ Graveyard ] Dampé </character> Hey kid!
                     Don't mess around with the graves! I'm Dampé the Gravekeeper! My face may be
                     scary, but I'm not a bad guy... Let me give you an advertisement for my side
                     business... Dampé the Gravekeeper's Heart-Pounding Gravedigging Tour! What's
                     gonna come out?! What's gonna come out?! When I start digging, we'll find out!
-                    Do you want me to dig here? 10 Rupees for one hole. </sp></sp>
+                    Do you want me to dig here? 10 Rupees for one hole. </sp>
             <choice>
-                <interact><interact>(Yes)</interact> You don't have enough Rupees! Nope, nothing
+                <interact>(Yes) You don't have enough Rupees! Nope, nothing
                     here! <stage type="info">He does not comment upon anything that is
-                        retrieved.</stage>
-                </interact>
-                <interact><interact>(Don't do it)</interact> Thanks a lot!</interact>
+                        retrieved.</stage></interact>
+                
+                <interact>(Don't do it)</interact> Thanks a lot!
             </choice>
 
             <stage type="info">When trying to enter Dampé's hut, depending on the time:</stage>
@@ -1202,21 +1207,20 @@ then no/another name will be stated (barring impersonation in the latter case).
             <stage type="info">Upon playing Zelda's Lullaby on the Triforce mark on the ground near
                 the Royal Family's Tomb, the tombstone is destroyed by a bolt of lightning.</stage>
 
-            <sp>
-                <character>Within the tomb, upon examining skeletal remains</character>
+            <stage type="info">Within the tomb, upon examining skeletal remains:                </stage>
                 <sp><character> &lt;game&gt; </character> Shine light on the living dead... Those who
                     break into the Royal Tomb will be obstructed by the lurkers in the dark... </sp>
-            </sp>
-            <stage type="info">Deeper inside the tomb, there is writing on a wall.</stage>
+            <stage type="info">Deeper inside the tomb, there is writing on a wall.
 
-            <sp><character>Tablet </character> This poem is dedicated to the memory of the dearly
-                departed members <sp><character>of the Royal Family. The rising sun will eventually
+            Tablet: This poem is dedicated to the memory of the dearly
+                departed members of the Royal Family. The rising sun will eventually
                         set. A newborn's life will fade. From sun to moon, moon to sun... Give
-                        peaceful rest to the living dead. Navi </character> This is an interesting
+                        peaceful rest to the living dead.</stage>
+            <sp><character>Navi </character> This is an interesting
                     poem...huh? Something is inscribed on the tombstone... It's the secret melody of
                     the Composer Brothers! &lt;game&gt; : Keep the Sun's Song in your heart. You've
                     learned the Sun's Song! Tablet : Restless souls wander where they don't belong.
-                    bring [sic] them calm with the Sun's Song. </sp></sp>
+                    bring [sic] them calm with the Sun's Song. </sp>
             <stage type="info">Outside, upon defeating the ghost of either Sharp or Flat:</stage>
 
             <sp><character>Ghost </character> GYAAAAH! You killed me!! Huh? Oh, it's you. Did you try to
@@ -1324,25 +1328,27 @@ then no/another name will be stated (barring impersonation in the latter case).
             <stage type="info">Upon examining the place where the Spiritual Stone had been:</stage>
 
             <sp><character>&lt;game&gt; </character> It looks like something used to be set in this
-                stand... <sp><character> [ Level 2 ] Sign 01 </character> If you can stop my wild
-                    rolling, you might get something great. --Hot Rodder Goron </sp></sp>
-            <stage type="info">[003], the Goron on this level, cannot currently be stopped.</stage>
+                stand... </sp><stage type="info"> [ Level 2 ] Sign 01: If you can stop my wild
+                    rolling, you might get something great. --Hot Rodder Goron </stage>
+            <sp><character>[003]</character> the Goron on this level, cannot currently be stopped.</sp>
 
             <sp><character>[ Level 3 ] [004] </character> I'm so hungry that I can't think about
-                anything but food! <sp><character> "Spiritual Stone?" That red stone that was lighting
+                anything but food!  "Spiritual Stone?" That red stone that was lighting
                         up our city? Big Brother Darunia took it away. Then, he shut himself up in
                         his room and won't come out. Since then, it feels like all the lights in the
                         city have gone out... Everyone seems so...depressed... I want you to bring
-                        fire from Big Brother's room back here. [005] </character> Oh? We don't get
+                        fire from Big Brother's room back here.</sp> 
+            <sp><character>[005] </character> Oh? We don't get
                     many visitors way up here. Where are you from? The forest? What's a "forest"?
                     Eh? It's where a lot of "trees" and "plants" grow? Now I'm even more confused!
                     Nothing grows around here besides the Bomb Flowers... We don't have "seeds" or
                     "nuts" around here either. Even Deku Sticks are very scarce around here! I know
                     a trick to conserve sticks! If you light a stick on fire, it will burn to ashes.
                     Press {A} to put it away before it completely burns! By the way, I hid a stick
-                    somewhere... Hehehee... [ Level 4 ] [006] : Big Brother has shut himself up in
+                    somewhere... Hehehee...</sp>
+            <sp><character>[ Level 4 ] [006]</character> Big Brother has shut himself up in
                     his room saying, "I will wait in here for the Royal Family's messenger!"
-                </sp></sp>
+                </sp>
             <stage type="info">Upon examining the carpet near the door to Darunia's room:</stage>
 
             <sp><character>&lt;game&gt; </character> You're standing on a soft carpet for guests... It
@@ -1430,14 +1436,13 @@ then no/another name will be stated (barring impersonation in the latter case).
                 throat.</stage>
 
             <stage type="info">In one of the cavern's rooms is a hole that leads to a large chamber,
-                        <sp><character>in the middle of which is a pool of lava. "Infernal
-                        Dinosaur</character> King Dodongo" walks and rolls about the edge of the
-                    room.</sp></stage>
+                       in the middle of which is a pool of lava. "Infernal
+                        Dinosaur: King Dodongo" walks and rolls about the edge of the
+                    room.</stage>
 
-            <sp>
-                <character>Upon defeating the boss, a circle of light appears, which teleports Link
-                    to</character>
-            </sp>
+            <stage>Upon defeating the boss, a circle of light appears, which teleports Link
+                    to</stage>
+ 
         </chapter>
         <chapter>
             <title>Death Mountain Trail </title>
@@ -1445,7 +1450,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                 which--Gorons being rather forceful--knocks him to the ground.</stage>
 
             <sp><character>Darunia </character> It's me, Darunia! Well done! Thanks to you, we can once
-                again eat <sp><character>the delicious rocks from the Dodongo's Cavern until our
+                again eat the delicious rocks from the Dodongo's Cavern until our
                         stomachs burst! What a wild adventure! It will make an incredible story... I
                         can't believe that the Dodongos suddenly appeared in such great numbers! And
                         that big rock blocking the cave... All this trouble must have been caused by
@@ -1453,13 +1458,14 @@ then no/another name will be stated (barring impersonation in the latter case).
                         then will I open the cave for you!" You, on the other hand, risked your life
                         for us... Kid, I like you! How's about you and I become Sworn Brothers?! No,
                         there's no big ceremony involved! Just take this as a token of our
-                        friendship! &lt;game&gt; </character> You obtained the Goron's Ruby! This is
+                        friendship!</sp>
+            <sp><character>&lt;game&gt;</character> You obtained the Goron's Ruby! This is
                     the Spiritual Stone of Fire passed down by the Gorons! You don't know what he
                     means by "Sworn Brothers," but you've collected two Spiritual Stones! You have
                     one more to find! Darunia : Brother! You'll keep brushing up on your skills as
                     you travel, won't you? You should go see the Great Fairy on top of Death
                     Mountain! She will power you up! Hey, everybody! Let's see off our Brother!
-                </sp></sp>
+                </sp>
             <stage type="info">Two Gorons fall into the area.</stage>
 
             <sp><character>Gorons </character> You did great! How 'bout a big Goron hug, Brother?! </sp>
@@ -1479,17 +1485,22 @@ then no/another name will be stated (barring impersonation in the latter case).
         </chapter>
         <chapter><title> Goron City - Social Script </title>
             <sp><character>[ Level 1 ] [001] </character> You are incredible, destroying the Dodongos!
-                Do you mind if I call <sp><character>you Big Brother? [002] </character> Did you get the
-                    red stone? Let me get one little lick! No? Nooooo! [ Level 2 ] </sp></sp><stage
-                type="info">Upon stopping [003]:</stage>
+                Do you mind if I call you Big Brother?</sp>
+            <sp><character>[002] </character> Did you get the
+                    red stone? Let me get one little lick! No? Nooooo!</sp>
+            <stage>[ Level 2 ]</stage>
+            <stage type="info">  Upon stopping [003]:</stage>
             <sp><character>[003] </character> All right! I'll give you this in praise of your courage!
                 </sp><stage type="info">He provides a Bomb Bag upgrade.</stage>
-            <sp><character>On subsequent stops</character>
+            <stage type="info">On subsequent stops</stage>
                 <sp><character> [003] </character> Thank you! Let me express my joy with more wild
-                    rolling! [ Level 4 ] [006] : You are incredible, destroying the Dodongos! Do you
+                    rolling!</sp>
+                <sp><character>[ Level 4 ] [006]</character> : You are incredible, destroying the Dodongos! Do you
                     mind if I call you Big Brother? Darunia : Hey, Brother, play that tune again
-                    sometime soon! </sp></sp><stage type="info">When Darunia finishes
-                dancing:</stage> No matter how many times I hear that song, it doesn't get old! </chapter>
+                    sometime soon! 
+            <stage type="info">When Darunia finishes
+                dancing:</stage> No matter how many times I hear that song, it doesn't get old!</sp>
+        </chapter>
         <chapter><title>Death Mountain Trail </title>
             <sp><character>Sign 05 </character> Mountain Summit Danger Ahead - Keep Out
                     </sp><sp><character>Sign 06 </character> Death Mountain Summit Entrance to the
@@ -1507,7 +1518,8 @@ then no/another name will be stated (barring impersonation in the latter case).
             <sp><character>Navi </character> ...??? </sp><stage type="info">The wall can be destroyed,
                 opening the path to a Great Fairy's Fountain.</stage>
             <sp><character>GreatFairy</character> Welcome Link! I am the Great Fairy of Power! I'm going
-                to grant you <sp><character>a sword technique. Receive it now! &lt;game&gt; </character>
+                to grant you a sword technique. Receive it now!</sp> 
+            <sp><character>&lt;game&gt; </character>
                     You mastered the secret sword technique of the Spin Attack! Hold {B} to charge
                     your weapon! Release {B} to unleash a wave of energy with your spin! If you want
                     to release energy without charging your weapon, just rotate {Control Stick} once
@@ -1516,14 +1528,16 @@ then no/another name will be stated (barring impersonation in the latter case).
                     Magic Meter! Hey, boy! You're a messenger of the Royal Family, aren't you? Next
                     time you're in their neighborhood, you should drop in on a friend of mine who
                     lives by Hyrule Castle. She'll surely grant you another new power! When battle
-                    has made you weary, please come back to see me. </sp></sp><stage type="info"
+                    has made you weary, please come back to see me. </sp><stage type="info"
                 >After having met with the Great Fairy:</stage>
             <sp><character>Gaebora </character> Hoo hoot! Well, it looks like you've grown up a little
                 from the Great Fairy's power... But you still don't really look like the hero who
                 will save Hyrule. At least not yet! If you are going back down the mountain, I can
                 lend you a wing. Come here and grab my talons! And hold on tight! Hoo hooooooot!
                 </sp><stage type="info">Kaepora Gaebora deposits Link on a rooftop in Kakariko
-                Village.</stage> [02'09] --- Zora's River/Domain --- [02'09] </chapter>
+                    Village.</stage></chapter>
+    </act>
+        <act number="02'09"><title>Zora's River/Domain </title>
         <chapter><title>Zora's River </title>
             <sp><character>Sign 01 </character> Watch out for swift current and strong undertow.
                     </sp><sp><character>Gaebora </character> Hoo hoo! Looks like you've gotten bigger
@@ -1533,9 +1547,10 @@ then no/another name will be stated (barring impersonation in the latter case).
                 melody of the Royal Family! Hooo hoo hooooot! </sp><stage type="info">[001], a man,
                 is sitting on the ground while eating beans.</stage>
             <sp><character>[001] </character> Chomp chomp chomp... How about some Magic Beans? They
-                aren't selling very well... How about... 10 Rupees for one piece? </sp><choice>
+                aren't selling very well... How about... 10 Rupees for one piece? 
+            <choice>
                 <interact>(Yes) You don't have enough money. I can't sell them to you. Chomp
-                    chomp... <stage type="info">With sufficient funds:</stage> If you want to plant
+                    chomp... </interact><interact><stage type="info">With sufficient funds:</stage> If you want to plant
                     beans, go around and look for soft soil. Chomp chomp chomp. -</interact>
                 <interact>(No) Oh well... Chomp chomp...</interact>
             </choice><stage type="info">Subsequently:</stage> Chomp chomp chomp... How about some
@@ -1553,18 +1568,19 @@ then no/another name will be stated (barring impersonation in the latter case).
             them go for more than 90 Rupees apiece! Chomp chomp chomp... We have...Magic Beans! Do
             you want them...huh? Huh? 100 Rupees for one piece! Keyahahah! Oh, too bad! We're sold
             out! Chomp chomp...What? Oh, these beans are not for sale! <stage type="info">Upon
-                stepping on a certain log:</stage>
+                stepping on a certain log:</stage></sp>
             <sp><character>&lt;game&gt; </character> Some frogs are looking at you from underwater...
                 </sp><stage type="info">Upon drawing the Ocarina, the five frogs--each colored
-                differently--jump out <sp><character>of the water and onto other logs. Each frog
-                        corresponds to a button</character> Dark blue to C Left, yellow to C Down, red
-                    to C Right, gray to C Up, and light blue to A.</sp></stage>
-            <sp><character>Upon playing certain music, a frog grow will in size. Zelda's Lullaby
-                </character> Dark blue <sp><character>Epona's Song </character> Gray Saria's Song : Yellow
-                    Sun's Song : Light blue Song of Time : Red Frog : Young lad, you play the
+                differently--jump out of the water and onto other logs. Each frog
+                        corresponds to a button: Dark blue to C Left, yellow to C Down, red
+                    to C Right, gray to C Up, and light blue to A.</stage>
+            <stage type="info">Upon playing certain music, a frog grow will in size. Zelda's Lullaby:
+                 Dark blue Epona's Song: Gray Saria's Song : Yellow
+                    Sun's Song : Light blue Song of Time : Red</stage>
+            <sp><character>Frog</character> Young lad, you play the
                     Ocarina well... Mmmmm...! That melody is so fine...ribbit! We all should
                     practice it, ribbit! Take Rupees as a souvenir! If you come up with another nice
-                    melody, please drop by and play it...Ribbit ribbit! </sp></sp><stage type="info"
+                    melody, please drop by and play it...Ribbit ribbit! </sp><stage type="info"
                 >If a frog grew, then they provide a Purple Rupee; otherwise, they provide a Blue
                 Rupee.</stage>
             <stage type="info">Upon playing the Song of Storms:</stage>
@@ -1576,10 +1592,10 @@ then no/another name will be stated (barring impersonation in the latter case).
             <stage type="info">Once all five frogs have grown:</stage>
             <sp><character>Frog </character> Look at us, we're all huge frogs!! We are the world famous
                 Fabulous Five Froggish Tenors!! Rrrribbit!! Make us jump so we can eat the bugs
-                flying above us, ribbit! OK? Then, ready, set, go! </sp><stage type="info">If the
+                flying above us, ribbit! OK? Then, ready, set, go! <stage type="info">If the
                 frogs are properly conducted:</stage> Young boy, you did grrreat! Perrrrrfect! We
             are stuffed, ribbit! Would you take this token of our gratitude? <stage type="info">They
-                provide a Piece of Heart.</stage>
+                provide a Piece of Heart.</stage></sp>
             <stage type="info">There is an inscription on the ground near a waterfall.</stage>
             <sp><character>Writing </character> Sleepless Waterfall The flow of this waterfall serves
                 the King of Hyrule. When the King slumbers, so too do these falls. </sp><stage
@@ -1590,28 +1606,36 @@ then no/another name will be stated (barring impersonation in the latter case).
             <stage type="info">"&lt;first&gt;" is whichever Zora to whom Link initially speaks.
                 Later interaction with that Zora will change according to its identity.</stage>
             <sp><character>&lt;first&gt; </character> Who are you? We are the Zoras, the proud aquatic
-                people! <sp><character> So...you say you have some connection with Hyrule's Royal
-                        Family... Well, what do you want from us? [001] </character> Zora's Fountain
+                people! So...you say you have some connection with Hyrule's Royal
+                        Family... Well, what do you want from us?</sp>
+            <sp><character>[001] </character> Zora's Fountain
                     is the source of the river. Lord Jabu-Jabu lives in the fountain. Lord Jabu-Jabu
                     is the patron deity of the Zoras. Princess Ruto is in charge of preparing his
                     meals, morning and night. [002] : We Zoras all serve the great King Zora. [003]
-                    : Have you seen Lord Jabu-Jabu? </sp></sp><choice>
+                    : Have you seen Lord Jabu-Jabu? 
+            <choice>
                 <interact>(Yes) According to the "Legend of Zora," the act of offering a fish to
                     Lord Jabu-Jabu will make you happy. -</interact>
                 <interact>(No) Oh, that's not good. Everybody who comes around here should see Lord
                     Jabu-Jabu at least once! Zora's Fountain is just beyond King Zora's throne. That
                     is where Lord Jabu-Jabu swims. But...unless you have King Zora's permission, you
                     can't go to Zora's Fountain.</interact>
-            </choice>[004] : We haven't found Princess Ruto even though some of us have searched as
-            far as Lake Hylia... <sp><character>[005] </character> All of the water in Hyrule flows from
-                Zora's Fountain. That water <sp><character>flows through Zora's River, which
-                        eventually reaches Lake Hylia to the south. [006] </character> We are good at
+            </choice></sp>
+            <sp><character>[004]</character> We haven't found Princess Ruto even though some of us have searched as
+            far as Lake Hylia...</sp>
+            <sp><character>[005] </character> All of the water in Hyrule flows from
+                Zora's Fountain. That water flows through Zora's River, which
+                        eventually reaches Lake Hylia to the south.</sp>
+            <sp><character>[006] </character> We are good at
                     diving! How about you? If you want to be a master diver, try the diving game at
-                    the top of the waterfall! Have you tried it already? [007] : I want to buy a
+                    the top of the waterfall! Have you tried it already?</sp><sp><character> [007]</character> I want to buy a
                     fish, but they are a little too expensive... I have no choice but to catch one
-                    of the fishes [sic] that's swimming around out there. [008] ^ : If you want to
-                    buy fish, you need a container to put them in. [009] : Diving Game 20 Rupees
-                    Want to play? </sp></sp><choice>
+                    of the fishes [sic] that's swimming around out there.</sp> 
+            <sp><character>[008]</character> If you want to
+                    buy fish, you need a container to put them in.</sp> 
+            <sp><character>[009]</character> Diving Game 20 Rupees
+                    Want to play? 
+            <choice>
                 <interact>(Yes) You don't have enough Rupees! OKAY! Pick up all the Rupees I throw
                     from here. You have only a limited amount of time! When you pick them all up,
                     come back here! I'll give you something very nice! START! Go over the falls for
@@ -1621,7 +1645,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                     under the water. <stage type="info">He provides a Silver Scale.</stage> Take as
                     much as you want for 20 Rupees. Want to play? Hey! Congratulations! -</interact>
                 <interact>(No) All right. You don't have to play if you don't want to.</interact>
-            </choice>
+            </choice></sp>
             <sp><character>King Zora</character> Oh, my dear, sweet Princess Ruto... Where has she gone?
                 I'm so worried...</sp>
             <stage type="info">Sign 01: Just Ahead King Zora's Chamber Show the proper
@@ -1649,76 +1673,83 @@ then no/another name will be stated (barring impersonation in the latter case).
         <chapter><title>Social Script </title>
             <stage>[ Outside ]</stage>
             <sp><character>[001] </character> I am a Zora. Have you seen anything strange in the lake?
-                The river carries many things into this lake! </sp><sp><character>Pierre </character> My
+                The river carries many things into this lake! </sp>
+            <sp><character>Pierre </character> My
                 name is Pierre, the wandering scarecrow. Actually, I wish I could wander to look for
-                soul-moving sounds, but I'm kind of stuck here. </sp><stage type="info">After
+                soul-moving sounds, but I'm kind of stuck here. <stage type="info">After
                 playing music with the ocarina:</stage> Fantastic tune! It touches my heart! If you
             come up with a nice song, come back and let me hear it! <stage type="info">When speaking
                 to him again:</stage>
-            <sp><character>That song you played for me stays in my heart! If you come up with a nice
-                    song, come back and let me hear it! Bonooru </character> I am Bonooru, the
+            That song you played for me stays in my heart! If you come up with a nice
+            song, come back and let me hear it!</sp>
+            <sp><character>Bonooru </character> I am Bonooru, the
                 scarecrow musical genius! I hear a song once, and I never forget it, baby!
-                </sp><stage type="info">Upon readying the ocarina:</stage> Whoa! You have an
+              <stage type="info">Upon readying the ocarina:</stage> Whoa! You have an
             ocarina! Hey, why don't you lay a tune on me with it, baby?! <stage type="info">If the
                 music is inadequate:</stage> Oh well, I don't remember that song, baby. Why? That's
             what I can't tell ya! Good golly! <stage type="info">If the music is adequate:</stage>
             Well...not bad! I will remember it for you anyway! I don't mean I can remember only
             eight notes, but let's just cut it right there for now, baby! <stage type="info">When
                 speaking to Bonooru again:</stage>
-            <sp><character>Hey, baby! I'm Bonooru, the scarecrow! You've probably heard about my
+           Hey, baby! I'm Bonooru, the scarecrow! You've probably heard about my
                     fantastic memory! If you have a new tune to play, blow it! This is the song you
-                    tooted last time, baby! Hit it! Gaebora </character> What are you doing? You've
+                    tooted last time, baby! Hit it!</sp>
+            <sp><character>Gaebora </character> What are you doing? You've
                 come a long way to get up here... You should look at the Map Subscreen sometimes.
                 Link, this is a beautiful lake full of pure, clear water. At the lake bottom there
                 is a Water Temple used to worship the water spirits. The Zoras are guardians of the
                 temple. Hoo hoo. The Zoras come from Zora's Domain in northeast Hyrule. An aquatic
                 race, they are longtime allies of Hyrule's Royal Family. I heard that only the Royal
                 Family of Hyrule can enter Zora's Domain. Hoo hoo! I'm on my way back to the castle.
-                If you want to come with me, hold on to my talons! </sp><stage type="info">There is
-                writing on a stone on a small isle.</stage>
-            <sp><character>Writing </character> When water fills the lake, shoot for the morning light.
-                        <sp><character> [ Lakeside Laboratory ] Sign 01 </character> Lakeside Laboratory
-                    Daily trying to get to the bottom of the mysteries of Lake Hylia! --Lake
-                    Scientist [002] : Hello there, son. I'm researching the process of making
+                If you want to come with me, hold on to my talons! </sp>
+            <stage type="info">There is writing on a stone on a small isle. Writing: 
+                When water fills the lake, shoot for the morning light.</stage>
+                        <stage type="location"> [ Lakeside Laboratory ]</stage>
+            <stage type="info">Sign 01: Lakeside Laboratory
+                    Daily trying to get to the bottom of the mysteries of Lake Hylia!</stage>
+            <sp><character>Lake Scientist [002]</character> Hello there, son. I'm researching the process of making
                     medicine by mixing Lake Hylia's water with various unusual compounds. Perhaps
                     you've met that old lady from the potion shop...she is like a student of mine...
-                    Ho ho ho! </sp></sp><stage type="info">After having swam in the laboratory's
+                    Ho ho ho! </sp>
+            <stage type="info">After having swam in the laboratory's
                 pool:</stage>
             <sp><character>[002] </character> You may not have noticed, but I've been watching you. You
-                dove <sp><character>&lt;1/2/3&gt; meters just now. But I wouldn't call that a real
+                dove &lt;1/2/3&gt; meters just now. But I wouldn't call that a real
                         dive. You may not have noticed, but I've been watching you. You dove
                         &lt;4/5&gt; meters just now. Still not deep enough! You may not have
                         noticed, but I've been watching you. You dove 6 meters just now. You should
-                        be able to dive deeper! [ Fishing Pond ] Sign 02 </character> Fishing Pond The
+                        be able to dive deeper!</sp> <stage type="location">[ Fishing Pond ]</stage>
+           <stage type="info"> Sign 02: Fishing Pond The
                     fish are really biting today! Sign 03 : Rules and Regulations 1. Don't use
-                    sinking lures. 2. Don't litter. 3. Walk quietly. [003] : Well, do you want to go
-                    fishing for 20 Rupees? </sp></sp><choice>
+                    sinking lures. 2. Don't litter. 3. Walk quietly.</stage>
+            <sp><character>[003]</character> Well, do you want to go
+                    fishing for 20 Rupees? <choice>
                 <interact>(Yes) Shucks! You don't have enough money. Oh, no! You don't have a Rumble
                     Pak! With a Rumble Pak, you can feel the vibrations of a fish on your hook. This
-                    time, no rumble for you! Wow! You have a Rumble Pak! Today, you can feel the
+                    time, no rumble for you!</interact><interact>Wow! You have a Rumble Pak! Today, you can feel the
                     vibration, young man! OK, listen up! Walk up to the water's edge and press {Z}
                     to look at a fish. While looking at a fish, you can cast your line with {B}.
                     Press {A} to brake the line. When the lure drops into the water, you can wiggle
                     it with {Control Stick}. If you're a novice, you can also use {B}. Reel in your
                     lure with {A}. Hold down {A} and {R} to reel it in faster. If you feel a hit,
                     press {A} and {Control Stick} down to set the hook. After that, reel it in with
-                    {A}. Do you understand? <choice><interact>"No" prompts him to repeat from
-                            </interact><interact>"OK, listen". "Yes" prompts:</interact></choice>I'm
+                    {A}. Do you understand? </interact><interact>"No" prompts him to repeat from
+                            "OK, listen".</interact><interact>"Yes" prompts: I'm
                     so generous, I'll let you fish for as long as you want. However, you can keep
                     only one fish. The biggest fish ever caught here weighed 6 pounds. After you
                     cast, you can change your view with {Z}. Let's fish! -</interact>
                 <interact>(No) All right. You don't have to play if you don't want to.</interact>
-            </choice><stage type="info">While fishing:</stage>
+            </choice><stage type="info">While fishing:</stage></sp>
             <sp><character>[003] </character> Wah ha haah! Did you set the hook by pressing {A} and
-                        <sp><character>{Control Stick}</character> down?</sp> Hey, what happened? You
+                       {Control Stick} down? Hey, what happened? You
                 lost it! Well, well...it's about &lt;&gt; pounds. Do you want to keep it?
-                </sp><stage type="info">"Yes" "No"</stage> Wow! This is a real lunker! Let's
-            see...it weighs &lt;&gt; pounds! Do you want to keep it? <stage type="info">"Yes"
-                "No"</stage> What? Huh? Oh? I think the fish you already kept was bigger than this
-            one... Do you still want to keep it? <stage type="info">"No, I don't want it" "Yes, I
-                want to keep it anyway"</stage>
+                <choice><interact>"Yes"</interact> <interact>"No"</interact></choice> Wow! This is a real lunker! Let's
+            see...it weighs &lt;&gt; pounds! Do you want to keep it? <choice><interact>"Yes"</interact>
+                <interact>"No"</interact></choice> What? Huh? Oh? I think the fish you already kept was bigger than this
+            one... Do you still want to keep it? <choice><interact>"No, I don't want it"</interact><interact> "Yes, I
+                want to keep it anyway"</interact></choice></sp>
             <stage type="info">After having paid to fish:</stage>
-            <sp><character>[003] </character> What do you want? </sp><interact>(Weigh my
+            <sp><character>[003] </character> What do you want? <interact>(Weigh my
                 fish.)</interact> Hey, c'mon! You don't have a fish! Shucks! Well, it weighs
             &lt;&gt; pounds... Not bad, but there are bigger fish in there! WHOA! This fish is huge!
             It looks like a new record! It weighs at least &lt;&gt; pounds! Seriously! OK, here is
@@ -1737,7 +1768,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                 quit.)</interact>
             <stage type="info">If no fish have been caught:</stage> Passion alone won't catch you
             many fish. I'm serious! <stage type="info">If at least one fish has been caught:</stage>
-            Come back when you get older! The fish will be bigger, too... Well, maybe. <stage
+            Come back when you get older! The fish will be bigger, too... Well, maybe.</sp> <stage
                 type="info">Upon attempting to exit the pond, while holding the fishing rod:</stage>
             <sp><character>[003] </character> Hey! Hey! You can't take the rod out of here! When you
                 quit fishing, return the rod to the counter. I'm serious! </sp></chapter>
@@ -1783,17 +1814,18 @@ then no/another name will be stated (barring impersonation in the latter case).
                 you're a man, act like one! Take responsibility! </sp><stage type="info">The
                 Spiritual Stone of Water rests on a platform in a certain room.</stage>
             <sp><character>Ruto </character> That's it! That's what I've been looking for! Throw me up
-                there! <sp><character>Onto the platform! &lt;game&gt; </character> Princess Ruto got the
+                there! Onto the platform!</sp>
+            <sp><character>&lt;game&gt; </character> Princess Ruto got the
                     Spiritual Stone! But why Princess Ruto? Ruto : Oh my goodness! I finally
                     found... My mother's stone... I got very upset when Lord Jabu-Jabu swallowed
                     it... While I was feeding him, he suddenly swallowed me! I was so surprised I
                     dropped it inside... But, now that I've found it, I don't need to be in here
-                    anymore! So, take me home, right now! </sp></sp><stage type="info">As Link
+                    anymore! So, take me home, right now!</sp><stage type="info">As Link
                 approaches the platform, it rises to another room.</stage>
             <sp><character>Ruto </character> Keeeyaaaah! What is this?! An octopus?! </sp><stage
-                type="info">The platform brings a Bigocto to Link's location.</stage> Ruto is no
+                type="info">The platform brings a Bigocto to Link's location. Ruto is no
             longer present by the time that Link defeats the enemy and rides the platform to the
-            above room. <stage type="info">In one of the rooms, Link encounters "Bio-electric
+            above room. In one of the rooms, Link encounters "Bio-electric
                 Anemone: Barinade". Upon defeating it, a circle of light appears, inside which Ruto
                 is hovering in the air, and also blushing.</stage>
             <sp><character>Ruto </character> You...You're late! What took you so long! You're useless! I
@@ -1863,9 +1895,10 @@ then no/another name will be stated (barring impersonation in the latter case).
 
             <stage type="info">Regarding the item in the water:</stage>
 
-            <sp><character>Navi </character> What's that? <sp><character> &lt;game&gt; </character> You
+            <sp><character>Navi </character> What's that?</sp> 
+            <sp><character> &lt;game&gt; </character> You
                     found the Ocarina of Time! This is the Royal Family's hidden treasure which
-                    Zelda left behind. It glows with a mystical light... </sp></sp>
+                    Zelda left behind. It glows with a mystical light... </sp>
             <stage type="info">Link hears Zelda's voice, and sees her image within the Temple of
                 Time.</stage>
 
@@ -1885,27 +1918,34 @@ then no/another name will be stated (barring impersonation in the latter case).
 
             <stage type="location"> Market - Outside </stage>
             <sp><character>[003] </character> Look at that guy--he's so scared! What a wimp! Ha ha ha! </sp>
-            <sp><character>[004] </character> I almost got kicked by that black horse! <sp><character>
-                        [005] </character> What happened?! [006] : The one riding on the white horse
+            <sp><character>[004] </character> I almost got kicked by that black horse!</sp> 
+            <sp><character>[005] </character> What happened?!</sp> 
+            <sp><character>[006] </character> The one riding on the white horse
                     holding the little girl... Wasn't that a legendary Sheikah? [007] : I have a
-                    feeling something terrible is going to happen... Maybe I should leave town soon.
-                    [009] : I might have seen a cute little girl around here... Maybe she went to
-                    the castle? Who knows? [010] : Something happened in the castle! Kid, you'd
-                    better be careful! [011] : My precious little puppy's fur coat is very special
-                    compared to the other mutts around here! [012] : Wasn't that Princess Zelda
-                    riding on the white horse?! [015] : That guy riding on the black horse must have
-                    been Ganondorf, who is renowned as the Gerudo King of Thieves. [016] : Oh so
-                    scary... Oh so scary... [017] : That scary-looking man took off out of here
-                    really fast! [018] : We don't see a lot of Gerudos in these parts... Something
-                    fishy is going on! </sp></sp>
+                    feeling something terrible is going to happen... Maybe I should leave town soon.</sp>
+            <sp><character>[009]</character> I might have seen a cute little girl around here... Maybe she went to
+                    the castle? Who knows?</sp>
+                    <sp><character>[010]</character> Something happened in the castle! Kid, you'd
+                    better be careful!</sp><sp><character> [011]</character> My precious little puppy's fur coat is very special
+                    compared to the other mutts around here!</sp>
+            <sp><character>[012] </character> Wasn't that Princess Zelda
+                    riding on the white horse?!</sp> 
+            <sp><character>[015]</character>  That guy riding on the black horse must have
+                    been Ganondorf, who is renowned as the Gerudo King of Thieves.</sp> 
+            <sp><character>[016]</character> Oh so
+                    scary... Oh so scary...</sp> 
+            <sp><character>[017]</character> That scary-looking man took off out of here
+                    really fast!</sp>
+            <sp><character>[018]</character> We don't see a lot of Gerudos in these parts... Something
+                    fishy is going on! </sp>
             <stage type="location"> Market - Buildings </stage>
             <stage type="info">Bombchu Bowling Alley:</stage>
 
             <sp><character>[019] </character> zzzzz.zzzzz... Huh? Wha--! Uh-oh! A customer!
-                        <sp><character> Welcome to our cutting-edge amusement center</character> The
+                        Welcome to our cutting-edge amusement center: The
                     Bombchu Bowling Alley! Do you want to know what you can win? Well, it's a
                     secret. I can't tell you until you've paid to play. It's 30 Rupees per game. Do
-                    you want to play? </sp></sp>
+                    you want to play? </sp>
             <choice>
                 <interact>(Yes) You don't have enough Rupees! <stage type="info">With sufficient
                         funds:</stage> OKAY!! Aim for the hole in the center and let Bombchu go! You
@@ -1995,13 +2035,13 @@ then no/another name will be stated (barring impersonation in the latter case).
                 Look at yourself...! </sp>
             <stage type="info">Link's form has changed into that of a young adult.</stage>
 
-            <sp><character>Navi </character> Look Link! You're big now!! You've grown up! <sp><character>
-                        Rauru </character> The Master Sword is a sacred blade which evil ones may
+            <sp><character>Navi </character> Look Link! You're big now!! You've grown up!</sp>
+            <sp><character>Rauru </character> The Master Sword is a sacred blade which evil ones may
                     never touch.... Only one worthy of the title of "Hero of Time" can pull it from
                     the Pedestal of Time.... However, you were too young to be the Hero of Time....
                     Therefore, your spirit was sealed here for seven years. And now that you are old
                     enough, the time has come for you to awaken as the Hero of Time! Well, do you
-                    understand your destiny? </sp></sp>
+                    understand your destiny? </sp>
             <choice>
                 <interact>(Yes) &lt;see below&gt; -</interact>
                 <interact>(No) <sp><character>Rauru </character> Right, it looks like you are
@@ -2100,34 +2140,36 @@ then no/another name will be stated (barring impersonation in the latter case).
                 I will buy it. Your card now has 1000 points. Come back again! Heh heh heh! </sp>
         </chapter>
     </act>
-    <act number="02'13"><title>Kakariko Village </title> KA = Was in Kakariko seven years ago CT =
-        Transferred from Hyrule Castle Town <stage type="info">In the past:</stage>
+    <act number="02'13"><title>Kakariko Village </title> <chapter><stage type="info">KA = Was in Kakariko seven years ago CT =
+        Transferred from Hyrule Castle Town</stage> <stage type="info">In the past:</stage>
         <sp><character>[KA-001] </character> Ding dong, ding dong! The current time is &lt;:&gt;. By the
-            way, do you know what happened in the castle? </sp><chapter><title> Social Script -
-                Daytime </title> [ Outside ] <stage type="info">[KA-001], the carpenters, [KA-006],
+            way, do you know what happened in the castle? </sp></chapter>
+        <chapter><title> Social Script -
+                Daytime </title> <stage type="location">[ Outside ]</stage> <stage type="info">[KA-001], the carpenters, [KA-006],
                 and Sign 01 are no longer present.</stage>
-            <sp><character>[KA-007]'s script has not changed. Refer to 03'06 for [KA-008]'s script.
-                    [CT-003] </character> Wah hah hah hah hah hah! Look at this guy! Ever since he
-                escaped <sp><character>from Hyrule Castle Town, he's become even more timid! [CT-004]
-                    </character> I tell you, I saw him! I saw the ghostly figure of Dampé the
+            <stage type="info">[KA-007]'s script has not changed. Refer to 03'06 for [KA-008]'s script.</stage>
+                    <sp><character>[CT-003] </character> Wah hah hah hah hah hah! Look at this guy! Ever since he
+                escaped from Hyrule Castle Town, he's become even more timid!</sp>
+            <sp><character>[CT-004]</character> I tell you, I saw him! I saw the ghostly figure of Dampé the
                     gravekeeper sinking into his grave. It looked like he was holding some kind of
-                    treasure! [CT-006] : A long time ago... There was a man in this very village who
+                    treasure!</sp>
+            <sp><character>[CT-006]</character> A long time ago... There was a man in this very village who
                     had an eye they said could see the truth! Now usually, you have to train your
                     mind's eye most strenuously to actually see the truth... But this fella, no,
                     they say he had a different way of doing things... His house stood where the
-                    well is now... </sp></sp><stage type="info">[CT-008]'s script has not
+                    well is now... </sp><stage type="info">[CT-008]'s script has not
                 changed.</stage>
-            <sp><character>[CT-013] and [CT-014] are dancing together behind the windmill.
-                    [CT-13/14]</character>{1} Hee hee... Violating our personal space! He must have
-                something <sp><character>better to do... Don't you agree, darling?
+            <stage type="info">[CT-013] and [CT-014] are dancing together behind the windmill.</stage>
+                    <sp><character>[CT-13/14]</character>{1} Hee hee... Violating our personal space! He must have
+                something better to do... Don't you agree, darling?</sp>
                                 <sp><character>{2}</character> Heh.... What an annoying person,
-                            interrupting us like this... Don't you agree, my love?</sp> [CT-015]
-                     The windmill draws water up from the depth of the well. Now the well
-                    is dried up, though. Hrrrrm... </sp></sp><stage type="info">[CT-018] is on top
+                            interrupting us like this... Don't you agree, my love?</sp>
+            <sp><character>[CT-015]</character> The windmill draws water up from the depth of the well. Now the well
+                    is dried up, though. Hrrrrm... </sp><stage type="info">[CT-018] is on top
                 of a tower.</stage>
             <sp><character>[CT-018] </character> Look at me! I'm on top of the world! It really bothers
-                me to see anyone at a higher level than I am! I have to be on top! [ Buildings ]
-                </sp><stage type="info">Impa's house:</stage>
+                me to see anyone at a higher level than I am! I have to be on top!</sp> <stage type="location">[ Buildings ]</stage>
+                <stage type="info">Impa's house:</stage>
             <sp><character>[KA-009] </character> Hey! Young man! A grown boy like you entering a
                 person's house without permission?! I want to talk to your parents! Oh well. This
                 isn't my house anyway. This is the great Impa's house! The great Impa has gone to
@@ -2139,13 +2181,13 @@ then no/another name will be stated (barring impersonation in the latter case).
                 no big deal. </sp><stage type="info">Talon is sleeping in one of this house's
                 beds.</stage>
             <sp><character>[KA-010] </character> All people have hardships in their past that they would
-                rather <sp><character>no one found out about. Look at the bearded man sleeping over
+                rather no one found out about. Look at the bearded man sleeping over
                         there. I bet even someone like him has had his share of troubles in the
-                        past... [CT-011] </character> Look at him...the man with the beard. I think he
+                        past...</sp><sp><character>[CT-011] </character> Look at him...the man with the beard. I think he
                     was fired from his job at the ranch... He's always just lazing around, morning,
                     noon and night. He's an awfully carefree guy during such hard times... Talon : Z
                     Z Z... Malon...doing all right... Mumble...mumble... Sorry to make you worry...
-                </sp></sp><stage type="info">Refer to 03'06 for additional script from
+                </sp><stage type="info">Refer to 03'06 for additional script from
                 Talon.</stage>
             <stage type="info">The House of Skulltula's residents' scripts have not changed.</stage>
             <stage type="info">[CT-023] has set up his Potion Shop in the building where Ichiro had
@@ -2168,10 +2210,10 @@ then no/another name will be stated (barring impersonation in the latter case).
                 >Though a certain event can be performed with [KA-020] now, it is transcribed in
                 02'22 so as to coincide with related happenings.</stage>
             <stage type="info">The building on which the carpenters had been working has been
-                completed. [CT-020] has set up his Shooting Gallery in the building.</stage>
+                completed. [CT-020] has set up his Shooting Gallery in the building.
             [CT-020]'s script has not changed, save that he provides a quiver upgrade (once the
-            Fairy Bow is acquired) in return for a perfect game. [ Graveyard ] <stage type="info"
-                >[021] is no longer present.</stage>
+            Fairy Bow is acquired) in return for a perfect game.</stage><stage type="location">[ Graveyard ]</stage> 
+                <stage type="info">[021] is no longer present.</stage>
             <sp><character>Sign 01 </character> Heart-Pounding Gravedigging Tour! Tours are cancelled
                 until a new gravekeeper is found. We apologize for any inconvenience. </sp><stage
                 type="info">Inside Dampé's hut:</stage>
@@ -2180,14 +2222,14 @@ then no/another name will be stated (barring impersonation in the latter case).
                     stretching, shrinking keepsake. I'm waiting for you. --Dampé -</interact>
                 <interact>(No) You decide not to read it...</interact>
             </choice></chapter>
-        <chapter><title> Social Script - Nighttime </title> [ Outside ] <stage type="info">[CT-013]
+        <chapter><title> Social Script - Nighttime </title> <stage type="location">[ Outside ]</stage> <stage type="info">[CT-013]
                 and [CT-014] are still dancing.</stage>
             <sp><character>[CT-018] </character> If I fall asleep up here, I'll surely fall down... [
-                Buildings ] </sp><stage type="info">Impa's house:</stage>
-            <sp><character>[KA-008] </character> Please don't tease my Cuccos! <sp><character> [KA-009]
-                    </character> If that lady asks you about chickens, you should listen to her.
-                    [CT-004] : Nobody believes what I've been telling them all these past seven
-                    years! </sp></sp><stage type="info">The scripts of Talon, [KA-010], and [CT-011]
+                Buildings ] </sp><stage type="location">Impa's house:</stage>
+            <sp><character>[KA-008] </character> Please don't tease my Cuccos!</sp> 
+            <sp><character> [KA-009]</character> If that lady asks you about chickens, you should listen to her.</sp>
+                    <sp><character>[CT-004]</character> : Nobody believes what I've been telling them all these past seven
+                    years! </sp><stage type="info">The scripts of Talon, [KA-010], and [CT-011]
                 have not changed.</stage>
             <sp><character>[CT-003] </character> Wah hah hah hah hah hah! Those are some funny-looking
                 clothes, man!</sp>
@@ -2277,8 +2319,8 @@ then no/another name will be stated (barring impersonation in the latter case).
                 lap around the corral with that horse. Let's make a little wager, say 50 Rupees?
                 </sp><interact>(Do it)</interact>
             <stage type="info">If Link's funds are insufficient, then Ingo says the same thing as
-                when "Don't do it" is selected.</stage> If the funds are adequate, then the race
-            begins. <interact>(Don't do it)</interact>
+                when "Don't do it" is selected.If the funds are adequate, then the race
+                begins.</stage>  <interact>(Don't do it)</interact>
             <sp><character>Ingo </character> Hey hey... What's the matter? Don't you have even 50
                 Rupees?! I don't want to race with someone so poor! </sp><stage type="info">Upon
                 losing the race:</stage>
@@ -2314,12 +2356,11 @@ then no/another name will be stated (barring impersonation in the latter case).
                 away... It really upset him! But one day, all of a sudden, he went back to being a
                 normal, nice person! Now my dad is coming back... I can't believe it, but peace is
                 returning to this ranch! It's all because of you! I owe you so much! Thank you!
-                Thank you, Link! <sp><character>{2}</character> Epona looks great! It looks like you
+                Thank you, Link! {2} Epona looks great! It looks like you
                     were able to tame her, too! How about trying your skill with Epona on an
                     obstacle course? I'll time you for two laps. It's pretty challenging. If you
                     miss jumping a fence in the proper order, you'll fail. How about it? Do you want
                     to try?</sp>
-            </sp>
                 <interact type="Avoid">
                     <stage type="info">"Don't do it" does not prompt any additional script. "Let's
                         go" prompts:</stage> The current record is 50 seconds. First, try to beat
@@ -2348,58 +2389,58 @@ then no/another name will be stated (barring impersonation in the latter case).
                     jump over low fences, but you do need to go fast to jump the high
                     fences!</interact>
             
-            <stage type="info">After Talon returns (see 03'06):</stage>
-            <sp><character>During the day, Malon and Ingo are outside, while Talon is in the stable.
-                    At night, Malon and Talon are outside, while Ingo sleeps in their house. Malon
-                </character> Mr. Ingo... He must have been tempted by evil powers. He's not really a
-                bad person at all... </sp><stage type="info">Dismounted, day:</stage>
-            <sp><character>How is Epona doing? If you play Epona's Song with your Ocarina, she will
+            <stage type="info">After Talon returns (see 03'06): During the day, Malon and Ingo are outside, while Talon is in the stable.
+                    At night, Malon and Talon are outside, while Ingo sleeps in their house.</stage>
+            <sp><character>Malon</character> Mr. Ingo... He must have been tempted by evil powers. He's not really a
+                bad person at all... <stage type="info">Dismounted, day:</stage>
+            How is Epona doing? If you play Epona's Song with your Ocarina, she will
                     surely come to you. Please come back to the ranch whenever you want to train
-                    Epona! Talon </character> I'm gonna turn over a new leaf and work real hard from
-                now on. <sp><character> Ingo </character> * - Day: Hi there, how are you? I am Ingo. I
-                    feel so honored to be allowed to work here. </sp></sp><stage type="info"
-                >Night:</stage> Z Z Z Z Z Z Z Z... Mumble... It's not easy to be a working man...
+                    Epona!</sp>
+            <sp><character>Talon </character> I'm gonna turn over a new leaf and work real hard from
+                now on.</sp><sp><character> Ingo </character> * - Day: Hi there, how are you? I am Ingo. I
+                    feel so honored to be allowed to work here. </sp>
+            <sp><character>Night:</character> Z Z Z Z Z Z Z Z... Mumble... It's not easy to be a working man...</sp>
         </chapter>
     </act>
     <act number="02'15">
         <title>Kokiri Forest </title>
 
-        <sp><character>Though Link has aged, none of the Kokiri in the forest have changed in form. *
+        <stage type="info">Though Link has aged, none of the Kokiri in the forest have changed in form. *
                 [001-006] are Kokiri whose designations hold no bearing to past script, as their
                 only unique visual aspect had been their locations. * [007-011] and [014] do apply
                 to past script, as their positions are unchanged. * Two males are absent. Potential
-                absentees</character> [001], [003], [004], and [006]. * [012] and [013] are not used
+                absentees: [001], [003], [004], and [006]. * [012] and [013] are not used
             in this section due to the two males' absence, which renders these females'
-            unidentifiable out of [001-006]'s females. * [008] is absent. </sp>
-        <chapter><title>Social Script </title> [ Outside ] <stage type="info">No one is outside, as
-                monsters have appeared.</stage> [ Buildings ] <stage type="info">Mido's
+            unidentifiable out of [001-006]'s females. * [008] is absent. </stage>
+        <chapter><title>Social Script </title> <stage type="location">[ Outside ] </stage><stage type="info">No one is outside, as
+                monsters have appeared.</stage> <stage type="location">[ Buildings ]</stage> <stage type="info">Mido's
                 house:</stage>
-            <sp><character>[001] </character> Why is that fairy following you around? You're not one of
-                us! <sp><character> [002] </character> I see. You didn't have any problems entering the
+            <sp><character>[001]</character> Why is that fairy following you around? You're not one of
+                us!</sp> 
+            <sp><character> [002] </character> I see. You didn't have any problems entering the
                     forest, mister... Did the meanies out there bother you much? Before the Great
                     Deku Tree died, you wouldn't see things like that around here... Since it's
                     dangerous outside, I always stay inside my house. But I'm bored to death in
-                    here! </sp></sp><stage type="info">Saria's house:</stage>
+                    here! </sp><stage type="location">Saria's house:</stage>
             <sp><character>[003] </character> Have you been travelling around much, mister? Have you
                 ever met a boy named Link? Mido said that the Great Deku Tree withered because that
                 boy did something wrong to it... Only Saria defended Link--until she left. Maybe we
-                misunderstood... </sp><stage type="info">House of the Know-it-All Brothers:</stage>
+                misunderstood... </sp><stage type="location">House of the Know-it-All Brothers:</stage>
             <sp><character>[009] </character> Since the Great Deku Tree withered...more meanies have
-                been <sp><character>appearing in the forest... I'm scared! [010] </character> Where's
+                been ppearing in the forest... I'm scared!</sp><sp><character>[010] </character> Where's
                     Saria? Do you know Saria, mister? That's weird... Where has Mido gone during
-                    such an emergency? [011] : An evil wind is blowing from the direction of the
+                    such an emergency?</sp><sp><character>[011]</character>  An evil wind is blowing from the direction of the
                     Forest Temple. Saria left, saying, "I have to do something about it!" The Forest
                     Temple is located in the Sacred Forest Meadow in the far side of the Lost Woods.
-                </sp></sp><stage type="info">House of Twins:</stage>
-            <sp><character>[004] </character> Haven't I seen you somewhere before, mister? <sp><character>
-                        [005] </character> Saria went to the Temple and hasn't come back...
-                </sp></sp><stage type="info">Kokiri Shop:</stage>
+                </sp><stage type="info">House of Twins:</stage>
+            <sp><character>[004] </character> Haven't I seen you somewhere before, mister?</sp>
+            <sp><character>[005] </character> Saria went to the Temple and hasn't come back...</sp>
+            <stage type="info">Kokiri Shop:</stage>
             <sp><character>[006] </character> Hi, mister! You can't use a Deku Shield! It's only for
                 kids!</sp>
             <sp><character> [007] </character> You can buy arrows at a shop only if you have a bow. Have
                 you got one, mister?</sp>
-            <sp>
-                <character>[014] ^ </character> : We sell shields, but not swords!</sp>
+            <sp><character>[014]</character> : We sell shields, but not swords!</sp>
         </chapter>
     </act>
     <act number="02'16">
@@ -2430,20 +2471,20 @@ then no/another name will be stated (barring impersonation in the latter case).
                 Minuet of Forest. </sp>
             <stage type="info">Sheik readies a harp.</stage>
 
-            <sp><character>Sheik </character> Play the Minuet of Forest! <sp><character> &lt;game&gt;
-                    </character> You have learned the Minuet of Forest! Sheik : Link... I'll see you
-                    again... </sp></sp>
+            <sp><character>Sheik </character> Play the Minuet of Forest!</sp>
+            <sp><character> &lt;game&gt;</character> You have learned the Minuet of Forest! Sheik : Link... I'll see you
+                    again... </sp>
             <stage type="info">Sheik throws a Deku Nut to the ground, and is no longer present by
                 the time that its light fades.</stage>
         </chapter>
         <chapter>
             <title>Forest Temple </title>
             <stage type="info">A certain room of the temple contains several identical paintings. As
-                Link <sp><character>turns to leave the room, Ganondorf seems to appear behind him,
+                Link turns to leave the room, Ganondorf seems to appear behind him,
                         situated on a horse. However, the figure removes its mask, revealing itself
-                        to be "Evil Spirit from Beyond</character> Phantom Ganon". It rides its horse
+                        to be "Evil Spirit from Beyond: Phantom Ganon". It rides its horse
                     in and out of the paintings, afterwards dismounting the horse and floating about
-                    the room.</sp></stage>
+                    the room.</stage>
 
             <sp><character>Upon defeating Phantom Ganon, it floats to a circle of purple light in the
                     center of the room. Ganondorf </character> Hey kid, you did quite well... It looks
@@ -2456,15 +2497,16 @@ then no/another name will be stated (barring impersonation in the latter case).
         <chapter><title>Chamber of the Sages </title>
             <stage type="info">Saria appears before Link.</stage>
             <sp><character>Saria </character> Thank you... Because of you, I could awaken as a Sage...
-                        <sp><character>I am Saria. The Sage of the Forest Temple... I always believed
+                       I am Saria. The Sage of the Forest Temple... I always believed
                         that you would come. Because I know you... No... You don't have to explain
                         it to me... Because it is destiny that you and I can't live in the same
                         world. I will stay here as the Forest Sage and help you... Now, please take
-                        this Medallion... &lt;game&gt; </character> You received the Forest Medallion!
+                        this Medallion...</sp>
+            <sp><character>&lt;game&gt; </character> You received the Forest Medallion!
                     Saria awakens as a Sage and adds her power to yours! Saria will always be...your
-                    friend... </sp></sp><stage type="info">Link is transported to the Great Deku
-                Tree's Meadow.</stage> Refer to 02'17; the remainder of this section concerns
-            subsequent visits to the Lost Woods. </chapter>
+                    friend... </sp><stage type="info">Link is transported to the Great Deku
+                Tree's Meadow.</stage> <stage type="info">Refer to 02'17; the remainder of this section concerns
+            subsequent visits to the Lost Woods.</stage> </chapter>
         <chapter>
             <title>Mido's locale </title>
             <sp><character>Mido </character> Oh...I see... Saria won't ever come back... But...I...I
@@ -2503,22 +2545,22 @@ then no/another name will be stated (barring impersonation in the latter case).
         </chapter>
         <chapter><title>Social Script </title>
             <stage type="info">The Kokiri have returned to their normal positions.</stage>
-            <sp><character>[ Outside ] [001] </character> Link... I wonder if he will come back...
+            <sp><character>[ Outside ] [001] </character> Link... I wonder if he will come back...</sp>
                         <sp><character> [002] </character> Now that the Deku Tree's sprout is growing in
-                    the Great Deku Tree's meadow, the forest has returned to normal! [003] : Teach
-                    me to do some fancy fencing! All I've ever done is tap {B} all my life! [004] :
+                    the Great Deku Tree's meadow, the forest has returned to normal! </sp><sp><character>[003]</character> Teach
+                    me to do some fancy fencing! All I've ever done is tap {B} all my life! </sp><sp><character>[004]</character>
                     You're such a big, strong guy! I really want to be like you someday even though
-                    I'll always be small. [005] : I still think you really look like somebody I've
-                    seen before, mister. [006] : I feel like I've known you for a long time, mister!
-                    [007] : You can buy arrows at a shop only if you have a bow. Have you got one,
-                    mister? </sp></sp><stage type="info">[008] is still not present.</stage> [
-            Buildings ] <stage type="info">House of the Know-it-All Brothers:</stage>
-            <sp><character>[009] </character> Somehow, a fair wind has begun to blow recently.
-                        <sp><character> [010] </character> I'm sure Link will return someday! [011] :
+                    I'll always be small. </sp><sp><character>[005]</character> I still think you really look like somebody I've
+                    seen before, mister. </sp><sp><character>[006]</character> I feel like I've known you for a long time, mister!
+                    </sp><sp><character>[007]</character> You can buy arrows at a shop only if you have a bow. Have you got one,
+                    mister? </sp><stage type="info">[008] is still not present.</stage> <stage type="location">[
+            Buildings ] </stage><stage type="location">House of the Know-it-All Brothers:</stage>
+            <sp><character>[009] </character> Somehow, a fair wind has begun to blow recently.</sp>
+                        <sp><character> [010] </character> I'm sure Link will return someday!</sp><sp><character> [011]</character>
                     Since a fairy wind started to blow, I'm sure Link will come back!
-                </sp></sp><stage type="info">House of Twins:</stage>
+                </sp><stage type="location">House of Twins:</stage>
             <sp><character>[012] </character> I wonder if Saria will come back... </sp><stage
-                type="info">Kokiri Shop:</stage>
+                type="location">Kokiri Shop:</stage>
             <sp><character>[013] </character> I'm sure Link will return someday!</sp>
             <sp><character>[014] ^ </character> We sell shields, but not swords! </sp></chapter>
     </act>
@@ -2537,10 +2579,10 @@ then no/another name will be stated (barring impersonation in the latter case).
                 The song to return you to the Temple of Light... The Prelude of Light... </sp>
             <stage type="info">Sheik readies a harp.</stage>
 
-            <sp><character>Sheik </character> Play the Prelude of Light! <sp><character> &lt;game&gt;
-                    </character> You have learned the Prelude of Light! Sheik : As long as you hold
+            <sp><character>Sheik </character> Play the Prelude of Light!</sp>
+            <sp><character> &lt;game&gt;</character> You have learned the Prelude of Light! Sheik : As long as you hold
                     the Ocarina of Time and the Master Sword, you hold time itself in your hands...
-                    Link, we shall meet again! </sp></sp>
+                    Link, we shall meet again! </sp>
             <stage type="info">Sheik tosses a Deku Nut to the ground, and leaves before its light
                 fades.</stage>
 
