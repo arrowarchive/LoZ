@@ -7,7 +7,7 @@ act = element act {number,( title | chapter | stage)+}
 number = attribute number {text}
 title = element title {text}
 
-chapter = element chapter {num?, titleAtt?, title?, (sp | stage | choice | interact)+}
+chapter = element chapter {num?, titleAtt?, title?, (sp | stage | choice | interact | glossary)*}
 # 2021-03-17 ebb: Not all "chapter" units in Ocarina had titles or numbers.
 titleAtt = attribute title {text}
 # ebb: Becuase you have an attribute named title and an element named title, 
@@ -21,3 +21,7 @@ stage = element stage {type?, text}
 type = attribute type {"info" | "location" | "Success" | "Failure" | "Continue" | "Avoid"}
 interact = element interact {type?, mixed{(stage | sp)*}}
 choice = element choice {mixed{(interact | sp)+}}
+glossary = element glossary {entry+}
+entry = element entry {term, gloss}
+term = element term {text}
+gloss = element gloss {text}
