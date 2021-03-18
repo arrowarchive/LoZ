@@ -3,7 +3,7 @@ xml= element xml {pre*, toc*, act+}
 pre = element pre {number, title?, text}
 toc = element toc {heading, act+}
 heading= element heading {text}
-act = element act {number,( title | chapter)+}
+act = element act {number,( title | chapter | stage)+}
 number = attribute number {text}
 title = element title {text}
 
@@ -19,5 +19,5 @@ sp = element sp {character, mixed {(stage | interact | choice)*}}
 character = element character {text}
 stage = element stage {type?, text}
 type = attribute type {"info" | "location" }
-interact = element interact {text}
+interact = element interact {mixed{stage*}}
 choice = element choice {mixed{(interact | sp)+}}

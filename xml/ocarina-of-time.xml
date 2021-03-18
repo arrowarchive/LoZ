@@ -253,19 +253,19 @@ then no/another name will be stated (barring impersonation in the latter case).
             <stage type="info">Mido is blocking the path to the Great Deku Tree's Meadow.</stage>
 
             <sp><character>Mido </character> Hey you! "Mr. No Fairy!" What's your business with the
-                Great Deku <sp><character>Tree? Without a fairy, you're not even a real man! What?!
+                Great Deku Tree? Without a fairy, you're not even a real man! What?!
                         You've got a fairy?! Say what? The Great Deku Tree actually summoned you?
                         Whaaaaaaat?! Why would he summon you and not the great Mido? This isn't
                         funny... I don't believe it! You aren't even fully equipped yet! How do you
                         think you're going to help the Great Deku Tree without both a sword and
                         shield ready? What? You're right. I don't have my equipment ready, but... If
                         you want you pass through here, you should at least equip a sword and
-                        shield! Sheesh! Saria </character> What?! Mido won't let you go to see the
+                        shield! Sheesh! </sp><sp><character>Saria</character> What?! Mido won't let you go to see the
                     Great Deku Tree? Ohh... That bum! I don't know why he's always so mean to
                     everyone! What he said is true, though. The forest...strange things have been
                     happening here lately... You need to be ready for anything. You'd better find a
                     weapon! You can buy a shield at the shop, but there is only one sword hidden
-                    somewhere in the forest. </sp></sp>
+                    somewhere in the forest.</sp>
             <stage type="info">Past the Hole of "Z", there is a chest containing the Kokiri Sword.
                 Upon returning to Mido with both the sword and the Deku Shield equipped:</stage>
 
@@ -287,15 +287,15 @@ then no/another name will be stated (barring impersonation in the latter case).
                 test thy courage... I have been cursed... I need you to break the curse with your
                 wisdom and courage. Dost thou have courage enough to undertake this task? </sp>
             <choice>
-                <interact>(Yes) <stage type="info">The Deku Tree lowers the portion of its trunk
-                        that resembles a mouth.</stage>
+                <interact>(Yes) The Deku Tree lowers the portion of its trunk
+                        that resembles a mouth.</interact>
                     <sp><character>Deku Tree </character> Then enter, brave Link, and thou too, Navi...
-                        Navi the fairy... Thou must aid Link... and Link...When Navi speaks, use {C
-                        Up} to listen well to her words of wisdom... -</sp></interact>
-                <interact>(No) <sp><character>Deku Tree </character> Perhaps you do not yet have
+                        Navi the fairy... Thou must aid Link... and Link...<interact>When Navi speaks, use {C
+                        Up} to listen well to her words of wisdom...</interact> -</sp>
+                <interact>(No)</interact> <sp><character>Deku Tree </character> Perhaps you do not yet have
                         confidence in your abilities... Return to the Kokiri Forest to learn the
                         skills of combat... When thou art ready, return here and speak with me by
-                        using {Z}...</sp></interact>
+                        using {Z}...</sp>
             </choice>
         </chapter>
         <chapter>
@@ -303,14 +303,14 @@ then no/another name will be stated (barring impersonation in the latter case).
             <stage type="info">Deku Scrub 1 and 2 are located in different rooms.</stage>
 
             <sp><character>DekuScrub1</character> Ow-ow-ow! Forgive me, master! If I give you a clue,
-                will you let <sp><character>me go? When you jump off a high cliff, if you hold
-                        {Control Stick} forward, you will roll on the ground when you land and won't
+                will you let me go? When you jump off a high cliff, if you hold
+                        <interact>{Control Stick}</interact> forward, you will roll on the ground when you land and won't
                         get hurt from the fall. I can't guarantee it will work, though, if the cliff
                         is really, really high, heh heh! Well, try it if you are feeling bold! Wah
-                        ha hah! DekuScrub2</character> Please forgive me, master! I'll never do it
+                        ha hah! </sp><sp><character>DekuScrub2</character> Please forgive me, master! I'll never do it
                     again! If you spare me, I'll teach you something cool. You will never beat my
                     brothers up ahead unless you punish them in the proper order. The order is... 2
-                    3 1 Twenty-three is number one! Do you think I'm a traitor? </sp></sp>
+                    3 1 Twenty-three is number one! Do you think I'm a traitor?</sp>
             <stage type="info">The third Deku Scrub is accompanied by two others.</stage>
 
             <sp><character>DekuScrub3</character> How did you know our secret?! How irritating! It's so
@@ -349,7 +349,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                 type="info">The imagery ceases, and the camera pulls away from the tree's
                 mouth.</stage>
             <sp><character>Deku Tree </character> Thou must never allow the desert man in black armor to
-                lay his hands <sp><character>on the sacred Triforce... Thou must never suffer that
+                lay his hands on the sacred Triforce... Thou must never suffer that
                         man, with his evil heart, to enter the Sacred Realm of legend... That evil
                         man who cast the death curse upon me and sapped my power... Because of that
                         curse, my end is nigh... Though your valiant efforts to break the curse were
@@ -357,12 +357,12 @@ then no/another name will be stated (barring impersonation in the latter case).
                         But do not grieve for me... I have been able to tell you of these important
                         matters... This is Hyrule's final hope... Link... Go now to Hyrule Castle...
                         There, thou will surely meet the Princess of Destiny... Take this stone with
-                        you. The stone that man wanted to much, that he cast the curse on me...
-                        &lt;game&gt; </character> You got the Kokiri's Emerald! This is the Spiritual
+                        you. The stone that man wanted to much, that he cast the curse on me...</sp>
+                        <sp><character>&lt;game&gt; </character> You got the Kokiri's Emerald! This is the Spiritual
                     Stone of the Forest, now entrusted to you by the Great Deku Tree. Deku Tree :
                     The future depends upon thee, Link... Thou art courageous... Navi the fairy...
                     Help Link to carry out my will... I entreat ye... Navi... Good...bye...
-                </sp></sp><stage type="info">The Deku Tree begins to wither.</stage>
+                </sp><stage type="info">The Deku Tree begins to wither.</stage>
             <sp><character>Navi </character> Let's go to Hyrule Castle, Link!! Good-bye...Great Deku
                 Tree... </sp><stage type="info">Navi pauses for a moment, before following Link out
                 of the meadow.</stage>
@@ -376,12 +376,12 @@ then no/another name will be stated (barring impersonation in the latter case).
             <title>Social Script </title>
             <sp><character>[ Outside ] [001] </character> We Kokiri will die if we leave the forest!
                 You're not going to try to leave the forest, are you?! </sp>
-            <sp><character>[002] </character> What? Where are you going?! To the castle? Where is the
-                castle? <sp><character> [003] </character> Mido is very upset! Did something happen to
+            <sp><character>[002]</character> What? Where are you going?! To the castle? Where is the
+                castle? </sp><sp><character> [003] </character> Mido is very upset! Did something happen to
                     him? [005] : What? Where are you going?! To the castle? Where is the castle?
                     [006] : Mido is very upset! Did something happen to him? [007] : What? Where are
                     you going?! To the castle? Where is the castle? [008] : What did you do to the
-                    Great Deku Tree? [ Buildings ] </sp></sp>
+                    Great Deku Tree? [ Buildings ] </sp>
             <stage type="info">Mido's house:</stage>
 
             <sp><character>Mido </character> Hey!! What are you doing in my house?! </sp>
@@ -396,23 +396,23 @@ then no/another name will be stated (barring impersonation in the latter case).
             <title>Forest exit </title>
             <stage type="info">Link comes to a bridge, whereat Saria is present.</stage>
 
-            <sp><character>Saria </character> Oh, you're leaving... <sp><character> I knew...that you
+            <sp><character>Saria </character> Oh, you're leaving... I knew...that you
                         would leave the forest...someday, Link... Because you are different from me
                         and my friends... But that's OK, because we'll be friends forever...won't
                         we? I want you to have this Ocarina... Please take good care of it.
-                        &lt;game&gt; </character> You received the Fairy Ocarina! This is a memento
+                        </sp><sp><character>&lt;game&gt; </character> You received the Fairy Ocarina! This is a memento
                     from Saria. Set it to {C} and press {C} to start playing it! On the Select Item
                     Subscreen, you can set it to {c Left}, {C Down} or {C Right}, and then use that
                     {C} to start playing it. You can play different notes with {A} and the four {C}
                     Buttons. Press {B} to quit playing, or to start your song over again. Saria :
                     When you play my Ocarina, I hope you will think of me and come back to the
-                    forest to visit. </sp></sp>
+                    forest to visit.</sp>
             <stage type="info">After a pause, Link departs.</stage>
 
         </chapter>
     </act>
     
-    <act number="02'02"><title>Hyrule Field </title>
+    <act number="02'02"><title>Hyrule Field </title><chapter>
         <stage type="location">Near: Kokiri Forest </stage>
         <stage type="info">An owl named "Kaepora Gaebora" is perched atop a tree branch.</stage>
         <sp><character>Gaebora </character> Hoo hoot! Link... Look up here! It appears that the time has
@@ -423,100 +423,101 @@ then no/another name will be stated (barring impersonation in the latter case).
             be shown on the Map. Press START to enter the Subscreens and {Z} or {R} to find the Map.
             On the Map Subscreen, you will also see a flashing dot showing you which way you should
             go next. Did you get all that? </sp><choice><interact>"No" prompts him to repeat the
-                second paragraph. </interact><interact>"Yes" prompts:</interact></choice>Gaebora :
-        All right then, I'll see you around! Hoot hoot hoot ho! <stage type="location">Near:
+                second paragraph. </interact><interact>"Yes" prompts: Gaebora :
+        All right then, I'll see you around! Hoot hoot hoot ho!</interact></choice> <stage type="location">Near:
             Kakariko Village </stage>
         <sp><character>Gaebora </character> Hey, Link! Wait a second, friend! Beyond this point you'll
             find Kakariko Village. Have you seen the Princess of Hyrule? If not, I suggest you go to
             the castle. Do you want to hear what I said again? </sp><choice><interact>"Yes" prompts
                 him to repeat himself from the beginning. </interact><interact>"No"
-                prompts:</interact></choice>Gaebora : Link, you're the only one who can complete the
-        quest ahead! You must do your best! Hoo! <stage type="location">Near: Lake Hylia </stage>
+                prompts: Gaebora : Link, you're the only one who can complete the
+        quest ahead! You must do your best! Hoo!</interact></choice> 
+        <stage type="location">Near: Lake Hylia </stage>
         <sp><character>Gaebora </character> Beyond this point lies Lake Hylia. It is full of deep, pure
             water. The Zoras, who live all the way upstream, guard the sunken temple at the lake's
             bottom, as well as Zora's Fountain. If you want to confirm its location on the map,
             press STAR to switch to the Subscreens and {Z} or {R} to find the Map. All the places
             you have visited will be shown on the map. Ho hoo hoot! Do you want to hear what I said
             again? </sp><choice><interact>"Yes" prompts him to repeat himself from the beginning.
-                </interact><interact>"No" prompts:</interact></choice>Gaebora : OK, be careful and
-        go! <stage type="location">Near: Gerudo Valley </stage>
+                </interact><interact>"No" prompts Gaebora : OK, be careful and
+        go! </interact></choice><stage type="location">Near: Gerudo Valley </stage>
         <sp><character>Gaebora </character> Link! Wait up, buddy! Hoo hoo! Head south from here to reach
             Lake Hylia's full, rich waters. If you go west, you'll find Gerudo Valley. There's a
             hideout of a gang of thieves on the other side of the valley. Well, you're free to go
             anywhere you want! Ho ho ho... hooo! Do you want to hear what I said again?
                 </sp><choice><interact>"Yes" prompts him to repeat himself from the beginning.
-                </interact><interact>"No" prompts:</interact></choice>Gaebora : No matter how hard
-        it is, just don't get discouraged. Ho Ho Hoo! </act>
+                </interact><interact>"No" prompts Gaebora : No matter how hard
+        it is, just don't get discouraged. Ho Ho Hoo! </interact></choice></chapter></act>
     <act number="02'03">
         <title>Hyrule Castle </title>
 
         <chapter><title> Hyrule Castle Town - Social Script, daytime </title>
             <sp><character>[ Entrance ] [001] </character> Welcome to Hyrule Castle Town. It's a
-                peaceful, prosperous town. <sp><character> [002] </character> Man, I am SO bored...
+                peaceful, prosperous town. </sp><sp><character> [002] </character> Man, I am SO bored...
                     Things would sure be more interesting if there were more...troubles in the
                     world... Hey, that's just between you and me, OK? Anyway, maybe we can let off
                     some steam by breaking these jars. Stand near a jar and press {A} to lift it.
-                    Press {A} again to toss it! </sp></sp><stage type="location"> Market - Outside </stage>
+                    Press {A} again to toss it! </sp><stage type="location"> Market - Outside </stage>
             <sp><character>[003] </character> Wha-ha-ha! What a crazy guy! Can you believe this guy was
                 crazy enough to try to sneak into the castle to see Princess Zelda? All because of
                 this idiot, they've tightened security at the castle. Wha-ha-ha!
                     </sp><sp><character>[004] </character> I wanted to see Princess Zelda! I avoided the
-                guards... Swam through <sp><character>the moat... I was almost there when they caught
+                guards... Swam through the moat... I was almost there when they caught
                         me! I found a small drain hole on the right side of the castle that I
-                        thought I could sneak into, but I got stuck there. [005] </character> Do you
+                        thought I could sneak into, but I got stuck there.</sp><sp><character> [005] </character> Do you
                     know about the Temple of Time that we have in the northeast part of town?
                     Legends say that the Temple of Time is the entrance to the Sacred Realm... Did
-                    you know that? [006] : Have you heard the legend of the "Shadow Folk"? They are
+                    you know that? </sp><sp><character>[006]</character> : Have you heard the legend of the "Shadow Folk"? They are
                     the Sheikah...the shadows of the Hylians. They say they swore allegiance to the
                     King of Hyrule and guarded the Royal Family. But with the long peace, no one has
                     seen a Sheikah around here for a long time. However... I heard there is one
-                    Sheikah woman living in the castle... [007] : I made a lot of money! Maybe I
+                    Sheikah woman living in the castle...</sp><sp> <character>[007]</character> : I made a lot of money! Maybe I
                     should go look for more things to sell! I know! I should go to Lake Hylia! Many
-                    things float down the river and end up there! Hah hah! [008] : Please...with
+                    things float down the river and end up there! Hah hah!</sp><sp> <character>[008]</character> : Please...with
                     {C}... Please sell me something... Please...with
-                        <sp><character>{C}</character>...</sp>
-                </sp></sp><stage type="info">Nothing can be sold to [008] until a bottle is
-                acquired, in which case:</stage> Please...with {C}... Please sell me the contents of
+                    {C}...</sp>
+                <choice>Nothing can be sold to [008] until a bottle is
+                acquired, in which case:<interact> Please...with {C}... Please sell me the contents of
             a bottle... Please...with {C}... Oh, that's Blue Fire! I'll buy it for 150 Rupees! Oh,
             it's a cute little Bug! I'll buy it for 50 Rupees. Oh, a Fish! I'll buy it for 100
-            Rupees! All sales final, OK? <stage type="info">If an unacceptable item is
-                presented:</stage>
-            <sp><character>No... I can't take that... That's not what I want to buy. [009] </character>
-                I'm not dancing, you know... my back itches! Ooh! Aaah! Ooh! <sp><character> [010]
-                    </character> Hey, forest boy! This is the city of Hyrule! Take your time and enjoy
+            Rupees! All sales final, OK? </interact>If an unacceptable item is
+                presented:
+            No... I can't take that... That's not what I want to buy. [009] 
+                I'm not dancing, you know... my back itches! Ooh! Aaah! Ooh!</choice>
+            <sp><character> [010]</character> Hey, forest boy! This is the city of Hyrule! Take your time and enjoy
                     the sights! If you came here to see Hyrule Castle, take the street on your
                     right. If you want to see the back alleys of the town, take the street to the
-                    left. [011] : My precious puppy can run faster than any of the other mutts
-                    around here! [012] : Kid, have you been to Lon Lon Ranch? Their milk is
+                    left. </sp><sp><character>[011]</character> : My precious puppy can run faster than any of the other mutts
+                    around here!</sp><sp> <character>[012]</character> : Kid, have you been to Lon Lon Ranch? Their milk is
                     delicious! There are many horses there, and the young daughter of the ranch
                     owner is cute! To get to Lon Lon Ranch, after you leave town, head due south
-                    across the field. You should visit the ranch at least once! </sp></sp><stage
+                    across the field. You should visit the ranch at least once!</sp><stage
                 type="info">[013] and [014] are dancing together.</stage>
             <sp><character>[013-014] </character>{1} Ohh... You are...so handsome... Just like the King
                 of Hyrule... Hee hee... </sp>
             <sp><character>{2}</character> Ohh... You
-                            are...more beautiful...than Princess Zelda... Ohh...</sp> [015]
-                    </speaker> Ahem! Hrrrm! This beard is my pride and joy! Doesn't it look
-                    luxuriant, kid?! [016] : Huff huff! I'm late! I'm late! For a very important
-                    date! [017] : I can't catch that Cucco! [018] : They say we Hylians have big
+                            are...more beautiful...than Princess Zelda... Ohh...</sp><sp><character> [015]
+                    </character> Ahem! Hrrrm! This beard is my pride and joy! Doesn't it look
+                    luxuriant, kid?! </sp><sp><character>[016]</character> Huff huff! I'm late! I'm late! For a very important
+                    date! </sp><sp><character>[017]</character> : I can't catch that Cucco!</sp><sp> <character>[018]</character> : They say we Hylians have big
                     ears in order to hear the voices of the gods...but I've never heard them! Crowds
                     :{1} Hey, have you heard that Princess Zelda sees prophetic visions in her
-                    dreams? <sp><character>{2}</character> Hey, who bumped me?!</sp>
+                    dreams?</sp> <sp><character>{2}</character> Hey, who bumped me?!</sp>
                     <sp><character>{3}</character> Huh? What? Shoo, kid! Shoo!</sp>
                     <sp><character>{4}</character> Hey, let go! It's mine! I found it first!</sp>
                     <sp><character>{5}</character> C'mon, can't you make it any cheaper?</sp>
-                </sp></sp><stage type="location"> Market - Buildings </stage>
+                <stage type="location"> Market - Buildings </stage>
             <sp><character>Note 01 </character> Treasure Chest Contest Temporarily Closed Open Tonight!
                 </sp><stage type="info">Bombchu Bowling Alley:</stage>
             <sp><character>[019] </character> zzzzz...zzzzz... Oh, I'm sorry. We're not open for
                 business yet. Please come back soon! </sp><stage type="info">Shooting
-                Gallery:</stage>
-            <sp><character>Sign 01 </character> Shooting Gallery <sp><character>20 Rupees for one play
+                Gallery:
+            Sign 01 Shooting Gallery 20 Rupees for one play
                         There are 10 targets. You have 15 chances. Hit all 10 targets! Hit 10
                         targets -- Perfect Prize Hit 8 or more -- Free Retry Hit less than 8 -- Game
                         Over Rules at this Shooting Gallery Don't lean on the counter. Don't disturb
-                        other customers. [020] </character> Do you want to play a game? It's 20 Rupees
-                    per play. </sp></sp><choice>
+                        other customers. [020] Do you want to play a game? It's 20 Rupees
+                    per play.</stage><choice>
                 <interact>(Yes) Nope, you don't have enough Rupees! <stage type="info">With
                         sufficient funds:</stage> OKAY!! This is a game for grownups! Hyrule's
                     famous Shooting Gallery! Take aim at the targets from that platform over there!
@@ -529,33 +530,33 @@ then no/another name will be stated (barring impersonation in the latter case).
                         >He provides an upgrade to the slingshot's ammunition storage. Subsequently,
                         he provides Purple Rupees.</stage> -</interact>
                 <interact>(Nope) All right. You don't have to play if you don't want to.</interact>
-            </choice><stage type="info">Happy Mask Shop:</stage>
-            <sp><character>Additional script concerning this shop is transcribed in 03'04 and 03'05.
-                    [021] </character> What a strange shop! I wonder when it'll be open for business.
-                        <sp><character>I read the sign there, but it still seems weird! Sign 02
+            </choice><stage type="info">Happy Mask Shop:
+            Additional script concerning this shop is transcribed in 03'04 and 03'05.</stage>
+                    <sp><character>[021]</character> What a strange shop! I wonder when it'll be open for business.
+                        I read the sign there, but it still seems weird!</sp><sp><character> Sign 02
                     </character> Happy Mask Shop Please read this sign before you use this shop. How
                     This Shop Works We do not sell masks at this shop. We just lend them to you. You
                     sell the loaned masks on your own. You pay back the money for the mask, and we
                     will lend you a newer model. You can borrow masks you have already sold again;
                     however, you can sell each model of mask only once. Please try our shop! --Happy
-                    Mask Shop Owner </sp></sp><stage type="info">Potion Shop:</stage>
-            <sp><character>[022] </character> There is a rumor going around that there is a Potion Shop
-                that can <sp><character>make the ultimate medicine! [023] ^ </character> Hey, kid! If
-                    you want to carry medicine, you need a container to put it in! </sp></sp><stage
+                    Mask Shop Owner </sp><stage type="info">Potion Shop:</stage>
+            <sp><character>[022]</character> There is a rumor going around that there is a Potion Shop
+                that can make the ultimate medicine!</sp><sp><character>[023]</character> Hey, kid! If
+                    you want to carry medicine, you need a container to put it in!</sp><stage
                 type="info">Bazaar:</stage>
             <sp><character>[024] </character> I heard a rumor that there is a monster that eats Hylian
-                Shields <sp><character>somewhere out there in the world. Have you ever seen it? [025]
+                Shields somewhere out there in the world. Have you ever seen it?</sp><sp><character> [025]
                         ^ </character> My current hot seller is the Hylian Shield, but it might be too
-                    big for you, kid. </sp></sp><stage type="info">When purchasing a Hylian Shield,
-                after the Death Mountain gate has been opened:</stage> You heard about us from the
-            guard at Death Mountain gate? Well, I have to give you a good deal then! <stage
+                    big for you, kid.</sp><stage type="info">When purchasing a Hylian Shield,
+                after the Death Mountain gate has been opened: You heard about us from the
+            guard at Death Mountain gate? Well, I have to give you a good deal then!</stage> <stage
                 type="info">He deducts ten Rupees from the eighty-Rupee price.</stage>
             <stage type="location"> Back Alley - Outside </stage>
             <sp><character>[026] </character> Hey, sonny, I'll tell you something helpful... I heard
                 there is a mysterious fountain somewhere near the castle... </sp><sp><character>[027]
                 </character> It seems strange that packs of dogs roam our streets at night...
-                        <sp><character>Doesn't that seem weird to you? [028] </character> Heyyy,
-                    what...? What's wrong with loitering around all day? Huh, kid? </sp></sp><stage
+                        Doesn't that seem weird to you?</sp><sp><character> [028] </character> Heyyy,
+                    what...? What's wrong with loitering around all day? Huh, kid?</sp><stage
                 type="location"> Back Alley - Buildings </stage>
             <stage type="info">The first and third buildings:</stage>
             <sp><character>Navi </character> Strange...this door doesn't open... </sp><stage type="info"
@@ -565,11 +566,11 @@ then no/another name will be stated (barring impersonation in the latter case).
             <title> Hyrule Castle Town - Social Script, nighttime </title>
 
             <sp><character>[ Entrance ] [001] </character> Kids shouldn't be wandering around town at
-                nighttime! Stay indoors <sp><character>until morning! [002] </character> Man, I am SO
+                nighttime! Stay indoors until morning!</sp><sp><character>[002] </character> Man, I am SO
                     tired... The night watch is so boring! I wish some ghosts would come out or
                     something... Hey, I'm really interested in ghosts! Studying them is a hobby of
                     mine, but you never know... the time might come when that kind of knowledge
-                    might be useful! </sp></sp>
+                    might be useful!</sp>
             <stage type="location"> Market - Outside </stage>
             <stage type="info">Two guards here say the same thing as [001].</stage>
 
@@ -601,10 +602,10 @@ then no/another name will be stated (barring impersonation in the latter case).
             </choice>
             <stage type="info">Bombchu Bowling Alley:</stage>
 
-            <sp><character>[019]'s script has not changed. Note 02 </character> Shooting Gallery
-                        <sp><character>Open only during the day Note 03 </character> Happy Mask Shop Now
-                    hiring part-time Apply during the day Note 04 : Medicine Shop Closed until
-                    morning Note 05 : Bazaar Open only during the day </sp></sp>
+            <sp><character>[019]'s</character> script has not changed. </sp><sp><character>Note 02</character>  Shooting Gallery
+                        Open only during the day</sp><sp><character>Note 03</character> Happy Mask Shop Now
+                    hiring part-time Apply during the day </sp><sp><character>Note 04</character> : Medicine Shop Closed until
+                    morning </sp><sp><character>Note 05</character> : Bazaar Open only during the day</sp>
             <stage type="location"> Back Alley - Buildings </stage>
             <stage type="info">The first building appears to be a shop, but no one is
                 inside.</stage>
@@ -633,15 +634,15 @@ then no/another name will be stated (barring impersonation in the latter case).
                 appears there on subsequent visits.</stage>
 
             <sp><character>Malon </character> Are you going to the castle, fairy boy? Would you mind
-                finding my <sp><character>dad? He must have fallen asleep somewhere around the castle.
+                finding my dad? He must have fallen asleep somewhere around the castle.
                         What a thing for an adult to do! Tee hee! Oh yeah, if you look for him, I'll
                         give this to you. I've been incubating this egg very carefully... Tee hee!
-                        &lt;game&gt; </character> You got a Weird Egg! Feels like there's something
+                        </sp><sp><character>&lt;game&gt;</character><choice><interact> You got a Weird Egg! Feels like there's something
                     moving inside! Set it to {C} and see what happens! On the Select Item Subscreen,
                     you can set it to {C Left}, {C Down} or {C Right}, and then press
-                            <sp><character>{C}</character> to use it.</sp> Malon : Set the egg to {C} to
+                    {C} to use it. Malon : Set the egg to {C} to
                     incubate it. Hee hee! My dad is really troublesome, for an adult, isn't he?! hee
-                    hee! </sp></sp>
+                    hee! </interact></choice></sp>
             <stage type="info">Upon the arrival of 06:00:</stage>
 
             <sp><character>Navi </character> Look! A chicken hatched from the egg you were incubating!
@@ -654,8 +655,8 @@ then no/another name will be stated (barring impersonation in the latter case).
                 in a town. If you want time to pass normally, you'll need to leave town. Well, well,
                 which way are you going to go now? Hoo hoo hoot! Do you want to hear what I said
                 again? </sp><choice><interact>"Yes" prompts him to repeat himself from
-                    </interact><interact>"On this ground". "No" prompts:</interact></choice>Gaebora
-            : Hoooo. You're a smart kid. Good luck, then. Hoo hoo. <stage type="info">A guard stands
+                    "On this ground". "No" prompts:</interact></choice><sp><character>Gaebora</character>
+            : Hoooo. You're a smart kid. Good luck, then. Hoo hoo.</sp> <stage type="info">A guard stands
                 by a large gate.</stage>
             <sp><character>Guard 01 </character> Welcome to Hyrule Castle Town. It's a peaceful,
                 prosperous town. </sp><stage type="info">Vines allow access to a cliff that leads
@@ -690,19 +691,19 @@ then no/another name will be stated (barring impersonation in the latter case).
         <chapter><title>Castle Courtyard </title>
             <stage type="info">There are three windows here. In one window are paintings of Mario,
                 Luigi, Bowser, Peach, and Yoshi of the Mario videogame series.</stage>
-            <sp><character>Upon firing a seed from the slingshot into the second window, a guard
-                    speaks from behind it and throws a bomb into the courtyard, saying</character>
-                <sp><character> Guard </character> Hey you! Don't cause any trouble! </sp></sp><stage
+            <stage type="info">Upon firing a seed from the slingshot into the second window, a guard
+                    speaks from behind it and throws a bomb into the courtyard, saying</stage>
+                <sp><character>Guard</character> Hey you! Don't cause any trouble!</sp><stage
                 type="info">The princess is looking into the third window.</stage>
             <sp><character>Zelda </character> ! Who?! Who are you? How did you get past the guards? Oh?
                 What's that? Is that...a fairy?! Then, are you... Are you from the forest?
                 Then...then...you wouldn't happen to have... the Spiritual Stone of the Forest,
-                would you?! That green and shining stone... Do you have it? </sp><choice>
-                <interact>(Yes) &lt;see below&gt; -</interact>
-                <interact>(No) <sp><character>Zelda </character> Well, that's odd... I thought you might
+                would you?! That green and shining stone... Do you have it? </sp><sp>
+                <interact>(Yes)</interact> &lt;see below&gt; -
+                <interact>(No)</interact></sp><sp><character>Zelda </character> Well, that's odd... I thought you might
                         be the one from my dream... You really don't have it? Tell me the truth...
-                        Do you have it?</sp></interact>
-            </choice>Zelda : Just as I thought! I had a dream...In the dream, dark storm clouds were
+                        Do you have it?</sp>
+            <sp><character>Zelda</character> : Just as I thought! I had a dream...In the dream, dark storm clouds were
             billowing over the land of Hyrule... But suddenly, a ray of light shot out of the
             forest, parted the clouds and lit up the ground... The light turned into a figure
             holding a green and shining stone, followed by a fairy... I know this is a prophecy that
@@ -711,7 +712,7 @@ then no/another name will be stated (barring impersonation in the latter case).
             am Zelda, Princess of Hyrule. What is your name? ..... Link... Strange...it sounds
             somehow... familiar. OK then, Link... I'm going to tell you the secret of the Sacred
             Realm that has been passed down by the Royal Family of Hyrule. Please keep this a secret
-            from everyone... <interact>(OK)</interact> &lt;see below&gt; <interact>(No)</interact>
+            from everyone... <interact>(OK)</interact> &lt;see below&gt; <interact>(No)</interact></sp>
             <sp><character>Zelda </character> C'mon...don't be a blabber-mouth! Please keep this a
                 secret from everyone... </sp><sp><character>Zelda </character> The legend goes like
                 this... The three goddesses hid the Triforce containing the power of the gods
@@ -727,8 +728,8 @@ then no/another name will be stated (barring impersonation in the latter case).
                 this legend... The Ocarina of Time! Did you understand well the story I just told
                 you? </sp><choice>
                 <interact>(Yes) &lt;see below&gt; -</interact>
-                <interact>(No) <sp><character>Zelda </character> Oh, I'm sorry. I'm not very good at
-                        storytelling...</sp></interact>
+                    <interact>(No)</interact> <sp><character>Zelda </character> Oh, I'm sorry. I'm not very good at
+                        storytelling...</sp>
             </choice><stage type="info">She repeats herself from "That's right..."</stage>
             <sp><character>Zelda </character> That's great! I forgot to tell you... I was spying through
                 this window just now... The other element from my dream...the dark clouds... I
@@ -743,38 +744,38 @@ then no/another name will be stated (barring impersonation in the latter case).
                 swears allegiance to my father, I am sure he is not sincere. The dark clouds that
                 covered Hyrule in my dream... They must symbolize that man! </sp><stage type="info"
                 >He looks toward the window. Link backs up.</stage>
-            <sp><character>Zelda </character> What happened? Did he see you? Don't worry. He doesn't
+            <sp><character>Zelda</character> What happened? Did he see you? Don't worry. He doesn't
                 have any idea what we're planning...yet! ........Yes. I told my father about my
                 dream... However, he didn't believe it was a prophecy... But...I can sense that
                 man's evil intentions! What Ganondorf is after must be nothing less than the
                 Triforce of the Sacred Realm. He must have come to Hyrule to obtain it! And, he
                 wants to conquer Hyrule...no, the entire world! Link...now, we are the only ones who
-                can protect Hyrule! Please! </sp><interact>(OK)</interact> &lt;see below&gt;
-                <interact>(I don't believe you.)</interact>
-            <sp><character>Zelda </character> Please believe me... My prophecies have never been wrong!
-                Please! </sp><sp><character>Zelda </character> Thank you! <sp><character> I...I am
+                can protect Hyrule! Please!</sp><choice><interact>(OK) &lt;see below&gt;
+                (I don't believe you.)</interact></choice>
+            <sp><character>Zelda</character> Please believe me... My prophecies have never been wrong!
+                Please! </sp><sp><character>Zelda </character> Thank you! I...I am
                         afraid... I have a feeling that man is going to destroy Hyrule. He has such
                         terrifying power! But it's fortunate that you have come... We must not let
                         Ganondorf get the Triforce! I will protect the Ocarina of Time with all my
                         power! He shall not have it! You go find the other two Spiritual Stones!
                         Let's get the Triforce before Ganondorf does, and then defeat him! One more
-                        thing... Take this letter... I'm sure it will be helpful to you.
-                        &lt;game&gt; </character> You received Zelda's Letter! Wow! This letter has
+                        thing... Take this letter... I'm sure it will be helpful to you.</sp>
+                        <sp><character>&lt;game&gt;</character><interact>You received Zelda's Letter! Wow! This letter has
                     Princess Zelda's autograph! Set it to {C} and show it with {C}. On the Select
                     Item Subscreen, you can set it to {C left}, {C Down} or {C Right}, and then use
                     that {C} to show it to people. Zelda : My attendant will guide you out of the
-                    castle. Don't be afraid to talk to her. </sp></sp><stage type="info">Near the
+                    castle. Don't be afraid to talk to her. </interact></sp><stage type="info">Near the
                 courtyard's entrance.</stage>
-            <sp><character>Impa </character> I am Impa of the Sheikahs. I am responsible for protecting
-                Princess <sp><character>Zelda. Everything is exactly as the Princess foretold. You are
+            <sp><character>Impa</character> I am Impa of the Sheikahs. I am responsible for protecting
+                Princess Zelda. Everything is exactly as the Princess foretold. You are
                         a courageous boy... You are heading out on a big, new adventure, aren't you?
                         My role in the Princess's dream was to teach a melody to the one from the
                         forest. This is an ancient melody passed down by the Royal Family. I have
                         played this song for Princess Zelda as a lullaby ever since she was a
                         baby... There is mysterious power in these notes. Now listen carefully...
-                        Memorize this song... &lt;game&gt; </character> You've learned Zelda's
-                    Lullaby! Impa : If the castle soldiers find you, there will be trouble. Let me
-                    lead you out of the castle. </sp></sp><stage type="info">She takes Link to
+                        Memorize this song...</sp><sp><character>&lt;game&gt;</character> You've learned Zelda's
+                    Lullaby! </sp><sp><character>Impa</character> If the castle soldiers find you, there will be trouble. Let me
+                    lead you out of the castle.</sp><stage type="info">She takes Link to
                 Hyrule Field.</stage>
             <sp><character>Impa </character> You brave lad... We must protect this beautiful land of
                 Hyrule! Take a good look at that mountain. That is Death Mountain, home of the
@@ -797,11 +798,11 @@ then no/another name will be stated (barring impersonation in the latter case).
             <sp><character>[ Outside ] [001] </character> Oh, you're OK? You didn't leave the forest
                 after all, did you? </sp>
             <sp><character>[002] </character> Saria wanted to see you... Did she find you already?
-                        <sp><character> [003] </character> You have a cool Slingshot, huh? You know
+                        </sp><sp><character> [003] </character><interact> You have a cool Slingshot, huh? You know
                     what's cool about it? You can aim while holding down {C} and shoot by releasing
                     the button! How cool! If you have the Slingshot ready, you can use
-                            <sp><character>{Z}</character> Targeting to shoot while moving.... Did you
-                        know that?</sp> [004] : Did you know that if you hold {Control Stick}
+                            {Z} Targeting to shoot while moving.... Did you
+                        know that?</interact></sp><sp> <character>[004]</character> : Did you know that if you hold {Control Stick}
                     forward when you jump off a cliff, you'll roll when you land. This will absorb
                     the shock of your landing. If you fall too far, though, you'll still get hurt...
                     [005] : Saria said she's waiting at the usual spot. [006] : Jumping is going out
@@ -812,34 +813,34 @@ then no/another name will be stated (barring impersonation in the latter case).
                     Saria, she's in the Lost Woods, as usual. Don't tell me you don't know where
                     that is! The entrance is up on the cliff overlooking the village! I know you'll
                     get lost! Don't worry, you'll just end up back at the entrance! Harumph!
-                </sp></sp>
+                </sp>
             <stage type="info">House of Twins:</stage>
 
             <sp><character>[012] </character> Link, are you going to go away? </sp>
         </chapter>
 
     </act>
-    <act number="02'05"><title>Lost Woods </title> The "Area XX" portions precede the meadow. The
+    <act number="02'05"><title>Lost Woods </title><stage type="info"> The "Area XX" portions precede the meadow. The
         numbers have no bearing on the woods's layout. Events transcribed in areas 03-07 are
-        optional. <chapter><title>Area 01</title>
+        optional.</stage> <chapter><title>Area 01</title>
             <sp><character>Gaebora </character> Hey, over here! Hoo hoo! Link...good to see you again!
                 Listen to this! Hoot hoot... After going through the Lost Woods, you will come upon
                 the Sacred Forest Meadow. That is a sacred place where few people have ever walked.
                 Shhhh...What's that? I can hear a mysterious tune... You should listen for that tune
                 too... Hoo hoo ho! Do you want to hear what I said again?
                     </sp><choice><interact>"Yes" prompts him to repeat himself from
-                    </interact><interact>"After going". "No" prompts:</interact></choice>Gaebora :
+                    </interact><interact>"After going". "No" prompts:</interact>Gaebora :
             If you are courageous, you will make it through the forest just fine... Just follow your
-            ears and listen to the sounds coming from the forest! Hoot hoot! </chapter>
+            ears and listen to the sounds coming from the forest! Hoot hoot! </choice></chapter>
         <chapter><title>Sacred Forest Meadow </title>
             <sp><character>Saria </character> I've been waiting for you, Link! This is the Sacred Forest
                 Meadow. It's my secret place! I feel... This place will be very important for both
                 of us someday. That's how I feel. If you play the Ocarina here, you can talk with
                 the spirits in the forest. Would you like to play the Ocarina with me?
-                        </sp><choice><interact><interact>(Yes)</interact> &lt;no
-                    script&gt;</interact> <interact><interact>(Don't do it)</interact>
+                        </sp><choice><interact>(Yes) &lt;no
+                    script&gt;</interact><interact>(Don't do it)</interact>
                     <sp><character>Saria </character> Huh?! How boring! C'mon! Play
-                    along!</sp></interact></choice> <sp><character>Saria </character> OK, try to follow
+                    along!</sp></choice> <sp><character>Saria </character> OK, try to follow
                 along with the melody I will play. Are you ready?</sp>
             <sp><character> &lt;game&gt; </character> Follow along with Saria's Song! Saria : Great!
                 Great! Please don't forget this song! Do you promise? When you want to hear my
@@ -849,10 +850,10 @@ then no/another name will be stated (barring impersonation in the latter case).
         <chapter><title>Area 02 </title>
             <sp><character>Gaebora </character> Hoo hoo! Did you learn an Ocarina song from Saria? That
                 melody seems to have some mysterious power. There may be some other mysterious songs
-                like this that you can learn in Hyrule. </sp><sp><character>If you hold the Ocarina
+                like this that you can learn in Hyrule.If you hold the Ocarina
                     with {C} where a melody is necessary, a musical staff will appear. I recommend
                     that you play a song you know. I also suggest that you play even when a score is
-                    not displayed, just like this</character> Hoo hoo hoo hoot hoot hoot! Do you want
+                    not displayed, just like this. Hoo hoo hoo hoot hoot hoot! Do you want
                 to hear what I said again? </sp><choice><interact>"Yes" prompts him to repeat
                     himself from </interact><interact>"If you hold". "No"
                 prompts:</interact></choice>Gaebora : Melodies you have learned will be recorded on
@@ -878,7 +879,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                 provides a "Deku Seeds Bullet Bag".</stage> <stage type="info">Two Skull Kids are
                 standing on tree stumps. When Link readies his Ocarina while standing on a third
                 stump:</stage> <sp><character>SkullKid 2</character> Follow along with our song on your
-                Ocarina. We'll lead you into it. </sp><try><interact type="Failure">
+                Ocarina. We'll lead you into it. </sp><interact type="Failure">
                             <sp><character>SkullKid 2</character> Too bad...Heh heh! Do you want to play
                         some more? </sp><choice><interact>"Yes" repeats the event from the
                             beginning. </interact><interact>"No" ends the
@@ -892,7 +893,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                         some more? </sp><choice><interact>"Yes" repeats the event from the
                             beginning. </interact><interact>"No" ends the
                     event.</interact></choice></interact>
-            </try>
+            
         </chapter>
         <chapter><title>Area 06 </title>
             <stage type="info">Underground:</stage> <sp><character>Sign </character> Forest Stage We are
@@ -940,7 +941,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                     normal Cuccos. If you can pick out these three special birds from among the
                     normal Cuccos within the time limit, I'll give you something good. If you can't
                     find them, I win. It'll be 10 Rupees... Want to play?
-                    </sp></sp><interact><interact>(Yes)</interact></interact> You don't have enough
+                    </sp></sp><interact>(Yes)</interact> You don't have enough
             Rupees! <stage type="info">With sufficient funds:</stage> You have 30 seconds! All
             righty then, get ready. Here go the Super Cuccos! START LOOKIN'!! Time's up! Too
             baaaaad!! These are some great Cuccos aren't they! They're raking in money for me! Come
@@ -985,7 +986,7 @@ then no/another name will be stated (barring impersonation in the latter case).
 
         <chapter><title> Social Script - Daytime </title>
             <sp><character>[ Outside ] [001] </character> Ding dong, ding dong! I'm a clock soldier of
-                Kakariko! The current <sp><character>time is</character> &lt;:&gt;. Hello there, son.
+                Kakariko! The current time is &lt;:&gt;. Hello there, son.
                     Zelda's attendant, the great Impa, opened this village to the common people. We
                     have only a small population now, but someday this place will be as lively as
                     Hyrule Castle Town! Oh, yes! It will! Climb up the stairs at the north end of
@@ -1006,7 +1007,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                     his hut. Why don't you go out onto the field and kill some time? [006] : This
                     used to be the great Impa's house, but she doesn't live here any longer. It is
                     now open to all villagers. You are free to go on in. This village used to be a
-                    Sheikah village, but the great Impa opened it to everyone. </sp></sp><stage
+                    Sheikah village, but the great Impa opened it to everyone.</sp><stage
                 type="info">[007] is on the roof of Granny's Potion Shop.</stage>
             <sp><character>[007] </character> I can't get down, so all I can do is look at Death
                 Mountain. </sp><stage type="info">When speaking to him while on the roof:</stage>
@@ -2119,9 +2120,9 @@ then no/another name will be stated (barring impersonation in the latter case).
             <sp><character>[CT-013] and [CT-014] are dancing together behind the windmill.
                     [CT-13/14]</character>{1} Hee hee... Violating our personal space! He must have
                 something <sp><character>better to do... Don't you agree, darling?
-                                <sp><speaker>{2}</character> Heh.... What an annoying person,
+                                <sp><character>{2}</character> Heh.... What an annoying person,
                             interrupting us like this... Don't you agree, my love?</sp> [CT-015]
-                    </speaker> The windmill draws water up from the depth of the well. Now the well
+                     The windmill draws water up from the depth of the well. Now the well
                     is dried up, though. Hrrrrm... </sp></sp><stage type="info">[CT-018] is on top
                 of a tower.</stage>
             <sp><character>[CT-018] </character> Look at me! I'm on top of the world! It really bothers
@@ -2318,7 +2319,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                     obstacle course? I'll time you for two laps. It's pretty challenging. If you
                     miss jumping a fence in the proper order, you'll fail. How about it? Do you want
                     to try?</sp>
-            </sp><try>
+            </sp>
                 <interact type="Avoid">
                     <stage type="info">"Don't do it" does not prompt any additional script. "Let's
                         go" prompts:</stage> The current record is 50 seconds. First, try to beat
@@ -2346,7 +2347,7 @@ then no/another name will be stated (barring impersonation in the latter case).
                     &lt;""&gt;. You have to train harder! Remember, you don't need to accelerate to
                     jump over low fences, but you do need to go fast to jump the high
                     fences!</interact>
-            </try>
+            
             <stage type="info">After Talon returns (see 03'06):</stage>
             <sp><character>During the day, Malon and Ingo are outside, while Talon is in the stable.
                     At night, Malon and Talon are outside, while Ingo sleeps in their house. Malon
@@ -2803,13 +2804,13 @@ then no/another name will be stated (barring impersonation in the latter case).
             ago? Wow, you grew, dude! Well, here's your song... What? No, I never forget! You,
             you're the one who forgot...aren't you? If you have an Ocarina, play that song, baby!
                 <stage type="info">Upon taking out the ocarina:</stage> Hey, it's the Ocarina! Play
-            that song with it, baby! <try>
+            that song with it, baby! 
                 <interact type="Failure">Play it like that and you'll never move this scarecrow's
                     heart, baby! </interact>
                 <interact type="Success">OH YEAHHH!! That's it, that's the tune!! You rock!! I'm
                     blown away! Oh, no, no! I didn't forget the song...I never forget anything! But
                     I just feel like rewarding you, baby!</interact>
-            </try> ........ I have a good idea! My buddy Pierre is wandering around, so play that
+             ........ I have a good idea! My buddy Pierre is wandering around, so play that
             tune when you want to call him! I'll tell him to help you if he's nearby and hears that
             song, baby! <stage type="info">Speaking to Bonooru again:</stage> Play the usual tune to
             call Pierre! If he's nearby, he'll come out to help you, baby! [ Lakeside Laboratory ]
