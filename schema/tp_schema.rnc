@@ -1,0 +1,13 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = element script
+script = element script {toc, contents}
+toc = element toc {heading, act+}
+heading = element heading {text}
+act = element act {number, title}
+number = attribute number xsd:string
+title = element title {text}
+title = attribute title xsd:string
+
+
+

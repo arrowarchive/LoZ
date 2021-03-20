@@ -1,0 +1,5514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+<pre number = "00'00">
+<title>Game Prologue(TMLN 3)</title>
+
+<sp><character>NARRATION<character></character><sp>
+Long ago, in the kingdom of
+Hyrule, a wind sorcerer
+named Vaati appeared.
+
+Vaati terrorized the people 
+of Hyrule and kidnapped 
+many beautiful girls from 
+their homes.
+
+When all hope seemed lost,
+a young boy carrying 
+little more than a 
+sword appeared.
+
+According to the legends,
+when the boy drew his sword,
+he split into four, the
+four-who-are-one worked
+together to vanquish Vaati.
+
+The hero used his word to 
+bind Vaati in a remote area 
+in Hyrule.  The people 
+christened the blade the Four
+Sword and built a shrine 
+around it.  There it remained
+undisturbed for years.
+
+Ages flowed by...
+
+The wind sorcerer Vaati
+broke free of his prison 
+and kidnapped Zelda, the
+princess of Hyrule.
+
+Princess Zelda's childhood
+friend, Link, used the power 
+of the Four Sword to defeat
+Vaati and seal him away
+once again.
+
+And, for a time, the people 
+of Hyrule believed that 
+their land was safe.
+
+Until...
+</sp><character>
+
+VOICE FROM THE LIGHT(TMLN 1)</character>
+Link... Link... 
+Can you hear my voice?
+
+NARRATOR(TMLN 1)
+Swiftly and suddenly, dark
+clouds covered all of Hyrule.
+
+Ominous clouds that filled 
+all those who saw them
+with fear...
+
+A sense of dread swept
+across the land.
+
+VOICE FROM THE LIGHT<sp>
+Link...
+Hurry to Hyrule Castle...
+
+<stage type = "location">Hyrule Castle</stage>
+
+PRINCESS ZELDA(TMLN 1)
+Oh, Link...
+It's you!  Thank goodness
+you came!
+
+The six maidens who guard 
+Hyrule are gathered here in
+the castle.
+
+The sky has become so dark
+and foreboding...
+
+I'm worried about the seal
+that binds the wind
+sorcerer Vaati.
+</sp><character>
+VOICE</character><sp>
+Princess Zelda!
+Come quickly!
+
+PRINCESS ZELDA(TMLN 1)
+We must hurry.
+Come, this way.
+
+<stage type = "location">Maidens Sanctuary</stage>
+
+PRINCESS ZELDA(TMLN 2)
+These six maidens guard the
+portal to the Four Sword 
+Sanctuary to keep it safe.
+
+I'm going now to make sure 
+Vaati's seal remains strong.
+
+Now, the shrine maidens and 
+I must open the portal to the 
+Four Sword's resting place.
+
+Step back, Link...
+<stage type = "info">Maidens create the portal</stage>
+
+Come with me, Link.
+<stage type = "info">Gasp, Shadow Link appears</stage>
+
+Ah!
+
+Wh...who are--?
+
+It can't be...
+You're...Link?!
+
+<stage type = "info">Shadow Link encapsulates the maidens, disappearing into the portal; Link 
+follows him through the portal, to the Four Sword Sanctuary.</stage>
+
+<stage type = "location">Four Sword Sanctuary</stage>
+
+<stage type = "info">Shadow Link taunts Link into approaching the Four Sword</stage>
+
+NARRATOR(TMLN 2)
+This sword guards the seal 
+on the wind sorcerer Vaati.
+
+If you draw the sword, you 
+must know what will happen.
+
+Will you still draw forth 
+the sword?
+
+<choice>No</choice>
+
+<stage type = "info">Shadow Link continues to taunt Link, until he approaches it again</stage>
+
+So you accept the fate of the 
+one who draws this sword?
+
+<choice>Yes</choice>
+
+<stage type = "info">Link pulls it out, splitting into four.  Shadow Link laughs and runs away, but 
+as Link tries to pursue him, dark magic spews from the pedestal, and a windy 
+cyclone appears, carrying the four Links away.  The sorcerer Vaati appears from 
+the pedestal, (in his beastly eyeball form) and cackles.  The screen fades.</stage>
+
+<stage type = "info">black screen; flapping wings and owl coos can be heard every once in awhile</stage>
+
+VOICE(TMLN 2)
+Link...
+You have accepted the
+destiny of the hero...
+
+Princess Zelda and the six 
+maidens have been taken 
+by dark forces.
+
+However, Vaati's magic has
+robbed the Four Sword of its 
+power to vanquish darkness.
+
+To return the sword to its 
+full strength, find the source 
+of that power: Force Gems.
+
+Gather Force Gems wherever
+they lie, and rescue the 
+maidens and Princess Zelda.
+</sp>
+</pre>
+
+<act number = "01'00">
+<title>LEVEL ONE: Whereabouts of the Wind</title>
+<chapter>STAGE 1: Lake Hylia</chapter>
+
+<stage type = "info">black screen except for four Links passed out on the ground</stage>
+</sp><character>
+VOICE</character><sp>
+Link! Link!
+You must awaken, Link!
+
+<stage type = "info">screen opens to green field, an Owl flies in landing on a perch.</stage>
+
+Hoo hoot!
+At last, you're awake, Link.
+
+I am Kaepora Gaebora.
+
+KAEPORA GAEBORA(TMLN 2)
+Mine is the voice you've 
+been hearing since you left 
+the Four Sword Sanctuary. 
+
+I know you're worried about 
+finding Vaati, but you must 
+not act rashly.
+
+Find the six shrine maidens 
+and Princess Zelda, and you 
+will also find Vaati.
+
+As for that dark shadow...
+Let's call him Shadow Link.
+That one is up to no good.
+
+Your sword is weak, but you 
+can restore its power by 
+infusing it with Force Gems.
+
+Hoo hoo! First, gather the 
+four who were once one with 
+the L Button or Y button.
+
+I must fly, but we will meet 
+again on the road ahead.
+
+<stage type = "info">Kaepora Gaebora flies away</stage>
+</sp><character>
+OLD MAN IN HOUSE</character><sp>
+Hm?
+I've never seen you lads in
+these parts before.
+
+I'm spending my retirement
+teaching my grandkids all
+about formations.
+
+You may not believe me, but
+I'm a former castle guard!
+A professional adventurer.
+
+Formations are the key to
+working together and
+performing great deeds!
+
+If you're interested in
+learning more about it,
+go on into my backyard!
+
+<stage type = "info">Move into backyard</stage>
+
+OK. We'll get started once
+you're all standing in
+the field on the left!
+
+GRANDKID 1
+If you get into formation
+and unite your strength,
+you can do almost anything!
+
+You can certainly do more
+than any one of you could
+do alone.
+
+GRANDKID 2
+Oh! Hi there. You know, if
+you have a Game Boy
+Advance, you should use it.
+
+We always connect our
+Game Boy Advance systems!
+
+It's nice to have a little
+privacy when you go into
+a house or a cave.
+
+That's what our grandfather
+always says. But...what
+would he need privacy for?
+
+GRANDKID 3
+Press the L Button or the 
+Y Button to change 
+formations!
+
+GRANDKID 4
+Oh, hello there!
+
+Did you come to learn
+formations from my
+grandfather, too?
+
+If so, you can do your
+training over there!
+
+GRANDFATHER (instructing)
+OK! Looks like you're ready
+to get started!
+
+I'm going to drill you boys
+in the art of formations!
+
+And... Wait, hold it!
+I guess I'd better explain
+how this all works first!
+
+Um... I'll yell out the name
+of a formation!
+
+You will press the L Button
+or the Y Button to form up!
+
+That's it!!
+
+If you hear a formation
+name but don't know which
+it is, watch my grandkids.
+
+All right then...
+Here we go!
+
+<stage type = "info">do the four formations: Box, Wide, Long, Cross</stage>
+
+That's enough!
+
+That's the end of the drill!
+
+I'll give you some Force
+Gems for all the hard work
+you've done!
+
+No matter where you go or
+what you do, remember
+your formations!
+
+Your safety is my number-
+one concern!
+
+<stage type = "info">move into house again</stage>
+</sp><character>
+GRANDFATHER</character><sp>
+Listen up! Formations are
+the foundation upon which
+adventurers are made.
+
+Good formations mean good
+cooperation, and teamwork
+is the key to adventure!
+</sp><character>
+SIGN</character><sp>
+The bridge is out!
+
+If you just have to see
+what's on the other side,
+press and hold the B Button!
+</sp><character>
+SIGN </character><sp>
+Do not recklessly pick up
+stones and throw them by
+pressing the R Button!
+</sp><character>
+OLD WOMAN IN HOUSE</character><sp>
+Oh, thank goodness!
+
+That stupid door was really
+getting on my nerves!
+
+It never occurred to me that
+someone might have locked
+it from the outside!
+
+I'm convinced it was that
+shadow boy, the one who
+looks just like you.
+
+Strange things are happening
+everywhere these days. You
+boys watch yourselves.
+
+OLD WOMAN IN HOUSE (again)
+I don't know...
+You look JUST LIKE that
+shadow guy.
+
+But you eyes! They sparkle
+and shine with light!
+
+I can tell just by looking
+into your eyes that you're
+not bad boys.
+</sp><character>
+MAN IN BACKYARD</character><sp>
+I've started working out so
+I can do something about all
+those Octoroks out front.
+
+Still, no matter how strong
+I am, I'll never be able to,
+say, lift a huge rock alone!
+
+MAN IN BACKYARD (again)
+If I have someone to help
+lift it, I'm sure it would
+be as easy as pie.
+
+OLD WOMAN IN HOUSE (on way out)
+Oh, so you want that rod,
+do you?
+
+That shadow boy was
+after the same thing.
+
+I hid it from him, but I
+think you can have it.
+You've been so nice to me.
+
+And besides, you look like
+you can be trusted with it.
+
+Take care of it,
+all right?
+
+<stage type = "info">As you lift a large rock, a strange person appears</stage>
+... ... ...
+
+... ... ...
+
+Huh?!
+You... You've saved Tingle!
+
+TINGLE(TMLN 1)
+... ... ...
+
+Ooo...!
+Th-that outfit! That aura!
+
+It's the fairy that Tingle
+has dreamed of...
+
+It's you!!
+
+Oh, Mr. Fairy! You coming to
+my rescue has left me
+overcome with emotion!
+
+Let me thank you by sharing
+some thrilling Tingle news
+with you!
+
+The oh so Tingle-esque
+pastime of collecting Force
+Gems is all the rage now!
+
+In fact, I got stuck under
+here trying to get the Force
+Gem under this rock.
+
+But you saved me! Clearly,
+it was the power of the gems
+that led you here to me!
+
+Tingle believes without a
+doubt the good things come
+from collecting Force Gems!
+
+Why, collecting enough Force
+Gems may even turn Tingle
+into a real and true fairy!
+
+No doubt that's why you're
+after the Force Gems, too,
+isn't it, Mr. Fairy?
+
+Let's be fair about where
+we look and share the gems
+equally, Mr. Fairy!
+
+And with that, Tingle must
+say his farwells!
+
+...
+
+...Don't follow me!
+
+Tingle
+
+Tingle
+
+Kooloo-
+
+limpah!
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Swimming Basics</interact></choice>
+Don't be timid! Jump on in!
+
+Press the A Button to swim!
+Press the B Button to dive!
+Don't stay under too long!
+</sp><character>
+THEIF IN CAVE</character><sp>
+Shooting folks out of my
+homemade cannon's my
+hobby!
+
+Hey! You wanna go for a
+ride? Well, climb on in
+and press the A Button.
+
+You shoot right up like a
+human cannonball!
+
+If you wanna leave,
+press ? or ? at one
+of the exits!
+</sp><character>
+THEIF IN A CAVE</character><sp>
+Whoa!
+Look at you...
+You guys're identical!
+
+Say... The four of
+you...You're brothers?
+Or...friends, is that it?
+
+OK, listen up. I'm real
+particular about friends.
+
+Friends don't always have
+to be doing the same
+thing, you know?
+
+True friends can do
+their own thing and still work
+things out together.
+
+Just press the X Button
+ or the + Control Pad
+to check up on your friends.
+
+And when you want to be
+with your friends again,
+press the L or Y Button!
+
+Sounds nice, doesn't it?
+I've got to get some
+friends of my own.
+
+KAEPORA GAEBORA(TMLN 2)
+Link, those black spheres
+form a barrier of darkness!
+
+The darkness that Vaati
+created is syphoning
+the power from the land.
+
+If these barriers are left
+intact across Hyrule, Vaati
+will grow even stronger.
+
+Look! Already, the green
+fields that once grew here
+have withered to dust.
+
+It is unforgivable, what
+he has done to the land!
+
+The power of the Four Sword
+can destroy the barriers!
+
+Link, you must bring
+your light and pierce
+the darkness!
+
+KAEPORA GAEBORA (again)
+You must combine the
+strength of four into one
+and fight your way out!
+
+<chapter>STAGE 2: Cave of No Return</chapter>
+</sp><character>
+GHOSTLY SPIRIT</character><sp>
+Urrk urrrk...
+You...have friends...
+I'm jealous...
+
+If you have friends, you can
+toss 'em across charms...
+
+I never had any friends.
+You're a lucky guy...
+Urrk urrrk...
+
+MAGE 1
+Ho ho ho...
+So, back again, are you?
+
+I've a feeling I'll be
+seeing a lot of you...
+Hee hee hee...
+
+MAGE 2
+So, we meet again!
+Hee hee!
+</sp><character>
+GHOSTLY SPIRIT</character><sp>
+OoooOOooo...
+SO you've wandered into this
+cave of no return, too, eh?
+
+If you want to escape alive,
+you must pull a long lever.
+
+Grab it with the R Button
+then line up this way ?
+and pull.
+
+That's just common sense.
+
+I was all alone, though,
+so I couldn't do it...
+I died all alone...
+
+GHOSTLY SPIRIT (again)
+If you see my children back home, be sure to
+say hello... OoooOOoo...
+</sp><character>
+GHOSTLY SPIRIT</character><sp>
+OooOOooooOoo...
+Someone...who looked just
+like you...did this to me.
+
+If you're looking to defeat
+him check his tunic...
+
+You can't hit him if you're
+not wearing the same color.
+It's common sense...
+
+I'd guess as much from
+the start, but he still
+got the best of me...
+
+GHOSTLY SPIRIT (again)
+Say hi to my grandkids
+back home...
+OoooOOOOoooo...
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+<chapter>STAGE 3: Hyrule Castle</chapter>
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Tingle Times</interact></choice>
+ Volume 1
+
+Tingle had an encounter with
+a charming lady fairy! It
+was fate! Destiny!
+
+I was sneaking along behind
+her when she went into a
+castle...and never came out!
+
+Surely she's been captured,
+because she's too adorable
+for her own good!
+
+If you happen to see
+Miss Fairy, gaze upon
+her lovingly for me.
+
+Oh...and save her, too!
+Tingle 
+
+<stage type = "info">As Link approaches the entrance, Kaepora Gaebora flies onto a nearby perch</stage>
+
+KAEPORA GAEBORA(TMLN 1)
+Link! There's a terrible
+fiend in Hyrule Castle.
+
+He's leeching power from the
+maidens little by little.
+
+Listen well, Link.
+
+To rescue the maidens, you
+must face the fiercest of
+foes.
+
+Keep your wits about you,
+and be wary!
+
+<stage type = "info">With that, Kaepora Gaebora flies away</stage>
+
+UGLY CREATURE 1
+Who... Who is it?
+Who's there?
+
+You... You're not with those
+fiends who have taken over
+the castle, are you?
+
+Please, would you help me?
+
+I heard the maidens' cries
+and came running to find the
+castle a nest of fiends.
+
+They captured me and split
+me in two. That's why I look
+so horrible right now!
+
+Please, I beg of you.
+Reunite my two halves!
+Make me whole again!
+
+UGLY CREATURE 2
+Oh, happy day! Thank you!
+
+Now, at last, we can merge
+as one, and I can return
+to my true form!
+
+Please take me to the
+barrier that blocked
+your way.
+
+I'll do my best to aid you
+on your journey!
+
+<stage type = "info">When you approach the barrier, the two ugly creatures join into one beautiful 
+creature</stage>
+
+I didn't think I would ever be
+allowed to reclaim my true
+form as a Great Fairy again!
+
+GREAT FAIRY(TMLN 1)
+Thank you so much,
+brave ones!
+
+<stage type = "info">A hoard of soldiers enter</stage>
+
+Uh-oh!
+
+It looks like those soldiers
+have noticed us.
+
+I'll take care of this!
+
+<stage type = "info">The Great Fairy twirls around and the casts a spell that eradicates all the
+soldiers</stage>
+
+So this is the magical
+barrier that barred
+your way?
+
+Allow me to take care
+of this.
+
+<stage type = "info">The barrier is dispelled</stage>
+
+I'll let all of my friends
+throughout Hyrule know...
+
+"If you run into four
+travelers with one face,
+
+tend to their weariness
+and ease the burden of
+their travels!"
+
+There is a tradition that
+young, noble gentlemen
+rescue damsels in distress.
+
+And so, I leave the
+well-being of the maidens
+in your hands.
+
+Take care!
+
+<stage type = "info">She disappears from sight</stage>
+
+BLUE MAIDEN(TMLN 2)
+Where am I?
+
+The darkness...It's gone.
+I have been freed,
+haven't I?
+
+Link! What's happened
+to you?
+
+Oh, the Four Sword. You've
+drawn the mystic blade.
+
+That means Vaati is free
+once more, does it not?
+
+And you've taken up the
+mantle fate has given you.
+How brave!
+
+Such determination speaks
+well of you. You are truly
+a great hero. Oh...
+
+Oh! There's something you
+must know! The dark
+shadow that captured us...
+
+It looked...just like you!
+What was it?
+
+Link... You must save
+the princess and the
+remaining maidens!
+
+Travel by sea under my
+protection to a place called
+the Eastern Temple.
+
+Another of my kidnapped
+sisters is imprisoned
+there.
+
+Allow me to transform, that
+I might serve as your guide.
+Come! We must go!
+</act>
+<act number = "02'00">
+<title>LEVEL TWO: Eastern Hyrule</title>
+
+<chapter>STAGE 1: The Coast</chapter>
+
+BLUE MAIDEN (fairy form)
+Link, we have arrived!
+
+The bond you all share must
+grow stronger if you hope to
+meet the difficulties ahead.
+
+Be prepared.
+
+<stage type = "info">A large woman blocks the way to a chest</stage>
+</sp><character>
+LARGE WOMAN</character><sp>
+Hmph! If I can't get through
+that door, I don't see why
+I should let anyone else!
+</sp><character>
+HUSBAND OF LARGE WOMAN</character><sp>
+Don't pay any attention
+to my wife...
+
+She can be pretty stubborn.
+Once she makes up her mind,
+there's no changing it.
+
+Why don't you go around
+back? There's a tunnel you
+can use behind the house.
+
+The entrance is blocked, but
+maybe you can blast it open.
+
+LARGE WOMAN (from other side)
+Hey, you! What do you think
+you're doing?
+
+Everyone on that side is my
+enemy! And don't you forget
+it!
+</sp><character>
+SIGN</character><sp>
+Adventurers, assemble!
+Head up for some helpful
+adventuring tips.
+</sp><character>
+THEIF</character><sp>
+Hello there, adventurers!
+
+Do you want to know the
+secret of adventuring?
+
+<choice>Nope.</choice>
+
+If you don't want to know,
+I won't force it on you! 
+Bye-bye, adventurers!
+
+<choice>Of course!</choice>
+
+You want to know, right? I
+thought so. Here's the deal!
+Formation shortcuts!
+
+Press and hold the L Button.
+Then press left, right, up, or down.
+Try it and see.
+
+GREAT FAIRY'S FRIEND
+Let me aid you on your way.
+
+<choice>if you have no weapon or it's already upgraded</choice>
+
+All I can do is ease your wariness.
+</sp><character>
+MAGE</character><sp>
+What's he trying to prove?
+Tossing giant bombs around
+like that is dangerous.
+
+I didn't even know they
+made bombs that big! Those
+just can't be good.
+
+If you value your life,
+you'd better flee when
+you see one of those things.
+
+Oh, and one more thing:
+you and that mad bomber
+are like two peas in a pod.
+
+You're practically identical
+twins! What's up with that?
+HEHEHEHEHEHEHE!
+
+<chapter>STAGE 2: Village of the Blue Maiden</chapter>
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Tingle Times</interact></choice>
+ Volume 2
+
+Strange days have arrived
+in the village as one child
+after another disappears.
+
+Tingle bets that they're all
+ditching school, no doubt
+playing some charming game.
+
+Oooh!
+Tingle wants to play, too!
+
+If you discover the kids'
+whereabouts, play awhile
+for Tingle's sake!
+
+Search 'til your eyes
+are bloodshot and weary!
+Tingle
+
+OLD MAN IN FRONT OF VILLAGE(TMLN 1)
+Oh! Travelers! Listen!
+Calamity has befallen
+our town!
+
+First whirlwinds,
+and the mages!
+
+What are we to do?
+
+We need one who can
+sense the Moon Gates...
+
+So if you run across anyone
+who can do that, well... Be
+sure to let me know, OK?
+
+KAEPORA GAEBORA(TMLN 2)
+Hoot hoo!
+Link, are you now able to
+wield the Four Sword?
+
+It's a sacred sword able to
+smite the darkness.
+And that's not all.
+
+It also grants you the power
+to see the shadowy Dark
+World.
+
+The people of this village...
+They're being spirited away
+by some force.
+
+It may be that the Dark
+World is drawing them in.
+
+Save the villagers, Link!
+Bring light to their darkness!
+
+OLD MAN IN FRONT OF VILLAGE (after Kaepora Gaebora)
+...
+
+Incredible! You can sense
+the Moon Gates?
+
+...Then perhaps you can
+save our village!
+
+Then take this Moon Pearl!
+
+MAGE(TMLN 2)
+This world is like
+a dark mirror
+of you own...
+
+It looks familiar, but in
+truth it is very different.
+Much like you four...
+
+Eee hee hee hee hee!
+
+VILLAGE LADY (next to Moon Gate)
+Huh?!? Where'd you come
+from!? I'm not used to kids
+appearing out of nowhere!
+
+No, kids around here usually
+just vanish! The whole town
+is in an uproar about it.
+
+Guys from the Seeker's Guild
+are looking into it in the
+northwest part of town.
+
+VILLAGE LADY (again)
+There's always a huge line
+at the Seeker's Guild in
+the northwest part of town.
+
+You look awful young. You'd
+better be careful. I don't
+want you to disappear, too!
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Force Tree</interact></choice>
+
+This tree gives fruit
+to tremendous Force, or
+so it is said.
+
+Unify your body and spirit
+and strike the tree.
+You might be rewarded!
+</sp><character>
+LARGE LADY</character><sp>
+How come the shop next
+door is getting all that
+business?
+
+I just remodeled my place
+and everything! People
+should be flocking here!
+
+I'm trying to get people
+excited, so I'm standing
+in line for my own store!
+
+And I'm not budging!
+
+LARGE LADY (after moved)
+What do you want?!
+I'm in line here! What do
+you think you're doing?!
+
+You're probably spying for
+that shop next door, aren't
+you! Well, beat it! Scram!
+
+SHOP BYSTANDER 1
+I want to go into that shop,
+but I can't get by...
+
+SHOP BYSTANDER 1 (after Large Lady moved)
+I'm glad I can finally get
+into the shop, but...I'm
+not sure I want to go in.
+
+Mostly, I'm just afraid that
+woman will block the door
+again, and I'll be trapped!
+
+SHOP BYSTANDER 2
+Would someone do something
+about that woman? She's
+blocking the door!
+
+I tried asking, but she just
+won't budge. I guess I
+could try shoving her...
+
+She looks kinda...heavy,
+though. I doubt anyone
+could do it alone.
+
+SHOP BYSTANDER 2 (after Large Lady moved)
+Hey! You got that woman
+out of the way. Thanks!
+
+1st BYSTANDER IN GUILD LINE (starting at front)
+Whoa there! No cutting in!
+
+If you want people to treat
+you like an adult, you'd
+better learn some manners!!
+
+To the back of the line
+with you!
+
+2nd BYSTANDER IN GUILD LINE
+Sheesh! How long am I going
+to have to wait here?!?
+
+3rd BYSTANDER IN GUILD LINE
+My only daughter has
+vanished! Someone has
+to look for her! Now!!!
+
+4th BYSTANDER IN GUILD LINE
+My husband and I came here
+to request an inquiry.
+
+I wonder if such a small
+guild from such a small town
+can handle such a big task.
+
+5th BYSTANDER IN GUILD LINE
+Huh? Who, me?
+
+Oh, I'm sorry. I'm just
+here looking around.
+
+I just...saw a huge line
+and figured it must be
+for something good!
+
+6th BYSTANDER IN GUILD LINE
+Ohh... My poor, darling
+grandson. Gone...
+
+This whole experience has
+been awful! I came to ask
+the guild members for help.
+
+7th BYSTANDER IN GUILD LINE
+What's going on here! This
+line isn't moving at all!
+
+If this keeps up, I'm going
+to make them investigate
+my case for free!
+
+7th BYSTANDER IN GUILD LINE
+I'm going to ask the
+Seeker's Guild to let
+me join them.
+
+If they made me a Secret
+Agent I'd solve all these
+people's problems pronto!
+
+8th BYSTANDER IN GUILD LINE
+Hey! No cutting!
+
+What, you expect me to
+believe you just want to
+get to the other side?
+
+Yeah, right! That's what
+the Cucco said! Well,
+you're not gonna fool me!
+
+9th BYSTANDER IN GUILD LINE
+Isn't that girl in front of
+me cute? There's no way I'm
+letting you block my view!
+
+10th BYSTANDER IN GUILD LINE
+Heavens! Such a cute little
+boy! ...What are you doing
+with such a big sword?
+
+11th BYSTANDER IN GUILD LINE
+When is it finally going to
+be my turn? This is awful!
+
+I don't care how long it
+takes, but I'm not getting
+out of this line!
+
+12th BYSTANDER IN GUILD LINE
+Uhh... Please! Someone make
+this line move faster. I
+really have to go!
+
+...Huh? This isn't the line
+for the bathroom?
+
+13th BYSTANDER IN GUILD LINE
+Ugh! It's just like my
+dolt of a son to cause
+me so much trouble!
+
+14th BYSTANDER IN GUILD LINE
+That lady in front of me is
+scary. If I were a kid, I
+might not want to come back home.
+
+15th BYSTANDER IN GUILD LINE
+I'm pretty, and I have a
+pure heart, just like a
+little kid.
+
+I came out her to see if
+maybe someone could
+kidnap me!
+
+16th BYSTANDER IN GUILD LINE
+I feel like I've been
+standing here forever. It's
+tough on an old woman...
+
+SEEKER'S GUILD LEADER(TMLN 1)
+Hmph!
+You spotted the entrance.
+You have a keen eye.
+
+This is the office of the
+legendary Seeker's Guild.
+
+We're investigating the
+sudden appearance of those
+suspicious mages.
+
+We've reason to believe
+they may be connected to
+the vanishing children.
+
+What do you say? You
+seem talented enough.
+
+Care to help us out?
+
+<choice>No</choice>
+
+Oh, really... Too bad.
+We're shorthanded and in
+a bit of a bind.
+
+If you change your mind,
+stop by anytime!
+
+Oh, it's you!
+
+So you've decided to help
+us Seekers after all.
+
+<choice>Yes</choice>
+
+Oh, you'll help?!
+That is spectacular!
+
+There's something I need
+you to do right away.
+
+Four of out brothers are in
+the village investigating
+the weird mages.
+
+They must have found some
+clues by now.
+
+Go and speak to the four
+of them and see what clues
+they've found so far.
+
+The key to this mystery's
+bound to be in those clues.
+
+One of the brothers should
+be right out here to the
+left.
+
+You have your orders!
+
+Come on back when you've
+gotten clues from all
+four brothers!!
+</sp><character>
+GIRL</character><sp>
+We spend all of our time
+here running and racing!
+
+There are no adults, so we
+play and play all day long!
+
+If you can reach the goal
+within 20 seconds, I'll give
+you some amazing boots!
+
+Give it a try?
+
+<choice>No</choice>
+
+What? Are you chicken?
+These boots can make you a
+racing expert, you know!
+
+Let me know if you change
+your mind!
+
+So you want the boots after
+all do you?
+
+<choice>Yes</choice>
+
+I thought so! Let me
+explain how this works!
+
+The rules are a breeze!
+All you have to do is
+reach the goal!
+
+Go talk to my friend at
+the end of the maze.
+
+If you get there within
+20 seconds of starting,
+you win!
+
+OK, here you go...
+Ready...
+
+GO!
+
+GIRL'S FRIEND (if you don't make it)
+GOAL!
+
+Your time is...
+___"!
+
+Oh, too bad!
+Try again later!
+</sp><character>
+GIRL</character><sp>
+I've got to get ready.
+Come talk to me after a bit.
+
+Came back to have another 
+go at it, did you?
+
+GIRL'S FRIEND (if you do make it)
+GOAL!
+
+Your time was
+___"!
+
+Congratulations!
+
+The boots are over here.
+Follow me!
+
+Oh, and a little
+advice for you...
+
+You'll get back more quickly
+if you break those cracked
+blocks over there!
+
+Use the boots to race
+around to your heart's
+delight!
+
+GIRL(after boots)
+You'd think that racing
+would be more fun, but...
+I don't know, I'm bored...
+
+SEEKER 1
+... ... ...
+
+Hm...so you're a new
+member of the Seeker's
+Guild, are you?
+
+Let me tell you about the
+clues our investigation
+has turned up so far.
+
+This odd little mage
+whispered this to me:
+
+"The six..."
+
+I'm sure it's connected to
+this incident somehow!
+Don't you forget it!
+
+SEEKER 2
+... ... ...
+
+What was that?
+You're...a brother of
+the Seeker's Guild?
+
+I see... Well then, listen
+to the information I've
+gathered.
+
+An apprentice mage
+disappeared somewhere
+around here. POOF!
+
+Right when she vanished,
+she whispered something...
+
+"Protect..."
+
+Now that's suspicious!
+You would do well to lock
+that away in your head!
+
+SEEKER 3
+... ... ...
+
+Oh, so you're here to help
+with the investigation?
+That's welcome news!
+
+Well then, listen to what
+I have to tell you!
+
+Look! The mage is over
+there, right?
+
+I was hiding over here,
+watching her, when I heard
+her call out suddenly...
+
+She said, "Beautiful!"
+
+suspicious, isn't it? Maybe
+it's part of a spell or
+something!  What's she up to?
+
+SEEKER 4
+... ... ...
+
+Oh, so now you're a member
+of the Seeker's Guild?!
+
+Well then, why don't you
+listen to the clues I've
+gathered so far!
+
+A weird mage is lurking
+somewhere back here....
+
+I can sometimes hear her
+talking to herself, and
+this is what she says:
+
+"Deeply connected to 
+this village..."
+
+That is most definitely a
+clue! Go and report this
+to the chief!
+</sp><character>
+MAGE</character><sp>
+You guys used a Moon Pearl,
+didn't you?
+
+...I sear! That guy there
+has been staring at me for
+quite a while now.
+
+Who does that insolent
+lout think he is?
+That's just rude!
+</sp><character>
+MAGE</character><sp>
+Eee hee hee hee hee!
+
+The girl here has vanished,
+too.  No doubt she is
+trembling in fear even now!
+
+I don't know much about the
+guild, but watching over us
+is a waste of time!
+
+But let them play cops
+and robbers if they like!
+Eee hee hee hee hee hee!
+
+MAGE(TMLN 1)
+You're the boy who awoke
+Vaati, aren't you?
+
+Thank you very much! You've
+made the world a better
+place for our kind!
+
+You want a Moon Pearl?
+
+I suppose it's the least I
+can do after everything
+you've done for me.
+
+Well, good luck, kid!
+
+Eee hee hee hee!
+</sp><character>
+MAGE</character><sp>
+You wanna see if you've got
+connection to Force Gems
+or not?
+
+<choice>No</choice>
+
+Then you're wastin' my time.
+G'wan, get outta here!
+
+<choice>Yes</choice>
+
+I see.
+Then let me spread some
+Force Gems around outside.
+
+I'll give you ten arrows.
+You shoot 'em with your
+bow.
+
+Any Force Gems you hit
+are yours to keep.
+
+Ready... START!
+
+It's done!
+Eee hee!
+
+So, 
+did you feel a connection 
+with the Force Gems?
+</sp><character>
+THIEF</character><sp>
+What's going on here?
+This used to be one of the
+best places to meet people.
+
+I thought I'd just mingle
+for a bit, but this joint's
+as empty as my wallet!
+
+Hm... But I don't really
+want to go next door,
+either.
+
+That strange mage's been
+over there reading that
+book of hers forever. Weird!
+</sp><character>
+MAN MISSING HIS HOUSE</character><sp>
+My girl and I were fighting.
+I took off, and when I came
+back, my house was gone!
+
+I went to her place, but all
+I found was this strange
+mage and a Seeker.
+Where's my house?  Where's
+my girlfriend!?!
+
+Ah...I've lost everything...
+
+What am I supposed to do
+now?
+</sp><character>
+IRIS</character><sp>
+My name's Iris!
+I'm a novice magician.
+
+I lost my magic book, and 
+now I don't have the magic
+to get back home.
+
+I tried some spells from
+memory, and I got this tiny
+house to appear...
+
+But it's so frustrating!
+Where in the world could my
+book have gone?
+</sp><character>
+SHOP KEEPER </character><sp>
+Hey! Let's gamble. You won't
+get into and trouble!
+
+Risk 100 Force Gems and see
+if you can get more!
+
+<choice>No way</choice>
+
+Wow! Talk about a boring
+guy! Maybe we can play
+later?
+
+<choice>OK</choice>
+
+That's the spirit! OK, now
+you can open whichever
+treasure chest you want!
+
+SEEKER'S GUILD LEADER
+Oh, it's you. And you've
+heard the clues gathered
+by all our members.
+
+... ... ...
+Hm...yes...I see...
+Those strange mages...
+
+Yes, that does seem odd...
+
+What do you believe the 
+mages' words refer to?
+
+<choice>Maidens</choice>
+
+... ... ...
+
+Of course...
+
+Something's happened to
+the six beautiful maidens
+that protect the shrine...
+
+That's it, isn't it?
+
+Your powers of deduction
+are truly magnificent!
+
+We'll use your findings
+to continue our
+investigation!
+
+Oh, yes... As thanks for
+your help, I'd like to
+give you something.
+
+During the course of our
+inquiry, we dug up a
+hidden passageway.
+
+Try digging by the
+house of pots in the south-
+eastern part of the village.
+
+You should find a path
+that will take you to places
+otherwise unreachable.
+</sp><character>
+SIGN</character><sp>
+ Rest area ahead.
+</sp><character>
+KID</character><sp>
+Awesome! You found this
+secret world, too?
+
+Did you notice that there
+are only kids here? All
+we do is play and play!
+
+No one wants to go home!
+Not even me! No, sir!
+
+Except...the girl in the
+house with the red roof
+is always crying.
+
+I wonder if she doesn't like
+it here.
+
+KID (again)
+It's so much fun here!
+I wonder why that girl does
+nothing but weep.
+
+Don't even bother talking
+to her.  She's no fun.
+</sp><character>
+MAGE</character><sp>
+I can see... I can see...
+I can see all...
+
+I can see Force Gems
+hidden in the soil!
+
+If you seek hidden Force
+Gems, you must dig with 
+a shovel of steel!
+</sp><character>
+RED GIRL</character><sp>
+Do you want to burn with my
+flames of passion?
+
+<choice>No, Thanks</choice>
+
+Hmph! Fine. Whatever.
+
+<choice>Yes</choice>
+
+Goodness! Really? Then get
+set to feel the
+burning of my passion!
+</sp><character>
+BLUE GIRL</character><sp>
+Hmph! You probably like 
+that girl more than you
+like me, don't you!?!
+</sp><character>
+WEEPING GIRL</character><sp>
+Sniff...sniff...
+
+My...boyfriend and I had a 
+fight. It's my fault for
+always being so stubborn.
+
+It can't end over something
+like this. Will I never see
+him again? Sniff...sniff...
+
+... ... ...
+
+What's that?
+You... You're going back
+to your world?
+
+... ... ..
+Then please help me!
+Take this letter to him!
+</sp><character>
+NARRATOR</character><sp>
+You took the letter!
+Savior of romance!
+</sp><character>
+MAN MISSING HIS HOUSE</character><sp>
+... ... ...
+
+What did you say? Is that
+a letter from my sweetie?
+Let me see it!
+
+Hmm... uh-huh...
+Oh...ah...
+
+I'm so relieved.
+My sweetie's OK!
+
+But she was attacked by a
+giant tornado and a dark
+shadow that captured her.
+
+Can she be rescued?
+Hey, you! Do something,
+please!
+
+Sweetie gave me this feather
+as a good-luck charm... You
+can have it if you help her!
+
+It's great! You'll feel like
+a bird as you jump around
+light as a...uh...feather.
+
+You can even bound over
+giant holes!
+
+This is all I have left...
+I want you to have it.
+
+MAGE(TMLN 1)
+That little brat, Iris!
+
+I can't believe she's leave
+such a valuable book just
+lying around...
+
+hey... Aren't you the
+lads who freed Vaati?
+
+What good timing. You know
+how to get to the Dark
+World, do you not?
+
+If you see my apprentice,
+a witch named Iris, please 
+give her this book.
+</sp><character>
+NARRATOR</character><sp>
+You got a magic book!
+It's full of dubious spells!
+</sp><character>
+IRIS</character><sp>
+...Say, what's that?
+It's my book!!!
+
+Well, I'll be!
+Pretty impressive for
+such a little fella.
+
+... ... ...
+
+Hm? The guy who owns this
+house is upset? Oh! I didn't
+think anyone owned it!
+
+I thought I'd just magicked
+it out of nowhere! I'd
+better return it right away.
+
+here, check this out! As
+long as I have this book,
+I can do anything!
+
+I really must return this.
+
+Abra this, hocus that,
+shallabazoo!
+
+Boo!
+
+That should do it!
+
+Look back in your world.
+Then, you'll understand the
+magnificence of my magic!
+</sp><character>
+REUNITED COUPLE MAN</character><sp>
+Oh! Thank you so very much!
+I mean, this is all thanks
+to you, isn't it?
+
+My house suddenly appeared
+out of nowhere, and when I
+went inside, she was here!
+
+Honestly, there are not
+enough words in the world to
+tell you how grateful I am!
+
+I will never forget you, no
+matter how long I live!
+</sp><character>
+REUNITED COUPLE WOMAN</character><sp>
+Thank you! I'm so happy
+for all that you've done
+for us!
+
+Not only did I make it
+back to this world, but
+we also made up again!
+
+I just hope the rest of
+the villagers can get help
+soon, too...
+</sp><character>
+OLD WOMAN </character><sp>
+Because of everything that's
+been happening in town, I
+want to get away for a bit.
+
+Maybe I'll go to the Eastern
+Palace. It's nothing like
+this old village.
+
+I really need a vacation,
+but it's always the first
+step that's the hardest.
+
+I mean, I can't really go
+anywhere until the rain
+stops, can I?
+
+If you're thinking of going
+to the palace, you'd better
+be careful.
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+HAPPY VILLAGER 1 (starting from far end of screen)
+You guys saved our village!
+
+I guess my eyes weren't
+that messed up after all!
+
+HAPPY VILLAGER 2
+Aaaaah... I'll never take
+the fresh, outside air for
+granted ever again!
+
+HAPPY VILLAGER 3
+I can't believe I'm hearing
+this! Just when I thought
+everything was normal again!
+
+Oh! You're the one who saved
+the kids, aren't you?
+Thank you so much!
+
+HAPPY VILLAGER 4
+Thanks to you guys, me and
+my boyfriend are getting
+along great again!
+
+And we've promised to be
+nice to each other from
+now on! Thank you so much!
+
+HAPPY VILLAGER 5
+Hey, it's you guys! It's me!
+You know, Secret Agent One!
+
+I just wanted to thank all
+of you on behalf of my boss,
+who's just too darned busy.
+
+This whole time, we thought
+it was the mages... But it
+was just a misunderstanding
+
+If it weren't for you guys,
+we never would have cracked
+this case. We owe you big!
+
+We'd really like you guys to 	
+stay here in the village
+and join our guild.
+
+But we understand you can't,
+so we won't try to force you
+to stay.
+
+But good luck out there! I
+know you'll pull through,
+whatever you're doing!
+
+HAPPY VILLAGER 6
+I was able to return safely
+thanks to you guys bringing
+me my book!
+
+Of course, my teacher gave
+me quite an earful for
+misplacing it...
+
+HAPPY VILLAGER 7
+Thanks to you, all of the
+town's children have been
+returned!
+
+We're so happy! Thanks for
+everything you've done!
+
+HAPPY VILLAGER 8
+Just playing all the time
+leaves me feeling a little
+empty inside.
+
+I'm gonna do my chores and
+study hard to make playing
+much more enjoyable!
+
+<chapter>STAGE 3: Eastern Temple</chapter>
+</sp><character>
+GHOSTLY SPIRIT</character><sp>
+Oooo... Do you ever feel
+like you're about to get
+pummeled into oblivion?
+
+If you want to get through
+alive, you need a Moon
+Pearl. Everyone knows that.
+
+I didn't know that. Not
+until after I'd died...
+In fact, that's why I died.
+
+Tell my wife and son back
+home that I miss them...
+Hurrrrk...
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+YELLOW MAIDEN(TMLN 2)
+Link!
+Did you defeat that giant
+stone eye-thing?
+
+Thank you! By defeating
+that beast, you rescued
+me from my crystal prison!
+
+Thank you, Link.
+You have my gratitude!
+
+The wind sorcerer Vaati has
+regained his power. When he
+last tried to conquer Hyrule,
+
+he built a Palace of Winds
+in the Realm of the Heavens.
+
+So even now, he's
+sure to be-- 
+
+Link! You must first rescue
+Princess Zelda. Act quickly!
+
+I rule over Death Mountain.
+High stop the peak, the
+Tower of Flames stands tall.
+
+Climb the mountain. One of
+the maidens must be trapped
+in the tower of raging lava.
+
+Come, Link.
+I shall guide you.
+
+</act>
+<act number = "03'00">
+<title>LEVEL THREE: Death Mountain</title>
+
+<chapter>STAGE 1: Death Mountain Foothills</chapter>
+
+YELLOW MAIDEN (fairy form)
+Link! We're in northern
+Hyrule, at the base of
+Death Mountain.
+
+Head for the peak!
+
+SIGN(TMLN 1)
+Warning! If you see either
+Green Link, Red Link, Blue Link, or Purple Link
+report back at once!
+
+OLD MAN(TMLN 1)
+There's an area near the
+one-eyed giants called
+Hebra's Hill.
+
+People say that those who 
+enter that region wander
+lost for all eternity.
+
+If you simply meander about
+with no goal in mind, you'll
+never reach the summit.
+
+You must press on, always
+focused on your sole intent:
+to reach the peak!
+
+OLD MAN (again)
+To reach Hebra's Hill,
+press on straight ahead.
+</sp><character>
+OLD MAN IN MOVING HOUSE</character><sp>
+Oh ho ho ho!
+At last, at last!
+I've done it!
+
+My lifelong dream...
+
+A moving house!!!
+
+It's made of a special
+light, yet sturdy, wood!
+
+And fire poses no threat
+at all! It's absolutely,
+completely fireproof!
+
+Go on and try it! The four
+of you, step outside and
+push the house. It'll move!
+
+There's one problem, though.
+Fill the house with 
+furniture and it becomes
+
+too heavy to budge.
+
+That's why I've had to leave
+it entirely empty. It's a
+bit stark, but I like it!
+
+OLD MAN IN MOVING HOUSE (again)
+Test it out! Move it around
+this empty field! Shove it
+
+to your heart's delight!
+
+MAGE(TMLN 1)
+Oh ho ho ho...
+Such youth... Troubled
+by the giants are you?
+
+We magic users have
+enchanted two types
+of medallion.
+
+These medallions instantly
+alter the shape of an evil
+presence or make it vanish.
+
+One of these medallions
+is in that treasure chest
+there.
+
+It's one that I enchanted
+myself. You may use it if
+you like.
+</sp><character>
+SIGN</character><sp>
+Hebra's Hill
+
+<chapter>STAGE 2: The Mountain Path</chapter>
+
+KAEPORA GAEBORA(TMLN 2)
+Hoo hoo hoo! Link, there's a
+colossal bird wearing a mask
+living on Death Mountain!
+
+The giant beast appeared
+after Vaati stormed the
+mountain.
+
+The mountain's guardians of
+old--a tribe of Gorons--are
+troubled by the bird, too.
+
+I implore you, go and help
+the Gorons! They're counting
+on you, Link!
+</sp><character>
+GORON</character><sp>
+Oh, this is bad! This is
+very, very bad! Hey! You!
+C'mon, give me a hand.
+
+See that cave? There are
+water jars in there. Throw
+'em and put out the fire.
+</sp><character>
+GORON KID</character><sp>
+There's been this weird
+bird up on top of Death
+Mountain a lot lately.
+
+It flies around the peak
+day after day. It's huge!
+
+And the mask it's wearing!
+I've never seen anything 
+so scary!
+
+If you go ask my dad, I'm
+sure he'd crack that mask
+for you.
+</sp><character>
+GORON KID IN CAVE</character><sp>
+That pot's filled with a lot
+of oil, so be careful!
+
+If you accidentally break
+it... KABOOM!
+
+My dad says you're welcome
+to use it if you need to
+burn stuff.
+</sp><character>
+GORON</character><sp>
+... ... ...
+
+What?
+You made the new road?
+
+That's so helpful!
+Thank you!
+
+That new road you built
+has been a lifesaver! Or
+at least, a time-saver...
+
+I'm gonna take a quick
+rest, and then I'm headed
+for the summit.
+</sp><character>
+GORON</character><sp>
+Oh, not good! Someone built 
+a house here while I was
+gone. That was fast!
+
+It's covering the hole I
+buried my most precious
+belonging in...
+
+If there were just some way
+to move that house aside...
+</sp><character>
+THIEF</character><sp>
+H-Hey! Did you see one of
+those Gorons out front?
+
+I don't know what he's
+thinking, but he's been
+shaking my house like crazy!
+
+I planted stakes outside to
+hold my house in place, but
+that guy is stupid strong.
+
+GORON (after house is moved)
+Whoa! Oh, whoa! That
+big ol' house just
+moved!
+
+Yeah, all those stakes
+stuck around the house
+were such a pain.
+
+But now that they're gone
+I can just push that house
+around all I want!
+</sp><character>
+KID GORON</character><sp>
+I can't even believe
+he's a Goron...
+It's just shameful!
+
+Fire doesn't bug us!
+
+Listen, brother! Go give
+that pitiful Goron a
+solid thumping!
+
+Knock some sense back
+into his rocky head!!
+</sp><character>
+GORON</character><sp>
+Darn it! Where'd he go!
+It's a disgrace! Since when
+is a Goron afraid of fire!?
+
+We've been looking for him
+everywhere. I bet he buried
+himself again.
+
+What are we going to do?
+He still has the key...
+
+UPROOTED GORON 1-4
+Yaaaawwwnnn...
+I was sleeping so soundly...
+Let me be, will you?
+
+UPROOTED GORON 1-4 (again)
+What is it?
+Do you need something?
+
+UPROOTED GORON 5
+Hey! What was that for!?
+I was trying to hide!!
+You're a meanie!
+
+UPROOTED GORON 6
+You found me! Good work!
+And I thought that was a
+pretty good hiding spot!
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+KAEPORA GAEBORA(TMLN 1)
+The giant bird is just up
+ahead. It is quite fast, so
+keep your eyes open.
+
+We bird folk like to fly high
+and gaze down on the land.
+This area is especially nice.
+
+We'll not let beautiful
+Hyrule be taken by these
+dark beings.
+
+...Hm?
+
+That's Hyrule Castle...
+I believe you've driven off
+its darkness already, but...
+
+Something's not right.
+I shall go and investigate!
+You keep going!
+
+Get rid of that bird and 
+save the maiden from
+the Tower of Flames!
+
+We shall meet again!
+
+<chapter>STAGE 3: Tower of Flames</chapter>
+
+<stage type = "info">Defeat Shadow Link!</stage>
+</sp><character>
+GORON</character><sp>
+Oh, this isn't good. I
+brought my bombs all this
+way, and then I dropped 'em.
+
+They went right into the lava,
+too. And I thought I had a
+good plan...
+
+I was gonna use them on the 
+monsters around here. You
+should watch out for them.
+
+I mean, if they can toast
+me, they're sure to burn
+you to a crisp.
+
+Oh, hey! I can teach you an
+IN-credible way of dealing
+with those pesky things.
+
+What do you say? Would
+you like to hear it?
+
+<choice>No, Thanks</choice>
+
+...Huh? Are you sure? You
+might regret it later.
+
+Well, I won't hold it
+against you. If you change 
+your mind, just come see me.
+
+All it will take is one good
+toasting, and you'll learn 
+your lesson the hard way.
+
+GORON (again)
+Hey, there, brother!
+
+Want to hear my great plan
+for slaying Dodongos?
+
+<choice>Sure</choice> 
+
+Great! I'll show you!
+The problem is those things
+have skin as hard as rock.
+
+Even with my strength, it's 
+a waste to hit them. I can't
+even make a dent!
+
+But then it came to me! They
+may be tough on the outside
+but weak on the INSIDE!
+
+So right when they open
+their mouths to breather
+fire, gulp! And then...
+
+BLAMMO! What a great idea!
+...But then I dropped my
+bombs in the lava!
+
+Ugh! I can't believe it!
+</sp><character>
+KAEPORA GAEBORA</character><sp>
+Hoo hoot!
+Link! Danger has struck
+Hyrule Castle once again!
+
+The darkness we thought 
+vanquished has returned.
+
+Perhaps some dark agent
+remained hidden, waiting for
+the right moment to strike.
+
+Where there is great evil,
+though there may also be
+an imprisoned shrine maiden.
+
+You must tell the maiden
+of this tower! We cannot
+abandon Hyrule Castle!
+
+GREEN MAIDEN(TMLN 2)
+You passed through the
+flames to rescue me!
+
+Such bravery. You're just
+like the Knights of Hyrule!
+
+You've heard of the Knights
+of Hyrule, of course!
+
+They're the pride of the
+kingdom! They would lay
+down their lives for honor!
+
+In Hyrule, four sacred jewels
+can open the path to the
+Realm of the Heavens.
+
+The safety of these jewels
+has for ages been entrusted
+to the Knights o Hyrule.
+
+And yet, in these dark times,
+the knights are nowhere
+to be seen...
+
+I cannot hide my fears.
+
+... ... ...
+
+Pardon? Master Kaepora
+Gaebora, you say?
+
+Is that so... Well then, we
+must go to Hyrule Castle!
+
+We must liberate the castle!
+</act>
+<act number = "04'00">
+<title>LEVEL FOUR: Near the Fields</title>
+
+<chapter>STAGE 1: The Fields</chapter>
+
+GREEN MAIDEN (fairy form)
+Link! Hyrule Castle fights
+an even greater darkness
+than before!
+
+GREEN MAIDEN (fairy form) (next screen)
+Hm? What's that girl doing
+out there all by herself?
+
+Link, please, you must
+speak with her!
+
+If she stays out there
+alone, she's bound to
+be attacked!
+
+MALON(TMLN 1)
+Um, excuse me...
+Were you just talking
+to...a green fairy?
+
+I saw it! There was a
+beautiful fairy fluttering
+around you!
+
+Amazing! What Poppa told
+me really is true!
+
+He said that good boys and 
+girls get to meet fairies!
+
+Like today! I was coming
+home after running errands
+but...I couldn't get back.
+
+I mean, it started raining,
+and the castle guards were
+moving all the cannons...
+
+The cannons are really old,
+and they're not meant to be
+used... It was really weird.
+
+Say, if you're all going on
+ahead, take me with you!
+
+You're friends with the
+green fairy, so of course
+it's OK, right?
+
+<choice>No</choice>
+
+But why?
+I'm sure the green fairy
+would take me!
+
+And you're friends with 
+the green fairy, so you
+must be a good kid.
+
+Please!
+Take me home!
+
+<choice>Yes</choice>
+
+Oh, great! Thanks!
+
+My name's Malon!
+I'm from the Lon Lon Ranch
+right up the road.
+
+It's not very far...
+Thanks, again!
+
+MALON (later)
+Poppa!
+</sp><character>
+POPPA</character><sp>
+Oh... Malon!
+You're late!
+
+The rain's coming down so
+hard, I was beginning
+to worry!
+
+In fact, I'd gotten so
+worried that I was about 
+to go looking for you!
+
+MALON(TMLN 1)
+To tell the truth, Poppa,
+these young boys rescued
+me!
+
+The soldiers in the castle
+we behaving so oddly, and 
+I couldn't get past them.
+
+They were moving the old
+cannons around...and they
+even aimed their bows at me!
+</sp><character>
+POPPA</character><sp>
+What? Really? That IS
+Strange. Something must
+have gotten into them.
+
+What could be going on?
+I wonder if something's 
+happened at Hyrule Castle.
+
+Malon, I'm just glad that
+you made it home safely. It
+sounded like a close call!
+
+My thanks to all of you for
+saving my poor Malon!
+
+I'd love to give you a
+token of my gratitude!
+
+Hmmm...let's see...
+
+I've got it! If you're going
+to continue your trip, you
+should go on horseback!
+
+This castle guards are sure
+to be headed this way, and
+there are more ahead, too. 
+
+You'll be much safer riding
+my swift horses, I'm sure!
+
+Our farms right next door.
+We've lots of carrots around,
+so take some with you.
+
+Those horses love carrots!
+They'll come running if
+you've got some handy.
+
+Thank you once again!
+I'll never forget what
+you've done!
+
+MALON (again)
+Thanks to all of you, I made
+it back home safely!
+
+I hate to admit it, but at
+first, I wasn't sure I could
+really count on you guys.
+
+But it turns out, you guys
+are the best! You're real
+heroes!
+
+I think I finally understand
+why you guys are friends
+with the green fairy.
+
+Thank you so much!
+
+POPPA (again)
+We're so scared that we do
+nothing but sit at home and
+stare at the walls.
+
+Oh yeah, at the bottom of
+the stairs in front of our
+house, there's a storeroom.
+
+It's full of stuff we never
+use, so if you see anything
+you need, just take it!
+</sp><character>
+STONE TABLET</character><sp>
+Carrots for horses!
+Help yourself!
+
+Take a carrot?
+
+<choice>No</choice>
+
+You don't need that now!
+
+<choice>Yes</choice>
+
+You got a carrot! Take it 
+out of your crystal ball
+when you need a horse.
+</sp><character>
+SIGN</character><sp>
+<choice><interact>If you get trapped</interact></choice>
+The fence is low, so you
+can lift things across it.
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Tingle Times</interact></choice>
+ Volume 3
+
+Tingle hears that little
+boys and girls who behave
+get to meet a fairy here.
+
+Perhaps if Tingle does his
+best to be kind, he may meet
+this fairy face to face!
+
+Here's a good deed! I'll put
+up road signs!
+
+ ...Someone's Storeroom
+ then ...Strange Cave
+ ...Someone's House
+
+Praise my kindness!
+  Tingle
+</sp><character>
+THIEF IN HOUSE</character><sp>
+Hey! I can't believe you're
+out with all those monsters
+around.
+
+You know, if I just had a
+weapon, I'd do something
+about them...
+
+But the problem is I can't
+even get to the shed where
+all our weapons are stored!
+
+Ooo! I know!
+
+Since you don't mind going
+outside, can you slay all
+the one-eyed monsters?
+
+If you do, you can use
+whatever you want from
+the storage shed.
+
+Will you slay the monsters?
+
+<choice>No Way</choice>
+
+What? Why not? Well, come 
+tell me if you change 
+your mind.
+
+THIEF IN HOUSE (again)
+Hey! It's you!
+
+Will  you slay the monsters?
+
+<choice>Sure</choice>
+
+Really? Sweet! There are
+lots of weapons and stuff in
+the storage shed.
+
+I'm sure you'll find a good
+use for at least one of
+them!
+
+Take whatever you want.
+Just get rid of all the
+one-eyed monsters!
+
+Here's the key to the
+storage shed. Take it
+with you!
+
+THIEF (again)
+I'm counting on you to get
+rid of the monsters!
+</sp><character>
+OLD MAN IN HOUSE</character><sp>
+Hah...
+
+I know what my son says
+about the weapons in the
+storage shed...
+
+but they're no match for
+the one-eyed monsters.
+
+A greater weapon may lie
+in the cave to the north,
+where my ancestors rest.
+
+But the earth there has
+crumbled to bits, making it
+impossible to get there.
+
+OLD MAN IN HOUSE (again)
+Hmm... There must be some
+way to get in that cave...
+</sp><character>
+STONE TABLET IN CAVE</character><sp>
+Follow the Great Fairy of
+the Fountain's counsel to
+wake the secret power...
+</sp><character>
+STONE TABLETS IN SECRET CAVE</character><sp>
+... ... ... ...
+<choice>Looks like an old grave</choice>
+
+THIEF IN HOUSE (after slaying monsters)
+...
+
+What's that? You say you
+destroyed all the one-eyed
+monsters?
+
+That's great! Thank you!
+
+I really should reward 
+you! Uh... Gee... What
+can I give you...
+
+...
+
+Umm... You're headed to
+Hyrule Castle?
+
+...Oh! I know!
+
+There's this giant tree
+that's blocking the path
+to the castle...
+
+But I dug a huge passageway
+so I could get into the
+castle.
+
+Once I was done with it, I
+sealed it up, but you could
+dig it open if you wanted.
+
+Take this shovel in exchange
+for your help. You can dig
+holes with it!
+
+There's a spot north of our
+shed where there might
+be an underground cave.
+
+You should start digging
+around there and try to
+find it.
+
+If you have a hard time
+finding it, try going to the 
+Great Fairy's Fountain.
+
+The fairy there can make 
+this a powerful shovel!
+
+OLD MAN IN HOUSE (again)
+Oh! You again?
+
+What? You slew all the 
+monsters?
+
+Oh, thank you so much!
+You can see my son for 
+your reward.
+
+Finally, it's safe to go
+outside again. And it's
+all thanks to you!
+
+BLUE KNIGHT OF HYRULE(TMLN 2)
+I am the Knight of Hyrule
+charged with guarding
+the blue royal jewel.
+
+To my shame, I fell under
+the sway of dark powers
+
+and was transformed into
+a base creature of magic.
+
+The jewel was also cursed,
+and it became a portal to
+the Dark World.
+
+I am sorry for the citizens
+of Hyrule who suffered...
+and for Princess Zelda!
+
+I trust you are going to
+the Realm of the Heavens
+and the Palace of Winds.
+
+However, you must first
+gather the royal jewels
+
+to reveal the path to
+the Tower of Winds.
+
+There are three other
+guardian knights. I fear
+they too have been changed.
+
+Free them from their dark
+curses and retrieve the 
+jewels!
+
+The light must return to
+Hyrule! I entrust you with
+the blue royal jewel.
+
+And with it, I place in
+your hands the hopes of 
+all Hyrule!
+</sp><character>
+NARRATOR</character><sp>
+You got a blue jewel!
+You have three more jewels
+left to find!
+
+<chapter>STAGE 2: The Swamp</chapter>
+
+KAEPORA GAEBORA(TMLN 1)
+Be cautious, Link.
+A poison swamp lies ahead!
+
+Vaati! I curse the name!
+His actions have poisoned
+the very land!
+
+The creatures who lived here
+have long since fled the
+effects of his foul presence.
+
+Now all that remains are
+monsters and floating weeds
+that lead travelers astray.
+
+I believe you can vanquish
+this foulness and return
+Hyrule to its former beauty.
+
+Link, my friend, take care
+not to get lost and drown
+in this poisonous swamp!
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Tingle Times</interact></choice>
+   Volume 4
+
+Tingle got stuck in icky
+sludge! It was so...slimy!
+
+Tingle must write this all
+down so that the same thing
+doesn't happen next time.
+
+I will gracefully flit
+from leaf to handy leaf,
+jumping with such joy.
+
+Almost like skipping from
+Zora to Zora!
+Tingle
+</sp><character>
+GHOSTLY GIRL</character><sp>
+I came here on a dare, but
+all of my friends vanished,
+and now I'm all alone.
+
+A ghost told me that they'd
+all gone home. How mean!
+
+Oooh... I'm scared...
+
+DAMPE(TMLN 2)
+It's dangerous out.
+You shouldn't be
+wandering around.
+
+This shadowy guy gas been
+stirring up trouble lately.
+Actually he looks like you!
+
+My name's Dampe. I'm
+supposed to be the caretaker
+at this here graveyard.
+
+Only I can't take care
+of a single thing right
+now. I'm helpless!!!
+
+These creatures, they are so
+pleased. They treat our
+world like their new home.
+
+Listen up, boys.
+
+Legends speak of a mirror
+in which a dark tribe was 
+sealed away long ago.
+
+I understand it's supposed
+to be hidden now somewhere
+in the Forest of Light.
+
+The forest's been covered by
+pitch-black clouds recently.
+It's a Forest of Dark now.
+
+Yep, no mistake about it...
+Something bad's a-brewin'
+there.
+</sp><character>
+GHOSTLY SPIRIT</character><sp>
+I came to visit my
+departed wife's grave.
+
+Then she showed up,
+saying she came to
+visit MY grave...
+
+I wish someone would tell
+me which one of us is the
+ghost and which isn't!
+
+<chapter>STAGE 3: Infiltration of Hyrule Castle</chapter>
+
+WHITE MAIDEN(TMLN 2)
+Link... Thank you. You carry
+my hopes with you...as well
+as all of Hyrule's.
+
+Wait... Is that the blue
+royal jewel you carry?
+How did you come by it?
+
+Is that so?
+The Knights of Hyrule... So
+even the jewels are now...
+
+Link, all we can do is put
+our faith in the light and
+press on
+
+overcoming each obstacle
+that confronts us.
+
+My forest has lost its light.
+Darkness covers it like a
+shroud.
+
+Link, will you go to the
+forest? Perhaps you will find
+some clues there.
+
+In the heart of the forest is
+a temple. The Dark Mirror
+can be found there.
+
+Long ago, a dark tribe
+invaded Hyrule.
+
+They were defeated and
+imprisoned within the mirror.
+
+The tribe's mirror prison was
+then secreted away and
+hidden in the forest temple
+
+to sever its connection to
+this world.
+
+That Dark Mirror must never
+fall into the hands of those
+with evil hearts.
+
+Link! The mirror is a danger
+in anyone's hands but yours.
+No one else can be trusted.
+
+Retrieve the Dark Mirror
+from the palace, and keep it
+until Princess Zelda is safe.
+
+Please. You are the only one
+we can depend on...
+
+First, let us proceed to the 
+forest.
+
+</act>
+<act number = "05'00">
+<title>LEVEL FIVE: The Dark World</title>
+
+<chapter>STAGE 1: Lost Woods</chapter>
+
+WHITE MAIDEN(TMLN 1) (fairy form)
+Link, this is the Forest
+of Light.
+
+Or rather, it once was. Now,
+the darkness grows deep,
+and the air stagnant.
+
+I wonder if some clue might
+reveal itself here.
+
+It seems that many foul 
+beasts are gathering here.
+
+Perhaps you might be able
+to learn something from
+them.
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Tingle Times</interact></choice>
+Volume 5
+
+Ooh, everywhere I go, woods,
+woods, and more woods!
+Lost Woods everywhere!
+
+Here's a solitary road sign
+just for you!
+
+     Woods
+    Woods
+     Woods
+
+Perfect!
+ Tingle
+
+DEKU SCRUB(TMLN 2)
+Everything's going swell
+lately! And we have Ganon,
+King of Darkness, to thank!
+
+Huh? Vaati?
+
+What's that? No, Vaati's
+old news. Ganon's the King
+of Darkness! Forget Vaati!
+</sp><character>
+DEKU SCRUB</character><sp>
+Oopipi!
+Are you lost?
+
+Oopipipipipi!
+Yeah! Yeah! You'll be
+lost forever!!
+
+<stage type = "info">Link stumbles upon Deku Scrubs circled around some type of skull shrine</stage>
+
+DEKU SCRUB 1(TMLN 1) (starting at bottom, going clockwise)
+Soon, Lord Ganon's power
+will change all of Hyrule's
+forests into Lost Woods!
+
+Once that happens, we'll be
+able to travel freely!
+
+DEKU SCRUB 2
+Gwee hee!
+
+I locked up the shovel and
+hid the key to keep
+strangers from finding it!
+
+And let's not forget
+my impeccable work
+guarding it personally!
+
+There's no way anyone will
+ever get their hands on the
+shovel!
+
+DEKU SCRUB 3(TMLN 1)
+Make sure that all who
+enter the forest remain
+here! Lord Ganon's orders!
+
+But we're trying to build an
+underground road that will
+let us go anywhere...
+
+Anyway, we've hidden
+every single shovel we
+could find!
+
+If there are no holes, no
+one will ever find our road.
+We're absolutely brilliant!
+
+DEKU SCRUB 4
+Ah... I love darkness.
+It's so soothing, so
+relaxing.
+
+DEKU SCRUB 5
+Digging holes in woods this
+big is tough work when your
+shovel's been taken away.
+
+We move four times as fast
+in Deku Scrub formation 
+tough, so it'll be a breeze.
+
+You know,  doubt anyone
+else could come up with 
+such a cunning plan!
+
+DEKU SCRUB 6(TMLN 1)
+Thanks to Ganon, we were
+awakened from our slumber!
+
+DEKU SCRUB 7
+The Lost Woods is our
+birthplace!
+
+If you wander lost here for
+too long, you too can
+become a Deku Scrub!
+
+DEKU SCRUB 8
+Uh-oh! I forgot about the
+hole I dug as a joke
+the other day...
+
+I'll need to sneak away
+later, grab a shovel, and
+look for it...
+
+DEKU SCRUB 9
+I captured the Great Fairy
+so that if someone steals
+my shovel...
+
+he won't be able to
+power it up!
+
+DEKU SCRUB 10
+Where the heck did Decci
+go?! That slacker should try
+helping out once in a while!
+</sp><character>
+DEPPI THE DEKU SCRUB</character><sp>
+We're busy getting rid of
+things in the woods that
+are bad for Deku Scrubs.
+
+This is the dumping ground.
+No one's allowed here except
+for magical creatures!
+
+DEPPI THE DEKU SCRUB (again)
+If you want to help, you've 
+got to ask Dekki!
+
+Dekki's around somewhere.
+He likes dark places, so
+go find him yourself!
+</sp><character>
+DEKKI THE DEKU SCRUB</character><sp>
+Hm. You're not a Deku Scrub,
+so why are you even here?
+
+Do you wanna help us?
+
+<choice>No</choice>
+
+Pfeh! I'm busy here! I don't
+have time for your nonsense!
+
+G'wan, get outta here!
+
+DEKKI THE DEKU SCRUB (again)
+Boy, oh, boy! Took you long
+enough! If you want to work,
+all you have to do's say so!
+
+Hey! What's going on? Hey!
+Do you want some work?
+
+<choice>Yes</choice>
+
+Really? Is that so?
+That's a big help!
+
+I was in deep trouble, 'cuz
+there weren't enough Deku
+Scrubs!
+
+Now, uh...were you the one
+who's going to help?
+
+I see... Just you, huh?
+Jeez, I got 50 guys helping 
+me, you know?!
+
+I'm just saying you
+should have a helper...
+or two...or three.
+
+Oh, whatever. C'mon, let's
+just get started.
+
+You ready? I'm gonna name
+three items, and I want you
+to remember each of 'em!
+
+I ain't repeating myself!!
+
+Then you go into the woods,
+nab 'em, and bring 'em back.
+And in order, you hear!?
+
+<stage type = "info">Dekki chooses three random items from the following: water jar, stone, grass, 
+oil pot, sign, or bomb.</stage>
+
+1.	Water jar
+2.	Stone
+3.	Grass
+
+So go take all those things
+I told you about and get
+'em to Deppi in that order!
+
+You make any mistakes, and 
+you're fired! now, get
+movin'! Time's a-wastin'!
+
+DEKKI THE DEKU SCRUB (again)
+Cut out all the chatter
+while you're on the job!
+Show some control!
+
+DEPPI THE DEKU SCRUB (after talking to Dekki)
+Don't dawdle! Bring it here!
+
+DEPPI THE DEKU SCRUB (with wrong item)
+Grrrrrr! That's not what 
+you were supposed to bring!
+You're useless!
+
+You're fired!!
+
+DEPPI THE DEKU SCRUB (again)
+You've been fired,
+so scram! Now!
+
+DEKKI THE DEKU SCRUB (after getting fired)
+That's it! You're fired!
+You want to get your job
+back, show me you got guts!
+
+DEKKI THE DEKU SCRUB (after leaving and coming back)
+What? You again?
+Aren't you the whelp
+that just got fired?
+
+You're back to give it a 
+second shot, is that it?
+
+<stage type = "info">Dekki gives you another list of items</stage>
+
+DEPPI THE DEKU SCRUB (with first item on list)
+OK! That's one down!
+Now hurry up and bring
+the next one!
+
+DEPPI THE DEKU SCRUB (with second item on list)
+All right, that's number
+two! Just one more to go!
+
+DEPPI THE DEKU SCRUB (with final item on list)
+That's all of them! Your
+job's finished! Now give
+Dekki the good news!
+
+DEPPI THE DEKU SCRUB (again)
+There's nothing left for 
+you to give me! Get going
+and report to Dekki!
+
+DEKKI THE DEKU SCRUB (after job's finished)
+Nice work!
+You're not as worthless as
+you look, you know that?
+
+That's it! Job's done!
+
+You did well, so I'm gonna 
+give you a special reward!
+
+A Power Bracelet!
+
+Put this on and you can
+move even the heaviest 
+things!
+
+DEKKI THE DEKU SCRUB (again)
+Hey there! How you doin'?
+
+Help us make all woods Deku
+Scrub-friendly environments!
+
+DEPPI THE DEKU SCRUB (after talking to Dekki)
+You've got promise. That's
+why you should become Deku
+Scrubs!
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Deku Scrub Bulletin Board</interact></choice>
+
+If you're not a Deku Scrub,
+stop reading! Now!!!
+
+When you're done with the 
+key used to lock the place
+where we hid the shovels,
+
+be sure to put it back
+where you got it from!	
+
+DEKU SCRUB(TMLN 1)
+I adore Lord Ganon, but that
+shady guy who looks like
+you ain't so great.
+
+He's not one of us, but he
+still pushes us around like
+he's some kinda big shot!
+
+<chapter>STAGE 2: Kakariko Village</chapter>
+
+KAEPORA GAEBORA(TMLN 2)
+Do you know this village,
+Link? Kakariko was once
+home to many kind people.
+
+Now however, it's become a
+rather dangerous place.
+
+The darkness that cloaks
+its people has cost many
+of them their humanity.
+
+It's madness. How much
+stronger will this darkness
+in Hyrule grow?
+
+Hoo hoot? Dark Mirror?
+
+Hoo... So the shrine maidens
+have said they want you to
+watch over it?
+
+Link...
+You've proven yourself to
+be trustworthy and reliable.
+
+There's no need for me to
+fuss about. I entrust the
+future of Hyrule to you!
+
+I'm going to take to the
+skies and check on the
+rest of Hyrule.
+
+Forge on, Link! Hyrule
+is counting on you!
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Tingle Times</interact></choice>
+   Volume 6
+
+WAAAAAAAAHHHHH!
+Tingle's been had!
+
+Someone's stolen his 
+precious Force Gems!
+
+This village is filled to
+the brim with thieves!
+It's not fair...
+
+If you see the culprit,
+please catch him for Tingle!
+
+Show no mercy!
+   Tingle
+</sp><character>
+WOMAN </character><sp>
+!!!
+
+Wh-What are you doing to
+our village?!?
+
+Hurry up and put those
+fires out! And then get
+out of our village!
+
+WOMAN (after fires are out)
+Wait, you aren't that dark,
+shadowy guy, are you?
+
+But, uh, you are the one who
+made it rain, aren't you?
+...Thank you.
+</sp><character>
+OLD MAN IN HOUSE</character><sp>
+... ... ... ... ...
+
+Darling... What will I
+ever do without you...
+</sp><character>
+LETTER ON TABLE</character><sp>
+Dearest,
+
+we've been married now
+for 56 years, and you've 
+always been so good to me.
+
+After I'm gone, please don't
+let yourself be too sad
+for too long.
+
+If you get lonely, get
+yourself a cute Cucco
+as a pet.
+
+If you do, perhaps you'll
+be able to forget some
+of your sorrow.
+
+Good-bye, old timer.
+We'll meet again one day.
+
+OLD MAN IN HOUSE (with Cucco)
+... ... ... ... ...
+
+Ah, what an adorable Cucco.
+It warms my old heart.
+
+After my wife passed on, I 
+was prepared to spend the
+rest of my days alone...
+
+But now that I've seen that
+Cucco... Would you...let 
+me take care of it for you?
+
+I'll give you this key, and 
+you can even take as many
+Force Gems as you like.
+
+If I have that Cucco by
+my side, I won't need 
+anything else.
+
+OLD MAN IN HOUSE (again)
+Her last wish was that I
+adopt myself a pet Cucco.
+What a little cutie...
+</sp><character>
+MAGE IN HOUSE</character><sp>
+Ohh...there! I can see it!
+The future... What it holds
+for you. It's in my crystal.
+
+For 100 Force Gems, I'll
+tell you what I see. OK?
+
+<choice>No</choice>
+
+What do you mean? Does the
+future...frighten you? 
+Ah, well... Come again...
+
+<choice>Yes</choice>
+
+To tickle my fortune-telling 
+fancy, I'll need 100 Force
+Gems.
+
+...Iddly biddly...
+...Babbledy goobledy...
+Alakawhoopity!
+
+Force Gems: # of s
+Hearts: # of s
+Total: # of s
+
+<choice>if reading is bad</choice>
+Uncontrollable power will
+be unleashed!
+...Jibba jabba...
+
+...Shoobeedoo...
+...Yow!
+
+You lost 300 Force Gems...
+
+I'm sneaky, aren't I?
+
+<choice>if reading is neutral</choice>
+Common days...
+Monotonous life...
+It's all so ordinary...
+
+The crystal shows the same
+old you with no changes at
+all...
+
+It's a shame, isn't it?
+Let me do this for you.
+
+You got 1 Force Gem! And
+you should be thankful you
+even got that much!
+
+That'll hold you for a 
+while, won't it?
+
+<choice>if reading is good</choice>
+An unexpected blessing may
+make an appearance!
+
+...Jibba jabba...
+...Shoobeedoo...
+...Yow!
+
+You got 200 Force Gems!
+Bask In Force light!
+
+I'm good, aren't I?
+</sp><character>
+MAN BEHIND MAGE</character><sp>
+The thief whose hideout is
+under the tree at the town
+entrance is awful.
+
+I think he stole all of
+my Force Gems while I was
+out on my apprenticeship.
+</sp><character>
+MAN</character><sp>
+Leave the village and follow
+a mighty river downstream.
+and you'll find a temple.
+
+You should go there and 
+swear your allegiance to
+the great king.
+</sp><character>
+STONE TABLET INSIDE GROTTO</character><sp>
+This road splits one fate
+into two. Welcome to the 
+dungeon of mystery!
+
+Those who wish to try their
+luck for items start here.
+
+If you're just here for the
+sight-seeing, exit this way.
+</sp><character>
+NEXT STONE TABLET</character><sp>
+Only five forks remain
+in the path of destiny!
+</sp><character>
+NEXT STONE TABLET</character><sp>
+Only four forks remain
+in the path of destiny!
+</sp><character>
+NEXT STONE TABLET</character><sp>
+Only three forks remain
+in the path of destiny!
+</sp><character>
+NEXT STONE TABLET</character><sp>
+Only two forks remain
+in the path of destiny!
+</sp><character>
+NEXT STONE TABLET</character><sp>
+Only one fork remains
+in the path of destiny!
+</sp><character>
+STONE TABLET BY GROTTO EXIT</character><sp>
+Tackling the destiny that
+lies before you is an
+important part of life.
+</sp><character>
+OLD MAN WITH SHOVEL</character><sp>
+There are a lot of thieves
+in these parts. That's why I
+dug a pit to trap 'em!
+
+And it looks like I've
+caught someone in it!
+
+C'mon, youngsters! If you'll
+dig, I'll point out where 
+that pit is!
+
+OLD MAN WITH SHOVEL (again)
+There! Dig there!
+
+OLD MAN WITH SHOVEL (after hole is found)
+Look at that! Found a pit,
+did you?
+
+Probably nothin' in there
+but a thief, I'm guessing.
+</sp><character>
+OLD MAN WITH CAGE</character><sp>
+I've built a fence around
+the village to keep any
+thieves from escaping!
+
+If you want to leave the
+village, you have to capture 
+ten thieves first.
+
+All you gotta do is lift the
+rascals up with the R Button
+and put 'em in the cage.
+
+I'm countin' on you.
+
+OLD MAN WITH CAGE (again) 
+You still have __ thieves
+left to capture.
+
+I know their hideout's 
+around here somewhere.
+
+Use the R Button to lift 'em
+up and put 'em in this cage.
+
+Nab every last one of them
+miscreants even the once
+holed up in their lair.
+</sp><character>
+TREASURE CHEST</character><sp>
+Too bad! You got nothing!
+
+OLD MAN WITH CAGE (after catching ten thieves)
+Well, I'll be!
+Did you really capture every
+last one of the thieves?
+
+What a relief that is. Now
+that they're all gone, I can
+take that fence down.
+
+You can come and go as you
+please from now on.
+
+OLD MAN WITH CAGE (again)
+Looks like peace and quiet
+will return to our village.
+
+No need for me to look out
+my window for thieves
+anymore. What a relief!
+
+And we have you to thank
+for all of this!
+</sp><character>
+OLD MAN BY TORCHES</character><sp>
+You've seen it, of course,
+haven't you?
+
+All the trouble we've been
+having with fires around
+the village?
+
+What we need is a good 
+downpour, but there's nary a 
+drop of rain to be had.
+
+I'd say a rain prayer, but
+I can't very well use the
+flame from our own fires.
+
+Hmm... Gotta do something,
+or the village is doomed.
+What to do...
+
+OLD MAN BY TORCHES (again)
+What I really need is a good
+flame to use as part of 
+my rain prayer.
+
+<choice>after torches are lit</choice>
+Oh...rain!
+Blessed. blessed rain...
+
+But...this is a bit...too
+much rain...
+
+I don't know why, but this 
+doesn't feel right.
+</sp><character>
+ZORA</character><sp>
+Oh, I'm so hungry... I want 
+to chow down on those
+fish, but I can't catch 'em!
+
+If you can get 10 or more of
+them in my mouth, I'll give 
+you a reward!
+
+Do you want to try?
+Hm? Do you?
+
+<choice>No</choice>
+
+I'm famished...
+Go away!
+
+<choice>Yes</choice>
+
+I'm really famished, so
+you've got to  do it within a
+minute! Ready... GO!
+
+Hold it!
+
+Oh, that was tasty!
+Here's your reward.
+
+I'm stuffed!
+
+SICK KID(TMLN 1)
+Cough cough...
+
+Did... Did you put out
+the fires?
+
+I'm always getting sick, and 
+when those thugs started the
+fires...cough...
+
+I had to stay locked away
+in here for my health.
+
+I'd like to give you
+something for rescuing
+our village.
+
+There's a treasure buried
+in a pit in my yard.
+
+You'll get more out of it
+than I ever will.
+
+So...cough...I want you to
+have it.
+
+<choice>again</choice>
+My most special treasure,
+my bug net...
+It got burned up...
+
+It's so sad. I used to dream
+about going to the forest
+with it when I got better.
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+GREEN KNIGHT OF HYRULE(TMLN 2)
+Bearer of the Four Sword.
+
+I am the Knight of Hyrule
+charged with guarding the 
+green royal jewel.
+
+The Four Sword was the seal
+to Vaati's prison.
+
+If you have it, that means
+the seal has been broken.
+
+Yet the one who enshrouded
+me in darkness was not
+Vaati! It was...
+
+Ah! If the one who enchanted
+me and turned the jewel
+
+into a dark portal wanted
+Vaati restored...
+
+His goal must be to use
+Vaati to remake Hyrule into
+a land of darkness.
+
+Listen to me, heroes. You
+must never forget that Vaati
+is not the only foe you face.
+
+I will follow my brother
+knight's lead and entrust to
+you this green royal jewel.
+
+Now go!
+You and the Four Sword!
+
+<chapter>STAGE 3: Temple of Darkness</chapter>
+
+<stage type = "info">Several Deku Scrubs stand near the entrance to the Temple of Darkness</stage>
+
+DEKU SCRUB 1 (starting from left)
+We're here to make sure no
+shady types get into the
+temple!
+
+You guys look like a bunch
+of weaklings, though. If you 
+go in, you'll get stomped.
+
+Ah, but it's a free world...
+You can go get stomped if
+you want! Ha ha ha hah!
+
+DEKU SCRUB 2
+The inside of the temple is
+a rough place. You'll get
+torn up in no time!
+
+You'd better be prepared!
+
+DEKU SCRUB 3(TMLN 1)
+Hey! Why have you come to
+the Temple of Darkness? Are 
+you here to see Lord Ganon?!
+
+DEKU SCRUB 4
+You'll learn how strong Lord
+Ganon is soon enough!
+
+DEKU SCRUB 5(TMLN 1)
+Lord Ganon told us to keep 
+watch for any travelers
+moving in groups of four.
+
+And there are four of you,
+aren't there? Geh heh heh...
+
+But Lord Ganon would never
+be afraid of kids like you.
+He must mean someone else.
+
+DEKU SCRUB 6
+Whew... I'm beat! I've come
+all the way from the Lost
+Woods to pay my respects.
+
+DEKU SCRUB IN FOUNDATION(TMLN 1)
+Grrr!
+What a bunch of thugs!
+
+Blowing up our foundation
+with your stupid little
+bombs!
+
+That's right! This is the
+foundation for the glorious
+Lord Ganon's statue!
+
+It's not done yet, so don't
+go manhandling it, punks!
+
+Just be careful, because if
+there are holes to the north 
+and south of it, it'll move!
+
+DEKU SCRUB IN FOUNDATION (after move)
+Gwaaaaaaa!!!
+
+You... You moved our
+precious foundation! You...
+You dared to touch it!!
+
+What do you think you're
+doing? You're so mean!!
+Wahhh!!!
+
+DEKU SCRUB 1
+We're planning a cool stone
+monument to put up here!
+
+The inscription's been
+finalized and everything!
+
+"1. Put four in a vertical 
+line." That's what it'll 
+say! Is that cool or what?!
+
+DEKU SCRUB 2
+We're planning a stylish
+stone monument to put up
+here!
+
+The inscription's been
+finalized and everything!
+
+"2. Break oil pots."
+Now is that or is that not
+the very height of style?!
+
+Seriously, am I right?
+
+DEKU SCRUB 3
+We're planning a grand
+stone monument to put here!
+
+The inscription's been
+finalized and everything!
+
+"3. On the left wall."
+One of the best inscriptions
+ever, am I right?!
+
+DEKU SCRUB 4
+We're planning a sweet
+stone monument to put up
+here!
+
+The inscription's been
+finalized and everything!
+
+"4. Four push together
+as one." That's super sweet,
+right?
+
+WHITE MAIDEN (fairy form) (TMLN 2)
+Ah!
+The Dark Mirror... Someone's 
+stolen the Dark Mirror!
+
+That mirror reveals the 
+wickedness within a person
+and brings it to life.
+
+It's an item of terrible,
+dark power. No good can
+come from this.
+
+Shadow Link!!
+
+Could he be your evil
+reflection, cast by the
+Dark Mirror?
+
+If that were the motive of
+the mirror's thief...
+This is disastrous!
+
+If we don't get the mirror
+back, Hyrule will be overrun
+with evil Shadow Links.
+
+The mirror... Who took it?
+And where?
+
+WHITE MAIDEN (fairy form)
+The red shrine maiden's in
+trouble! The Mirror! The Dark
+Mirror!
+
+RED MAIDEN(TMLN 1)
+The white maiden? I'm
+worried about the mirror,
+too. Who could have stolen it?
+
+And what of the other shrine
+maidens? Has Princess Zelda
+been rescued?
+
+WHITE MAIDEN(TMLN 2) (fairy form)
+The whereabouts of the 
+purple maiden and the 
+princess are still...
+
+We still have no clear idea
+of who stole the mirror.
+
+However, there is something
+that disturbs me.
+
+When those...things...first
+entered my woods, they
+spoke of their dark lord.
+
+"Ganon, Ganon," they
+chanted. It was as though
+they were...worshipping.
+
+RED MAIDEN(TMLN 3)
+Ganon... I've heard that
+name before. No wait...
+It was Ganondorf...
+
+But, no... That man was of
+the Gerudo tribe.
+
+I can't imagine these
+creatures worshipping 
+some desert nomad.
+
+There's a Gerudo village
+in the desert.
+
+I doubt there is any
+connection, but it cannot
+hurt to check the village.
+
+Beyond the village lie
+ruins and an ancient 
+pyramid.
+
+They are so old that no
+living creature knows
+very much about them.
+
+All I can tell you is that
+no on who sets foot in the
+pyramid ever returns.
+
+If one of the maidens is
+there, I fear for her safety.
+
+Link... Despite all of this,
+we must go there.
+
+Let us be on our way! To
+the endless desert sands!
+
+</act>
+<act number = "06'00">
+
+<title>LEVEL SIX: The Desert of Doubt</title>
+
+<chapter>STAGE 1: Desert of Doubt</chapter>
+
+RED MAIDEN (fairy form)
+Take heed, Link.
+The road you must take is
+enveloped in a fierce wind.
+
+But remember how far you've
+traveled. You must proceed.
+You must go forward.
+
+You can meet any obstacle
+that arises. I believe that.
+
+A Gerudo village lies due 
+north of here. Go and speak
+with them.
+
+GERUDO(TMLN 1) 
+Welcome. It's been a long
+time since we've seen any
+travelers here.
+
+This village is our home. We
+are the dwellers in the
+desert, the Gerudo tribe.
+
+The village is in a bit of
+an uproar contending with
+a man who broke our laws.
+
+We can't do much for you,
+but make yourself at home.
+
+GERUDO IN TENT(TMLN 2)
+The pyramid is sacred
+to our people.
+
+To have a criminal such as 
+him enter... His presence 
+stains its holy ground.
+
+GERUDO IN TENT(TMLN 3)
+The Desert Temple was built
+to keep people away from
+the pyramid.
+
+None who enter the pyramids
+or the temple have ever 
+returned. They are tombs.
+
+Yet the man has gone there
+by himself. All for the sake
+of his own mad desire!
+
+GERUDO IN TENT(TMLN 3)
+Once every 100 years, a 
+special child is born unto
+my people.
+
+That child is destined to 
+be the mighty guardian of
+the Gerudo and the desert.
+
+But this child, its heart
+grew twisted with every
+passing year.
+
+The child became a man
+who hungered for power
+at any price.
+
+GERUDO IN TENT(TMLN 2)
+Curse that Ganondorf!
+He broke our laws and
+left for the pyramid...
+
+I don't know what he plans,
+but I am worried...
+
+GERUDO IN TENT(TMLN 1)
+Within this desert, an
+ancient temple slumbers
+amid ruins.
+
+A perpetual sandstorm blows
+here, a barrier to hinder
+those who seek to enter.
+
+If you plunge headlong into
+the sands, you'll wind up
+right where you started.
+
+GERUDO ELDER(TMLN 2)
+Tell me travelers what
+brings you to these
+borderlands?
+
+Hmm...
+
+I see... You came on word
+of the maidens, eh?
+
+Yes, this Ganondorf you
+speak of is a member of
+the Gerudo.
+
+But his intent is unknown to
+me. He has flouted the law
+and fled for the pyramid.
+
+To reach the pyramid, one
+must first pass the trial
+of the Desert Temple.
+
+The villain Ganondorf will
+no doubt draw his last 
+breath failing this trial.
+
+We've blocked the road to 
+the desert to keep other 
+fools from coming.
+
+But considering the crisis
+in Hyrule, we've no reason 
+to stop you brave lads.
+
+Go to the entrance of the 
+village and speak to the
+guards at the gate.
+
+GERUTO ELDER (again)
+The world is in turmoil. The
+desert and her storms have 
+grown fierce.	
+
+Please rescue the 
+maidens...and our world.
+
+GERUDO AT GATE(TMLN 1)
+From here on, the sandstorms
+are brutal. Kids like you
+will never make it through!
+
+GERUDO AT GATE (after talking to elder)
+... ... ...
+
+Eh? You've received
+special permission?
+
+Well, then...
+I've no choice, do I?
+
+Go ahead. Go on through.
+
+Remember though, the storms
+ahead are terrible.
+Be careful out there.
+
+GERUDO AT GATE (again)
+The sandstorms grow more
+fierce from here on.
+Be careful.
+</sp><character>
+STONE TABLET</character><sp>
+The road to truth will open
+only for those who oppose
+the inconstant winds.
+
+ZUNA MAN(TMLN 2)
+Oh, visitors to this village
+are truly rare, you know?
+
+We of the Zuna tribe live in
+this village.
+
+We may not look it now.
+but we are descended from
+the wise pyramid builders!
+
+ZUNA MAN IN TENT(TMLN 1)
+The man who came from the
+south a while back gave off
+bad vibes.
+
+I waved and everything, but
+the jerk just ignored me!
+Hmph!
+</sp><character>
+ZUNA WOMAN IN TENT</character><sp>
+I'll give you a sand rub for
+100 Force Gems!
+
+It's a special massage
+that's good for the heart!
+
+<choice>No thanks.</choice>
+
+And I was going to give you
+a sand massage, too...
+Oh well! Next time!
+
+<choice>Sure.</choice>
+
+100 Force Gems exactly.
+Here's your massage!
+
+Rub rub...rub...
+Squeeze here...
+Squeeze there...
+
+Rub...rub rub...
+A bit more here...
+A bit less there...
+
+There you go!
+All done!
+
+Whew! That is fantastic!
+
+ZUNA MAN IN TENT(TMLN 2)
+Do you want to know the
+secret of the pyramid?
+
+When we're young, we're
+told all the legends of
+the pyramid!
+
+There are many frightening
+tales about the pyramid.
+
+They say there's an evil
+force... No, wait... They
+say there's no evil force.
+
+Wait...which one was it?
+Evil force or no evil force?
+
+ZUNA WOMAN IN TENT(TMLN 1)
+I was wandering about and
+came across this temple in
+the desert.
+
+Eh? Where was it?
+
+Uhm...let's see... I had no
+business there, so I forgot.
+
+ZUNA MINI-GAMER
+Will your Force Gems
+multiply or dropify? Risk
+100 Force Gems and see!
+
+What do you say?
+
+<choice>Forget It</choice>
+
+Too bad...
+Save up your Force Gems
+and try again.
+
+<choice>I'll Risk It</choice>
+
+Excellent!
+Then open the chest of 
+your choice!
+
+<choice>if the multiply</choice>
+
+Talk about lucky!
+150 Force Gems!
+
+<choice>if they dropify</choice>
+
+Wrong!
+You get 1 Force Gem!
+
+<choice>if you break even</choice>
+
+100 Force Gems!
+You broke even!
+</sp><character>
+ZUNA UNDER DESERT</character><sp>
+To go west from here, you
+must take uniform steps and 
+move slowly. or else!
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+RED KNIGHT OF HYRULE(TMLN 2)
+I am the Knight of Hyrule
+charged with guarding the
+red royal jewel.
+
+Hear now the doom of the 
+knights. We were bested by
+a foe with a mighty weapon.
+
+He cast us into the Dark
+World, were we and the 
+jewels were lost in shadow.
+
+The Tower of Winds
+vanished, and I...
+
+No, WE servants of the
+crown were turned into
+monsters!
+
+The man that defeated us
+is also the same man who
+created that shadowy imp.
+
+A man from the desert
+wastes... He is not Vaati.
+
+Your dark twin was sent by
+him to trick you into
+breaking Vaati's seal.
+
+I wonder were the fiend
+got the amazing power he
+now wields.
+
+It matters not! None of
+this allows me to aid
+Princess Zelda.
+
+And yet I cannot go on...
+
+Brave ones...I entrust the red
+royal jewel to you.
+
+You now possess three
+of them.
+
+Obtain the fourth, and
+bring light back to the 
+Realm of the Heavens!
+
+<chapter>STAGE 2: Desert Temple</chapter>
+</sp><character>
+STONE TABLET</character><sp>
+To he who would be tested,
+use both body and spirit to
+pull the watchman forth.
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+<chapter>STAGE 3: Pyramid</chapter>
+</sp><character>
+ZUNA WOMAN</character><sp>
+Oh! This is SO frustrating!
+
+The floor's filled with 
+holes, and I can't go
+anywhere!
+
+I wish I could fly like a
+Pegasus... If only I had
+boots that could do that!
+
+RED MAIDEN(TMLN 2) (fairy form)
+Hm?
+That writing on those
+large rocks...
+
+It's in an ancient tongue...
+Let's see if I can read it.
+
+... ... ...
+Seek...you...the world?
+Seek you...power?
+
+Does your...soul...despise
+peace and...thirst for...
+more?
+
+Does you soul...cry...
+for...destruction and...
+conquest?
+
+We...grant you...power to
+...ruin...the world. The 
+power of...darkness.
+
+Evil...spirit of
+magic trident.
+
+You are...the...
+King of Darkness.
+
+... ... ...
+
+Evil spirit... Spirit of magic?
+Trident? This indentation is
+in the shape of a weapon.
+
+Do you think the person who
+took this trident was...
+Ganondorf?!?
+
+The King of Darkness is
+not Vaati?
+
+Does this mean this wicked
+man is somewhere in Hyrule
+plotting even now?
+
+Link! The situation is even
+more desperate than I
+believed!
+
+We must hurry!
+
+PURPLE MAIDEN(TMLN 1)
+Link!
+You've come to my aid?
+
+You came to this pyramid of
+no return just to rescue me?
+
+Oh, thank you, Link!
+
+...Princess Zelda?
+
+Is this true? So she's still
+in the clutches of those
+creatures?
+
+My sisters, show
+yourselves please.
+
+<stage type = "info">The six shrine maidens gather</stage>
+
+SHRINE MAIDENS(TMLN 1)
+We'll work together to find 
+Princess Zelda!
+
+Let our six hearts be one...
+Now let us call to her!
+
+<stage type = "info">Princess Zelda appears in a dark crystal</stage>
+
+PRINCESS ZELDA(TMLN 1)
+... ... ...
+
+... ...Ah!
+Link?! Is that you?
+And the shrine maidens!
+
+You're all safe...
+I'm so relieved.
+
+Link, I'm in the Tower
+of Winds.
+
+This is no longer the
+tranquil road to the
+Realm of the Heavens.
+
+Vaati's underlings have
+turned it into a frozen
+fortress.
+
+Hurry, Link! Vaati's power
+grows ever stronger,
+even as we speak...
+
+<stage type = "info">An evil laugh is heard as the screen fades; the six maidens appear again</stage>
+
+SHRINE MAIDENS(TMLN 1)
+Ah!
+
+Princess Zelda!
+
+The Tower of Winds!!
+
+She is trapped in the Tower
+of Wind, which has now
+vanished from Hyrule...
+
+Accursed Vaati! The
+princess is in danger!
+
+Link! Quickly, you must
+get the last royal jewel
+and bring back the tower!
+
+You heroes have crossed 
+Hyrule and gathered three
+of the jewels.
+
+There's only one place
+left to search.
+
+Frozen Hyrule, where the
+power of darkness keeps
+spring at bay...
+
+The last royal jewel must
+be there!
+
+No matter the cost to us,
+Princess Zelda must be
+rescued!!
+
+Hurry, Link!
+
+</act>
+<act number = "07'00">
+
+<title>LEVEL SEVEN: Frozen Hyrule</title>
+
+<chapter>STAGE 1: Frozen Hyrule</chapter>
+
+SHRINE MAIDENS(TMLN 2) (fairy forms)
+Link, the Tower of Winds has
+vanished.
+
+If we enshrine the royal
+jewels on the Four Sword's 
+sacred ground,
+
+the temple may reappear.
+
+We'll go on ahead and guard
+the sacred ground from our
+foe until you arrive.
+
+The power of darkness has
+halted the flow of time here,
+and winter lingers on.
+
+We must believe in tomorrow
+and hold true to our hope.
+
+May our passion keep our
+hearts from freezing!
+
+Link, you must first seek out
+the final royal jewel!
+
+Then, we will go to the
+Tower of Winds, where
+Princess Zelda awaits.
+</sp><character>
+SIGN</character><sp>
+<choice><interact>Blizzard Warning!</interact></choice>
+
+Take care not to stroll
+out too far during
+blizzard conditions!
+
+If you're exposed too long,
+your strength will fade
+away. Be careful!
+</sp><character>
+DEKU SCRUB</character><sp>
+Pipiii!
+It's my incredible creation,
+the Snow Wall!
+
+Unless you flame it while in
+Deku Scrub formation, you
+can't melt it!
+
+In other words, guys like
+you will never be able to
+get by this wall!
+
+I am soooo smooooth!
+</sp><character>
+SIGN</character><sp>
+Frozen lake!
+No swimming!
+
+PURPLE KNIGHT OF HYRULE(TMLN 1)
+Heroes! You've done well
+to get this far...
+
+I am the Knight of Hyrule
+charged with guarding
+the purple royal jewel.
+
+Thanks to you, we have been
+freed from the dark spells
+that bound us.
+
+You must now take the four
+royal jewels past this
+ice-bound temple and
+
+fly to sacred grounds!
+
+Then you can enter the tower
+leading to the Palace of
+Winds, where Vaati lurks.
+
+Deep within the palace
+which soars above the Realm
+of the Heavens,
+
+a terrible darkness
+awaits you all.
+
+Yet if you do not dispel that
+darkness, true peace will
+never return to Hyrule.
+
+The fate of Princess Zelda--
+and all of Hyrule--rests 
+in your hands!
+
+<chapter>STAGE 2: The Ice Temple</chapter>
+</sp><character>
+STONE TABLET</character><sp>
+Move rocks and ice away
+from the departed, so that
+they may rest in peace.
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+WHITE MAIDEN(TMLN 1) (fairy form)
+Link, the sacred grounds lie
+within this forest.
+
+Preparations are complete.
+Come, let us proceed.
+
+<stage type = "info">The six shrine maidens are gathered around a pedestal</stage>
+</sp><character>
+SHRINE MAIDENS</character><sp>
+Link...
+
+You've returned to where
+you started, the Four Sword
+Sanctuary.
+
+Now, give us the four
+royal jewels...
+
+<stage type = "info">The four jewels rise from the colored Links and take their place in a pedestal
+in each corner; they start glowing</stage>
+
+Hear me, heavens...
+Hear me, earth...
+
+Heed the light of the royal
+jewels enshrined here, and
+restore to us...
+
+the Tower of Winds!!
+
+<stage type = "info">Light comes from the eye picture on the wall and a pillar of light restores 
+the green color to the Sanctuary</stage>
+
+Link! Climb the tower.
+You are entrusted with
+Princess Zelda's safety!
+
+<chapter>STAGE 3: Tower of Winds</chapter>
+</sp><character>
+STONE TABLET</character><sp>
+OooooOOoo...
+
+Strike cracked blocks
+forcefully from above to
+smash them to bits.
+
+Everyone knows that.
+
+I didn't know that...
+No one ever told me,
+and now it's too late...
+
+I must leave some kind of 
+record of my mishap before
+it happens to someone else.
+
+...Why did I write
+out "OooooOOoo"?
+
+<stage type = "info">A prism of light appears after defeating the boss</stage>
+
+PRINCESS ZELDA(TMLN 1)
+Link?
+It is you, isn't it, Link?
+
+I believed you would come to
+my rescue, and here you are.
+
+I knew you would wield the
+Four Sword and come...
+
+Thanks to your efforts the
+darkness above ground is
+thinning.
+
+The maidens and I will pray
+to keep the darkness from
+recovering its full strength.
+
+However, the Realm of the
+Heavens is now overflowing
+with Vaati's monsters.
+
+The darkness in the Realm of
+the Heavens must be purged
+if true peace is to return.
+
+</act>
+<act number = "08'00">
+
+<title>LEVEL EIGHT: Realm of the Heavens</title>
+
+<chapter>STAGE 1: Realm of the Heavens</chapter>
+</sp><character>
+STONE TABLET</character><sp>
+Warning! Strong winds!
+
+<chapter>STAGE 2: The Dark Cloud</chapter>
+</sp><character>
+STONE TABLET</character><sp>
+Urrrrr...
+
+Strike cracked blocks 
+forcefully from above,
+and they'll break.
+
+You can also use the
+momentum of being shot from
+cannons to do the same.
+
+Everyone knows that.
+
+Except me. That's the first
+thing I learned when I
+got here.
+
+Didn't help me much,
+though... Urrrrk...
+</sp><character>
+STONE TABLET</character><sp>
+Urrrk...
+
+I thought I'd finally made
+it to paradise, but...this
+place is no paradise.
+
+If you whack it, it will
+appear... A mountain of 
+spikes.
+
+<stage type = "info">Defeat Shadow Link!</stage>
+
+PRINCESS ZELDA(TMLN 1)
+Link!
+
+The Shadow Links will
+
+regenerate if left alone!
+
+I must act...
+
+<stage type = "info">Zelda illuminates the emblem on the ground</stage>
+
+Link! Now!
+Defeat Shadow Link!
+
+PRINCESS ZELDA(TMLN 1) (after Shadow Link is defeated)
+At last, the Dark Mirror has
+been retrieved...
+
+<stage type = "info">The emblem disappears</stage>
+
+The Shadow Link, the one
+who wrought so much havoc
+upon Hyrule...
+
+No longer will his troubling
+shade darken our world.
+
+The one who stole this
+mirror and brought forth
+the Shadow Link...
+
+He who plunged Hyrule into
+darkness draws near!
+
+... ... ...
+
+The heroes must be given
+passage to the final battle.
+A bridge!
+
+<stage type = "info">A rainbow bridge appears behind Zelda</stage>
+
+PRINCESS ZELDA(TMLN 1) (after bridge appears)
+The time to face the wind
+sorcerer Vaati is at hand.
+
+There will be many traps
+waiting for you in the
+Palace of Winds.
+
+Reaching the fiend will
+be no small task.
+
+Yet you, Link, are the only 
+one who can save Hyrule.
+
+The maidens and I and the
+fortunate people whom you
+have rescued...
+
+those whom the darkness
+claimed, the Knights of
+Hyrule, and many others...
+
+We all believe that you, Link,
+will deliver us from this
+peril and bring us peace.
+
+And I...
+I will wait for you.
+
+Please, do not forget...
+
+<chapter>STAGE 3: Palace of Winds</chapter>
+</sp><character>
+STONE TABLET</character><sp>
+You who are guided by
+shadows may in turn
+guide shadows...
+
+<stage type = "info">Final Battle: Vaati</stage> (no dialogue)
+
+Final Confrontation: Ganon
+
+PRINCESS ZELDA(TMLN 2)
+Link!
+
+You've defeated the
+wind sorcerer Vaati.
+
+...!
+
+<stage type = "info">Pieces of the palace begin falling</stage>
+
+This palace was built
+on the power of Vaati's
+magical strength.
+
+With its master gone, it can
+no longer retain its form.
+
+We can't stay here any
+longer! We must escape
+to the Tower of Winds!
+
+<stage type = "info">Inside palace, rubble is falling; a voice is heard</stage>
+
+GANON'S VOICE(TMLN 3)
+This was all there was to
+the wind sorcerer Vaati, eh?
+
+Before the Four Sword, you
+were at your wit's end.
+
+Useless cur!
+
+I did not steal enough power
+from the Hyruleans.
+
+My blood boils, heroes! It
+seethes at the sight of you!
+
+I thirst for destruction!
+For the pure release of
+rage, the power of wrath!
+
+Four Sword or no, my
+trident will reduce you
+to nothingness!
+
+I'm waiting, you worms!
+
+<stage type = "info">A blue shadowy cloud is seen leaving the palace</stage>
+
+<stage type = "location">TOWER OF WINDS</stage>
+</sp><character>
+PRINCESS ZELDA</character><sp>
+What's going on?
+Why is the Tower of Winds
+beginning to collapse?
+
+Link!
+We have to get out quickly!
+
+<stage type = "info">Zelda now guides Link toward the exit, stopping when there are enemies 
+blocking her path, which Link must defeat</stage>
+
+PRINCESS ZELDA (later)
+There are still monsters
+about. If Vaati did not call
+them, then...who did?
+
+<stage type = "info">Hoard of soldiers appear surrounding Links and Zelda; Link defeats them</stage>
+
+PRINCESS ZELDA (later)
+What is this sense of dread
+that fills the air?
+
+PRINCESS ZELDA (later)
+While we linger here, the
+tower is crumbling about
+us! We must hurry!
+
+PRINCESS ZELDA (later)
+The tower's collapsing...
+I sense a tremendous
+power approaching!
+
+PRINCESS ZELDA (later)
+The exit's not much 
+farther!
+
+<stage type = "info">A soldier with a ball and chain appears, which Link must defeat</stage>
+
+PRINCESS ZELDA (later)
+The exit's nearby!
+
+Hu-Hurry!
+
+<stage type = "info">The floor beneath their feet crumbles and collapses; they all fall</stage>
+
+<stage type = "info">After landing, the same shadowy cloud from the Palace of Winds appears before 
+Zelda and Link</stage>
+
+PRINCESS ZELDA(TMLN 1)
+What?! That raw patch of
+darkness, deeper than the
+blackest night...
+
+Is... Is that Vaati?
+
+No, it's not the wind
+sorcerer...
+
+No matter, I must use my
+power to seal it away!
+
+<stage type = "info">Zelda attempts to use an orb of light to seal it away</stage>
+
+Can't breathe... My strength
+is failing me...
+
+The very air around me is
+growing thin...dying...
+
+I only need a bit...
+more power...
+
+GANON's VOICE(TMLN 1)
+MORE!!
+
+Enough!
+
+The princess of Hyrule and
+all her power amounts to
+nothing!
+
+Zelda! I, Ganon, now seal
+you away forever!
+
+<stage type = "info">Zelda is taken captive; out of the shadowy cloud emerges a pig like beast 
+wielding a trident...Ganon...duh</stage>
+
+GANON(TMLN 2)
+Gwah haa haaaa!
+Weaklings! Incompetent
+fools!
+
+You so-called heroes do
+not stand even a gnat's 
+chance of harming me!
+
+Even if you worms attack
+in a group,
+
+I will skewer the lot of
+you on my mighty trident!!
+
+<stage type = "info">Final Final Battle: Ganon; midway through the battle, Zelda breaks her bonds</stage>
+
+PRINCESS ZELDA(TMLN 2)
+Ganon... This beast was once
+of the Gerudo... Once human.
+He was called Ganondorf!
+
+King of Darkness, ancient
+demon reborn. The wielder
+of the trident!!
+
+<stage type = "info">Zelda makes another orb of light energy</stage>
+
+Yet now...
+While Ganon's power has
+waned...
+
+I will pour all of my
+remaining strength into
+this ball of light!
+
+While it is suffused with
+power, I will release it
+and strike!
+
+At that time, use this!
+
+<stage type = "info">Link receives a bow</stage>
+
+Fire at the ball of light
+with all your might!
+
+If we combine our powers,
+we may yet be able to seal
+Ganon away from the world!
+
+Link! You must hold back
+Ganon until my ball of
+light is ready!!
+
+GANON(TMLN 2)(with glowing orange aura)
+Do you think to stop me?
+You have not even a fool's
+chance of facing my power.
+
+Once I am finished here, I
+shall be rid of your Princess
+Zelda forever!
+
+<stage type = "info">When you hit Ganon with the ball of light, he is suspended in the ball of 
+light; the six shrine maidens appear and return to human form around him, 
+casting a light spell</stage>
+
+PRINCESS ZELDA(TMLN 1)
+Now! Hold the Four Sword
+over your head!
+
+GANON(TMLN 1)
+Gyaaaaaaa! What... What
+have you done? I am the
+King of Darkness!
+
+I cannot be destroyed by
+insects like you! Noooo!!!
+
+<stage type = "info">The light grows more intense, then goes into the Four Sword. Ganon disappears 
+with the light</stage>
+
+PRINCESS ZELDA(TMLN 3)
+... ...
+
+Link.
+
+We whom you protected, and
+all of Hyrule as well...
+
+We will struggle together
+and grow stronger than
+before.
+
+We will work as one, as the
+four of you have done.
+We will work...together.
+
+Now, the Four Sword...
+
+Place the sword that sealed
+away the darkness on the
+pedestal.
+
+<stage type = "location">FOUR SWORD SANCTUARY</stage>
+
+<stage type = "info">The shrine maidens and Zelda surround the pedestal. Link comes forth; four 
+swords rise up and merge into one, which is then lowers into the pedestal. The 
+maidens create a triangular prism around the Four Sword, and then turn into 
+fairies and leave. Link and Zelda then exit together</stage>
+</sp><character>
+THE END</character><sp>
+</act>
+
+<act number = "09'00">
+<title>Items</title>
+</sp><character>
+FORCE GEMS
+
+FIRST FORCE GEM</character><sp>
+You found a Force Gem, the 
+Four Sword's power source!
+</sp><character>
+SMALL GREEN FORCE GEM</character><sp>
+You got 1 Force Gem! Every
+little bit counts!
+</sp><character>
+SMALL BLUE FORCE GEM</character><sp>
+You got 5 Force Gems!
+Collect more!
+</sp><character>
+SMALL RED FORCE GEM</character><sp>
+You got 20 Force Gems! The
+swords are gaining power!
+</sp><character>
+SMALL PURPLE FORCE GEM</character><sp>
+You go 50 Force Gems!
+You're feeling brave now!
+</sp><character>
+BIG GREEN FORCE GEM</character><sp>
+You got 100 Force Gems!
+You're filled with power!
+</sp><character>
+BIG BLUE FORCE GEM</character><sp>
+You got 150 Force Gems!
+Your sword is glowing!
+</sp><character>
+BIG RED FORCE GEM</character><sp>
+You got 200 Force Gems! A
+glowing light surrounds you!
+</sp><character>
+BIG PURPLE FORCE GEM</character><sp>
+You got 300 Force Gems!
+You feel incredible!
+</sp><character>
+GIANT GREEN FORCE GEM</character><sp>
+You got 1,000 Force Gems!
+It's good to be alive!
+</sp><character>
+WEAPONS
+
+BOOMERANG</character><sp>
+You got a boomerang!
+Press the A Button to send
+it winging away!
+
+Use it to stun enemies and
+retrieve distant items. No
+one should be without it!
+
+Press and hold the A Button
+to keep it hovering
+in place.
+
+L2 BOOMERANG
+You got a level 2 boomerang!
+
+It's a new, faster model!
+You'll make all the other
+adventurers SO jealous!
+</sp><character>
+FIRE ROD</character><sp>
+You got a Fire Rod! 
+Press the A Button
+to fire a ball of fire. Hot!
+
+Hold the A Button longer to
+let loose a burst of flame!
+
+L2 FIRE ROD
+You got a level 2 Fire Rod!
+
+Now, it can make blocks
+and moving platforms!
+
+A regular rod won't do for
+you. This one's special!
+</sp><character>
+LAMP</character><sp>
+Your got a lamp! On a dark
+and lonely night, press the
+A Button for a gentle light.
+
+If you get chilly, press the
+A Button to burn whatever's
+in front of you.
+</sp><character>
+BOW</character><sp>
+You got a bow!
+Press the A Button to strike
+enemies near and far!
+
+Hold the A Button longer
+for more power to pierce
+your foes!
+
+L2 BOW
+You got a level 2 bow!
+
+It shoots 3 arrows in a row
+with blazing speed! It comes
+with unlimited arrows, too!
+</sp><character>
+BOMBS</character><sp>
+You got bombs!
+Use these to blast though
+obstacles to smithereens!
+
+Press the A Button to place
+a bomb! Press the R Button
+to pick it up and throw it!
+
+L2 BOMBS
+You got level 2 bombs!
+
+They're.huge! I can't
+wait to see 'em blow up!
+</sp><character>
+SLINGSHOT</character><sp>
+You got a slingshot!
+
+Fire Deku seeds to stun
+your enemies.
+
+Press the A Button to fire.
+Hold the A Button longer
+for more distance.
+
+L2 SLINGSHOT
+You got a level 2 slingshot!
+
+Press and hold the A Button
+to charge, then release to
+fire in 3 directions!
+</sp><character>
+PEGASUS BOOTS</character><sp>
+You got Pegasus Boots!
+
+Press and hold the A button
+to run like the wind!
+
+If you lose control, you
+might run into something!
+
+L2 PEGASUS BOOTS
+You got level 2 Pegasus
+Boots!
+
+You're so fast, you can even
+run over holes!
+</sp><character>
+SHOVEL</character><sp>
+You got a shovel!
+Dig in soft soil to find
+some nice surprises!
+
+L2 SHOVEL
+You got a level 2 shovel!
+
+Find some soft soil and dig!
+Who knows what you'll find?
+
+If you're a treasure
+hound, this shovel's your
+best friend, you dig?
+
+ROC'S FEATHER
+You got Roc's Feather!
+
+With this giant bird's giant
+feather, you can take off
+and soar the skies!
+
+Press the A button to jump!
+Press the B Button while
+falling to swoop downwards.
+
+L2 ROC'S FEATHER
+You got a level 2 Roc's 
+Feather!
+
+Double jumps are so cool!
+Fly, fly away!
+</sp><character>
+MAGIC HAMMER</character><sp>
+You got a Magic Hammer!
+This mighty mallet makes
+anyone a powerhouse!
+
+Press the A Button to pound
+the ground with earth-
+shaking force!
+
+Hold it down longer, and 
+make the world tremble! Use
+it to pound in stakes, too!
+
+L2 MAGIC HAMMER
+You got level 2 Magic 
+Hammer!
+
+Its impact shockwave is
+even bigger now! How
+far does it go?!?
+</sp><character>
+KEYS AND JEWELS
+
+SMALL KEY</character><sp>
+It's a small key!
+Use the R Button to lift it
+and carry it to a keyhole!
+</sp><character>
+BIG KEY</character><sp>
+You got a big key!
+Use it on locked
+treasure chests!
+</sp><character>
+MOON PEARL</character><sp>
+You got a Moon Pearl!
+
+This mysterious gem guides
+its bearer into the Dark
+World.
+
+Carry it with the R Button,
+and study things that catch your eye.
+</sp><character>
+BLUE ROYAL JEWEL</character><sp>
+You got a blue jewel!
+You have three more jewels
+left to find!
+</sp><character>
+GREEN ROYAL JEWEL</character><sp>
+You got a green jewel!
+You have two more jewels
+left to find!
+</sp><character>
+RED ROYAL JEWEL</character><sp>
+You got a red jewel!
+You only have one more
+jewel to find!
+</sp><character>
+PURPLE ROYAL JEWEL</character><sp>
+You got a purple jewel!
+You have all the jewels!
+</sp><character>
+HEARTS AND FAIRIES
+
+HEART CONTAINER</character><sp>
+You got a Heart Container!
+You're stronger, and your
+hearts have been refilled!
+</sp><character>
+FORCE FAIRY</character><sp>
+A force fairy! They can
+revive the fallen Links!
+</sp><character>
+BRACELETS AND MEDALLIONS
+
+BLUE BRACELET</character><sp>
+You got the blue bracelet!
+You feel like you're
+stronger than steel!
+
+Damage is now reduced
+by half!
+</sp><character>
+POWER BRACELET</character><sp>
+You equipped a Power
+Bracelet!
+
+You feel like you can lift
+anything!
+</sp><character>
+BOMBOS MEDALLION</character><sp>
+You got a Bombos Medallion!
+Toss it into an area 
+swarming with enemies!
+</sp><character>
+QUAKE MEDALLION</character><sp>
+You got a Quake Medallion!
+Throw it with the R Button
+to cause an earthquake!
+</sp><character>
+MISCELLANIOUS
+</character><sp>
+GETTING IRIS'S MAGIC BOOK
+You got a magic book!
+It's full of dubious spells!
+
+GETTING GIRLFRIEND'S LETTER
+You took the letter!
+Savior of romance!
+</sp><character>
+BIG BOMB </character><sp>
+You got a Big Bomb!
+This will blow everything to
+smithereens! Uh-oh. RUN!!
+</sp>
+CARROT</character>
+You got a carrot! Take it 
+out of your crystal ball
+when you need a horse.
+
+GET HORSE IN LEVEL 4
+P1 is invincible!
+</act>
+</xml>
