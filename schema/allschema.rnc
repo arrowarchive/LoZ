@@ -1,6 +1,6 @@
 start = xml
 xml= element xml {pre*, toc*, act+}
-pre = element pre {number, title?, sp*, stage*, text}
+pre = element pre {number, title?, (sp | stage)*}
 toc = element toc {heading, act+}
 heading= element heading {text}
 act = element act {number,( title | chapter | stage)+}
