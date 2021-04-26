@@ -98,3 +98,10 @@ color: #fffeb3;
 h2 {
     font-family: 'Baloo 2', cursive;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
