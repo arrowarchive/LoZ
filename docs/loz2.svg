@@ -18,34 +18,34 @@
             <rect x="950" width="50" y="-46" height="46" fill="green" stroke="green"/>
             <line x1="0" y1="0" x2="0" y2="-600" style="stroke: black;" stroke-width="3"/>
             <line x1="0" y1="0" x2="1050" y2="0" style="stroke: black;" stroke-width="3"/>
-            <text x="125" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-size: 24;">Acts</text>
-            <text x="75" y="-26" style="text-anchor: middle; font-size: 24;">16</text>
-            <text x="125" y="-45" style="text-anchor: middle; font-size: 24;">35</text>
-            <text x="175" y="-19" style="text-anchor: middle; font-size: 24;">9</text>
-            <text x="325" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-size: 24;">Stage Directions</text>
-            <text x="325" y="-571" style="text-anchor: middle; font-size: 24;">561</text>
-            <text x="275" y="-274" style="text-anchor: middle; font-size: 24;">264</text>
-            <text x="375" y="-88" style="text-anchor: middle; font-size: 24;">78</text>
-            <text x="475" y="-108" style="text-anchor: middle; font-size: 24;">98</text>
-            <text x="525" y="-321" style="text-anchor: middle; font-size: 24;">311</text>
-            <text x="575" y="-230" style="text-anchor: middle; font-size: 24;">220</text>
-            <text x="675" y="-42" style="text-anchor: middle; font-size: 24;">32</text>
-            <text x="725" y="-158" style="text-anchor: middle; font-size: 24;">148</text>
-            <text x="775" y="-40" style="text-anchor: middle; font-size: 24;">30</text>
-            <text x="925" y="-216" style="text-anchor: middle; font-size: 24;">206</text>
-            <text x="875" y="-10" style="text-anchor: middle; font-size: 24;">0</text>
-            <text x="975" y="-56" style="text-anchor: middle; font-size: 24;">46</text>
-            <text x="525" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-size: 24;">Characters</text>
-            <text x="725" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-size: 24;">Chapters</text>
-            <text x="925" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-size: 24;">Items</text>
-            <text x="525" y="-650" style="text-anchor: middle; font-size: 48;">Legend of Zelda: Gameplay Statistics</text>
-            <text x="-30" y="-400" style="writing-mode: tb; glyph-orientation-vertical: 180; font-size: 36;">Event Count</text>
+            <text x="125" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-family: Arial, Helvetica, sans-serif; font-size: 24;">Acts</text>
+            <text x="75" y="-26" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">16</text>
+            <text x="125" y="-45" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">35</text>
+            <text x="175" y="-19" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">9</text>
+            <text x="325" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-family: Arial, Helvetica, sans-serif; font-size: 24;">Stage Directions</text>
+            <text x="325" y="-571" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">561</text>
+            <text x="275" y="-274" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">264</text>
+            <text x="375" y="-88" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">78</text>
+            <text x="475" y="-108" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">98</text>
+            <text x="525" y="-321" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">311</text>
+            <text x="575" y="-230" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">220</text>
+            <text x="675" y="-42" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">32</text>
+            <text x="725" y="-158" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">148</text>
+            <text x="775" y="-40" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">30</text>
+            <text x="925" y="-216" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">206</text>
+            <text x="875" y="-10" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">0</text>
+            <text x="975" y="-56" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 24;">46</text>
+            <text x="525" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-family: Arial, Helvetica, sans-serif; font-size: 24;">Characters</text>
+            <text x="725" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-family: Arial, Helvetica, sans-serif; font-size: 24;">Chapters</text>
+            <text x="925" y="30" style="writing-mode: tb; glyph-orientation-vertical: 180; font-family: Arial, Helvetica, sans-serif; font-size: 24;">Items</text>
+            <text x="525" y="-650" style="text-anchor: middle; font-family: Arial, Helvetica, sans-serif; font-size: 48;">Legend of Zelda: Gameplay Statistics</text>
+            <text x="-30" y="-400" style="writing-mode: tb; glyph-orientation-vertical: 180; font-family: Arial, Helvetica, sans-serif; font-size: 36;">Event Count</text>
             <rect x="1100" width="50" y="-600" height="50" fill="blue" stroke="blue"/>
             <rect x="1100" width="50" y="-525" height="50" fill="red" stroke="red"/>
             <rect x="1100" width="50" y="-450" height="50" fill="green" stroke="green"/>
-            <text x="1175" y="-570" style=" font-size: 24;">Twilight Princess</text>
-            <text x="1175" y="-495" style=" font-size: 24;">Ocarina of Time</text>
-            <text x="1175" y="-425" style=" font-size: 24;">Four Swords Adventures</text>
+            <text x="1175" y="-570" style=" font-family: Arial, Helvetica, sans-serif; font-size: 24;">Twilight Princess</text>
+            <text x="1175" y="-495" style=" font-family: Arial, Helvetica, sans-serif; font-size: 24;">Ocarina of Time</text>
+            <text x="1175" y="-425" style=" font-family: Arial, Helvetica, sans-serif; font-size: 24;">Four Swords Adventures</text>
         </g>
     </g>
 </svg>
