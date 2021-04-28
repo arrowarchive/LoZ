@@ -105,3 +105,14 @@ h2 {
   margin-right: auto;
   width: 50%;
 }
+
+.pfp {
+    float: left;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.about {
+    text-align: right;
+    float: right;
+}
