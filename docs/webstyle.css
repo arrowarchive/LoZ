@@ -87,6 +87,19 @@ text-align: center;
 a:hover {
 color: #fffeb3;
 }
+
+.footer a{
+ color: white;   
+}
+
+.footer a:hover{
+  color: #fffeb3;  
+}
+
+.footer a:visited{
+    color: blueviolet;
+}
+
 .center {
     text-align: center;
 }
