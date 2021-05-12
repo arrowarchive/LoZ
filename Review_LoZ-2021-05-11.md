@@ -1,4 +1,4 @@
-## The Drac is Back: Project Review
+## *The Lgend of Zelda* Text Analysis: Project Review
 
 * Site publication: <https://arrowarchive.github.io/LoZ/>
 * GitHub: <https://github.com/arrowarchive/LoZ>
