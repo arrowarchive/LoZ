@@ -21,7 +21,7 @@ Realize that this graph is based on *your decisions* for your markup. Your decis
 It is disappointing that we took so much care with the markup of these scripts only to have one graph with an unfinished explanation. Remember how we worked on making sure you could identify all the passages in which game players are presented with choices? Surely you could have counted and taken stock of those, but it seems we did a lot of markup work that was left without analysis. The player choices are mentioned only at the end of the Ocarina of Time write-up, but deserve much more attention in the statistics page.  
 
 ### Game discussions
-Each game is summarized on its own page, but summary does not really count as analysis, does it? Each page here might contain a table listing information you could pull from XQuery. There were plenty o
+Each game is summarized on its own page, but summary does not really count as analysis, does it? Each page here might contain a table listing information you could pull from XQuery, even simply a list of characters and how frequently they appear. Or even some examples to indicate the kinds of choices presented to the game player would have been more helpful as a study of the games rather than just a plot summary of them. 
 
 ## Code description
 
